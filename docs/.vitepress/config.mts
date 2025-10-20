@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Government as a Service",
   description: "The Global Framework for 21st-Century Digital Governance",
-  base: '/',
+  base: '/Government-as-a-Service/',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
