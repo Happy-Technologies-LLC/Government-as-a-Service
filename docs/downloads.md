@@ -6,14 +6,13 @@ Download the complete Government as a Service framework or individual documents.
 
 **[Download All Documents (ZIP)](#)**
 
-Contains all 39 documents as PDFs (~50MB total)
+Contains all 40 documents as PDFs (~50MB total)
 - 1 Manifesto
-- 1 Executive Playbook
-- 3 Technical Blueprint Volumes
-- 8 Implementation Playbooks
+- 1 Executive Playbook + 2 Supplementary Guides
+- 3 Technical Blueprint Volumes + 1 Supplement
+- 10 Implementation Playbooks
 - 21 Policy & Legal Templates
 - 5 Community Hub Documents
-- 3 Critical Modules
 
 ---
 
@@ -30,8 +29,11 @@ The 6-page vision document for political leaders and executives.
 
 Strategic guide for heads of government, ministers, and C-suite executives.
 
-- **[Executive Playbook (PDF)](#)** - 30 pages
-- [Read Online](/tier1-executive-playbook/executive-playbook)
+- **[Executive Playbook (PDF)](#)** - 200+ pages (Parts I-V)
+- **[Greenfield Implementation Guide (PDF)](#)** - 25 pages (Supplement)
+- **[Fiscal Architecture (PDF)](#)** - 18 pages (Supplement)
+
+[Read Online](/tier1-executive-playbook/executive-playbook)
 
 ---
 
@@ -42,6 +44,7 @@ Detailed architecture specifications for CTOs and technical teams.
 - **[Volume 1: People & Organizational Architecture (PDF)](#)** - Talent, Culture, Change, Leadership (40% Investment)
 - **[Volume 2: Process & Service Management (PDF)](#)** - GSM Framework, Service Design, Operations (40% Investment)
 - **[Volume 3: Technology & Platform Architecture (PDF)](#)** - Platforms, Infrastructure, Security (20% Investment)
+- **[Talent Strategy (PDF)](#)** - 20 pages (Supplement to Volume 1)
 
 [Read Online](/tier2-technical-blueprint/volume-1-people-organizational-architecture)
 
@@ -59,6 +62,8 @@ Step-by-step guides for workstream leads and project managers.
 - **[6. Cybersecurity Operations (PDF)](#)** - 15 pages
 - **[7. Data Governance Framework (PDF)](#)** - 15 pages
 - **[8. Change Management and Training (PDF)](#)** - 20 pages
+- **[9. GSM Implementation Guide (PDF)](#)** - 30 pages
+- **[10. Service Portfolio & Cost Management (PDF)](#)** - 30 pages
 
 [Browse Online](/tier3-playbooks/1-digital-identity-implementation)
 
@@ -116,18 +121,6 @@ Documentation for building a global practitioner community.
 
 ---
 
-## Critical Modules
-
-Cross-cutting strategic guides.
-
-- **[Greenfield Implementation Guide (PDF)](#)** - 25 pages
-- **[Talent Strategy (PDF)](#)** - 20 pages
-- **[Fiscal Architecture (PDF)](#)** - 18 pages
-
-[Browse Online](/critical-modules/greenfield-implementation-guide)
-
----
-
 ## Additional Resources
 
 - **[Peer Review Summary (PDF)](#)** - Comprehensive quality assessment
@@ -139,12 +132,12 @@ Cross-cutting strategic guides.
 
 All framework content is available in markdown format:
 
-**[View on GitHub](https://github.com/yourusername/gaas-framework)**
+**[View on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service)**
 
 Clone the repository to access all source files:
 
 ```bash
-git clone https://github.com/yourusername/gaas-framework.git
+git clone https://github.com/Happy-Technologies-LLC/Government-as-a-Service.git
 ```
 
 ---
@@ -186,5 +179,5 @@ If citing this framework in academic or policy work:
 ## Questions?
 
 - **Email:** [info@gaas.global](mailto:info@gaas.global)
-- **GitHub Issues:** [Report problems or suggest improvements](https://github.com/yourusername/gaas-framework/issues)
+- **GitHub Issues:** [Report problems or suggest improvements](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/issues)
 - **Community:** [Join our forums](#)
