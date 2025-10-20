@@ -97,7 +97,7 @@ The GaaS Community Hub addresses these challenges by providing:
 - ✅ Real-time community support vs. published papers
 - ✅ Global scope vs. regional case studies
 
-**vs. Vendor Platforms** (Salesforce, ServiceNow, AWS)
+**vs. Commercial Platforms** (proprietary vendor solutions with licensing fees)
 - ✅ Technology-agnostic vs. vendor-locked
 - ✅ Complete transformation framework vs. product-specific training
 - ✅ Government-specific vs. generic enterprise solutions

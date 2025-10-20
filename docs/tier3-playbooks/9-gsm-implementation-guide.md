@@ -433,7 +433,7 @@ Result: Back within ±5% tolerance by end of year
 **Composition:**
 - Chief Technology Officer (Chair)
 - Enterprise Architect
-- Platform Owner (GSM/ServiceNow)
+- Platform Owner (GSM/ITSM Platform)
 - Infrastructure Director
 - Cybersecurity Director
 - Data & Analytics Director
@@ -811,7 +811,7 @@ STEP 5: Execute (Weeks 5-12)
 **Month 11-12: Technology Dimension Enablement**
 - [ ] Align technology investments to PPT framework
 - [ ] Implement technology governance standards
-- [ ] Deploy platform infrastructure (GSM/ServiceNow)
+- [ ] Deploy platform infrastructure (GaaS Platform or compatible open-source ITSM)
 - [ ] Establish DevOps toolchain
 - [ ] Launch monitoring and observability
 
@@ -1243,7 +1243,7 @@ Approved by: Steering Committee, [Date]
 | **Change Management Consultants** | People (100%) | Capability building focus, transfer skills to internal team |
 | **Process Consultants** (ITIL, Lean, etc.) | Process (100%) | Process design and training, internal process ownership |
 | **Cloud Providers** (AWS, Azure, Google) | Technology (100%) | Infrastructure services, avoid lock-in, multi-cloud |
-| **Platform Vendors** (ServiceNow, Salesforce) | Technology (80%), Process (20%) | Platform + governance, customization constraints |
+| **Commercial Platform Vendors** (proprietary licenses) | Technology (80%), Process (20%) | Platform + governance, vendor lock-in, high licensing costs |
 | **Training Providers** | People (100%) | Certification programs, competency development |
 
 **Key Contract Clauses for PPT Balance:**

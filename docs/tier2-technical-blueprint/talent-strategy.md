@@ -870,7 +870,7 @@ Singapore's Smart Nation initiative partners with Google, Microsoft, Amazon, Gra
 
 **Technology & Tools:**
 - **Modern Stack:** Cloud-native (AWS, Azure, Kubernetes), not legacy mainframes
-- **Best Tools:** GitHub, Jira, Slack, Figma, Tableau (best-in-class, not government-issued junk)
+- **Best Tools:** GitHub/GitLab, Taiga/Redmine, Mattermost/Matrix, Figma/Penpot, Metabase/Superset (modern, not legacy systems)
 - **Latest Devices:** MacBook Pro or high-end laptop, dual monitors, ergonomic setup
 
 **Team Culture:**

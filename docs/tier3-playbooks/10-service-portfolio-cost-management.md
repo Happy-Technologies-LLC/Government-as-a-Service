@@ -25,11 +25,12 @@ Without service portfolio management, governments experience:
 
 **The Solution:**
 
-This playbook implements a **hierarchical service portfolio model** inspired by:
+This playbook implements a **hierarchical service portfolio model** based on open international standards:
 - **ITIL Service Portfolio Management**: Business services mapped to technical services
-- **ServiceNow Common Services Data Model (CSDM)**: Industry-standard service hierarchy
+- **ISO/IEC 20000**: International standard for service management
 - **ITIL Value Streams**: End-to-end service delivery chains
-- **Technology Business Management (TBM)**: Cost allocation and financial transparency
+- **Technology Business Management (TBM)**: Open framework for cost allocation and financial transparency
+- **Common Services Data Model (CSDM)**: Industry-standard CMDB hierarchy pattern
 
 **What You'll Build:**
 
@@ -273,9 +274,9 @@ Each service must answer:
 
 ---
 
-#### 1.3.2 ServiceNow Common Services Data Model (CSDM)
+#### 1.3.2 Common Services Data Model (CSDM)
 
-**Origin:** ServiceNow (2018), industry-standard CMDB model
+**Origin:** Industry-standard CMDB model for service-oriented architecture
 
 **Core Concept:** Hierarchical service model with dependency mapping
 
@@ -1073,7 +1074,7 @@ COST POOLS → COST DRIVERS → SERVICES
 **Deliverable:** Service Portfolio Blueprint (50-100 pages documenting entire hierarchy)
 
 **Month 3-4: CMDB Foundation**
-- [ ] Select and deploy CMDB tool (ServiceNow, BMC, or open-source)
+- [ ] Select and deploy CMDB tool (open-source platforms like iTop, GLPI, or build on GaaS Platform)
 - [ ] Define CSDM-based data model
 - [ ] Begin infrastructure discovery (servers, apps, databases)
 - [ ] Establish CI (Configuration Item) naming standards
@@ -1330,11 +1331,11 @@ This charter establishes governance for the [Domain Name] service domain, includ
 
 ## APPENDICES
 
-### Appendix A: ServiceNow CSDM Integration Guide
+### Appendix A: CSDM-Aligned CMDB Implementation Guide
 
-**Mapping GaaS Service Hierarchy to ServiceNow CSDM:**
+**Mapping GaaS Service Hierarchy to CSDM Standard:**
 
-| GaaS Level | ServiceNow CSDM Class | Relationship | Example |
+| GaaS Level | CSDM Class | Relationship | Example |
 |------------|----------------------|--------------|---------|
 | **L1: Business Service** | `cmdb_ci_service` | Top-level service | Healthcare Insurance |
 | **L2: Technical Service** | `cmdb_ci_service` (child) | Depends on Business Service | Claims Processing Service |
@@ -1405,9 +1406,12 @@ This charter establishes governance for the [Domain Name] service domain, includ
 - **Community Forum:** [community.gaas.global/service-portfolio](https://community.gaas.global/service-portfolio)
 - **Office Hours:** Monthly practitioner calls (register at gaas.global/office-hours)
 
-**ServiceNow CSDM Resources:**
-- ServiceNow Community: [community.servicenow.com](https://community.servicenow.com)
-- CSDM Documentation: ServiceNow official guide
+**Open Source CMDB Resources:**
+- **GaaS Platform:** [platform.gaas.global](https://platform.gaas.global) - Purpose-built for government
+- **iTop:** [combodo.com/itop](https://www.combodo.com/itop-193) - AGPLv3 licensed CMDB
+- **GLPI:** [glpi-project.org](https://glpi-project.org) - GPL licensed IT asset management
+- **Ralph:** [github.com/allegro/ralph](https://github.com/allegro/ralph) - Open-source CMDB and asset management
+- **ITIL/CSDM Standards:** [axelos.com](https://www.axelos.com) - Official ITIL guidance
 
 **TBM Council:**
 - Website: [tbmcouncil.org](https://www.tbmcouncil.org)

@@ -204,7 +204,7 @@ This Cloud First Policy establishes the mandatory requirement for all government
 - Email and collaboration: Microsoft 365, Google Workspace
 - HR and payroll: Workday, SAP SuccessFactors
 - Customer relationship management: Salesforce
-- Project management: Asana, Jira, Monday.com
+- Project management: GitLab, GitHub Projects, Taiga, Redmine
 - Finance and accounting: NetSuite, Xero
 
 ### 3.2 Platform as a Service (PaaS)

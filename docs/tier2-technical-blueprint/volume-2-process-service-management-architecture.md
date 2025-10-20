@@ -187,7 +187,7 @@ A service catalog is the authoritative source listing all services government pr
 
 **Beyond the Basic Catalog: Hierarchical Service Portfolios**
 
-While the two-layer catalog above provides citizen-facing and technical views, **service portfolio management** adds a critical financial and governance dimension inspired by ITIL Service Portfolio Management, ServiceNow's Common Services Data Model (CSDM), and Technology Business Management (TBM) frameworks.
+While the two-layer catalog above provides citizen-facing and technical views, **service portfolio management** adds a critical financial and governance dimension based on ITIL Service Portfolio Management, industry-standard Common Services Data Model (CSDM) patterns, and Technology Business Management (TBM) frameworks.
 
 **The 5-Level Service Hierarchy:**
 
@@ -239,11 +239,12 @@ With service portfolio management:
 
 **Implementation Note:** See **Tier 3 Playbook #10: Service Portfolio & Cost Management** for complete implementation guidance including TBM cost allocation methodology, service hierarchy templates, and 18-month roadmap.
 
-**Integration with ServiceNow CMDB:**
+**Integration with CMDB (Configuration Management Database):**
 - Configuration Items (CIs) mapped to applications and infrastructure
 - Service relationships tracked (Business Service → Technical Service → Application → CI)
 - Cost allocation automated through CMDB attributes
 - Impact analysis powered by service dependency mapping
+- **Recommended Open Source CMDBs:** GaaS Platform, iTop, GLPI, Ralph
 
 ---
 

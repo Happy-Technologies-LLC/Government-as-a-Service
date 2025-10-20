@@ -89,7 +89,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 **Typical Expenditures:**
 - Portal platform (Liferay, Drupal, custom build)
-- ServiceNow or similar case management system
+- ITSM platform (GaaS Platform, iTop, OTRS, or Request Tracker)
 - Payment gateway integration
 - Contact center technology (Genesys, Five9)
 - Mobile app development (iOS, Android)

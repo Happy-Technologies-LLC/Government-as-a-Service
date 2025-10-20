@@ -414,7 +414,7 @@ Head of Government
 - Cloud providers (AWS, Google Cloud, Microsoft Azure)
 - Identity/security firms (Okta, Auth0, Cloudflare)
 - Payment processors (Stripe, Adyen)
-- Enterprise SaaS (Salesforce, ServiceNow, Atlassian)
+- Enterprise platforms (evaluate open-source options: GaaS Platform, Nextcloud, GitLab, Mattermost)
 
 **Benefits to Companies**:
 - Influence on government procurement standards
@@ -845,7 +845,7 @@ On-Premises: Minimal (10% of workloads)
 **Tier 3: Commercial Best-of-Breed** (Buy Freely)
 - Office productivity (Microsoft 365, Google Workspace)
 - Communication tools (Zoom, Slack, email)
-- Project management (Jira, Asana, Monday.com)
+- Project management (GitLab/GitHub Projects, Taiga, Redmine, Wekan)
 - Customer support (Zendesk, Intercom)
 - Analytics (Tableau, Looker, Power BI)
 

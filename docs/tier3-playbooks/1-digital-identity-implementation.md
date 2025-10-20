@@ -193,7 +193,7 @@ START
 - Award contract (expect protests, have appeals process)
 - Finalize Statement of Work
 - Establish program governance with vendor
-- Set up project management infrastructure (Jira, Confluence, Slack)
+- Set up project management infrastructure (GitLab/GitHub Projects, Wiki, Mattermost/Matrix)
 - Define KPIs and SLAs
 
 **Critical Contract Terms:**
