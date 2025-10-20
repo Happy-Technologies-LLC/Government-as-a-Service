@@ -21,7 +21,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Framework', link: '/framework' },
       { text: 'Downloads', link: '/downloads' },
-      { text: 'Community', link: '/community' },
+      { text: 'Community', link: '/tier5-community/community-platform-overview' },
       { text: 'Contact', link: '/contact' }
     ],
 
@@ -29,9 +29,9 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Quick Start', link: '/quick-start' },
-          { text: 'Framework Overview', link: '/framework' }
+          { text: 'Framework Overview', link: '/framework' },
+          { text: 'Quick Start Guide', link: '/tier0-manifesto/gaas-manifesto' },
+          { text: 'Downloads', link: '/downloads' }
         ]
       },
       {
