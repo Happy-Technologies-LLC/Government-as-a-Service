@@ -1,0 +1,155 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: "Government as a Service",
+  description: "The Global Framework for 21st-Century Digital Governance",
+  base: '/',
+
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#3b82f6' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Government as a Service' }],
+    ['meta', { property: 'og:description', content: 'The Global Framework for Digital Government Transformation' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
+  ],
+
+  themeConfig: {
+    logo: '/logo.svg',
+
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Framework', link: '/framework' },
+      { text: 'Downloads', link: '/downloads' },
+      { text: 'Community', link: '/community' },
+      { text: 'Contact', link: '/contact' }
+    ],
+
+    sidebar: [
+      {
+        text: 'Getting Started',
+        items: [
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Quick Start', link: '/quick-start' },
+          { text: 'Framework Overview', link: '/framework' }
+        ]
+      },
+      {
+        text: 'Tier 0: Manifesto',
+        collapsed: false,
+        items: [
+          { text: 'The Manifesto', link: '/tier0-manifesto/gaas-manifesto' }
+        ]
+      },
+      {
+        text: 'Tier 1: Executive Playbook',
+        collapsed: false,
+        items: [
+          { text: 'Executive Playbook', link: '/tier1-executive-playbook/executive-playbook' }
+        ]
+      },
+      {
+        text: 'Tier 2: Technical Blueprints',
+        collapsed: true,
+        items: [
+          { text: 'Volume 1: People & Organizational Architecture', link: '/tier2-technical-blueprint/volume-1-people-organizational-architecture' },
+          { text: 'Volume 2: Process & Service Management', link: '/tier2-technical-blueprint/volume-2-process-service-management-architecture' },
+          { text: 'Volume 3: Technology & Platform Architecture', link: '/tier2-technical-blueprint/volume-3-technology-platform-architecture' }
+        ]
+      },
+      {
+        text: 'Tier 3: Implementation Playbooks',
+        collapsed: true,
+        items: [
+          { text: '1. Digital Identity', link: '/tier3-playbooks/1-digital-identity-implementation' },
+          { text: '2. API Gateway', link: '/tier3-playbooks/2-api-gateway-deployment' },
+          { text: '3. Co-Design', link: '/tier3-playbooks/3-codesign-engagement' },
+          { text: '4. Zero Trust', link: '/tier3-playbooks/4-zero-trust-migration' },
+          { text: '5. Digital Inclusion', link: '/tier3-playbooks/5-digital-inclusion-strategy' },
+          { text: '6. Cybersecurity', link: '/tier3-playbooks/6-cybersecurity-operations' },
+          { text: '7. Data Governance', link: '/tier3-playbooks/7-data-governance-framework' },
+          { text: '8. Change Management', link: '/tier3-playbooks/8-change-management-training' },
+          { text: '9. GSM Implementation Guide', link: '/tier3-playbooks/9-gsm-implementation-guide' }
+        ]
+      },
+      {
+        text: 'Tier 4: Policy & Legal',
+        collapsed: true,
+        items: [
+          {
+            text: 'Legislative Templates',
+            collapsed: true,
+            items: [
+              { text: 'Digital Identity Act', link: '/tier4-policy-legal/digital-identity-act' },
+              { text: 'Data Protection Act', link: '/tier4-policy-legal/data-protection-privacy-act' },
+              { text: 'E-Government Services Act', link: '/tier4-policy-legal/e-government-services-act' },
+              { text: 'Cybersecurity Act', link: '/tier4-policy-legal/cybersecurity-act' },
+              { text: 'Open Data Act', link: '/tier4-policy-legal/open-data-transparency-act' }
+            ]
+          },
+          {
+            text: 'Policy Templates',
+            collapsed: true,
+            items: [
+              { text: 'National Digital Strategy', link: '/tier4-policy-legal/national-digital-strategy-template' },
+              { text: 'API Governance', link: '/tier4-policy-legal/api-governance-policy' },
+              { text: 'Cloud First Policy', link: '/tier4-policy-legal/cloud-first-policy' },
+              { text: 'Digital Identity Assurance', link: '/tier4-policy-legal/digital-identity-assurance-framework' },
+              { text: 'Algorithmic Accountability', link: '/tier4-policy-legal/algorithmic-accountability-policy' }
+            ]
+          },
+          {
+            text: 'Governance Documents',
+            collapsed: true,
+            items: [
+              { text: 'DTO Charter', link: '/tier4-policy-legal/digital-transformation-office-charter' },
+              { text: 'CDO Job Description', link: '/tier4-policy-legal/chief-digital-officer-job-description' },
+              { text: 'Digital Service Standard', link: '/tier4-policy-legal/digital-service-standard' },
+              { text: 'Technology Selection', link: '/tier4-policy-legal/technology-selection-framework' },
+              { text: 'Risk Management', link: '/tier4-policy-legal/risk-management-framework' },
+              { text: 'Performance Dashboard', link: '/tier4-policy-legal/performance-dashboard-specification' }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'Tier 5: Community Hub',
+        collapsed: true,
+        items: [
+          { text: 'Platform Overview', link: '/tier5-community/community-platform-overview' },
+          { text: 'Certification Program', link: '/tier5-community/certification-program' },
+          { text: 'Implementation Registry', link: '/tier5-community/implementation-registry' },
+          { text: 'Events Program', link: '/tier5-community/events-program' },
+          { text: 'Governance Model', link: '/tier5-community/governance-model' }
+        ]
+      },
+      {
+        text: 'Critical Modules',
+        collapsed: true,
+        items: [
+          { text: 'Greenfield Guide', link: '/critical-modules/greenfield-implementation-guide' },
+          { text: 'Talent Strategy', link: '/critical-modules/talent-strategy' },
+          { text: 'Fiscal Architecture', link: '/critical-modules/fiscal-architecture' }
+        ]
+      }
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Happy-Technologies-LLC/Government-as-a-Service' }
+    ],
+
+    footer: {
+      message: 'Released under the CC BY 4.0 License.',
+      copyright: 'Copyright © 2025 Government as a Service Community'
+    },
+
+    search: {
+      provider: 'local'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/Happy-Technologies-LLC/Government-as-a-Service/edit/main/docs/:path',
+      text: 'Suggest changes to this page'
+    }
+  }
+})

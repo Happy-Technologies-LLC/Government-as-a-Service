@@ -1,0 +1,28 @@
+{
+  "name": "gaas-framework",
+  "version": "1.0.0",
+  "description": "Government as a Service - The Global Framework for Digital Government Transformation",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "pdfs:generate": "./scripts/generate-pdfs.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Happy-Technologies-LLC/Government-as-a-Service.git"
+  },
+  "keywords": [
+    "government",
+    "digital-transformation",
+    "e-government",
+    "digital-services",
+    "public-sector"
+  ],
+  "author": "Government as a Service Community",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  }
+}
