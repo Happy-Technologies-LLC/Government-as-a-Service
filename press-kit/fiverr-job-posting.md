@@ -2,19 +2,19 @@
 
 ---
 
-**Title:** 8 Professional Government Framework Infographics - Data Visualization & Service Management
+**Title:** 9 Professional Government Framework Infographics - Data Visualization & Service Management
 
 **Category:** Graphics & Design > Infographics
 
-**Budget:** $1,200-1,600
+**Budget:** $1,350-1,800
 
-**Delivery:** 10-14 days
+**Delivery:** 12-16 days
 
 ---
 
 ## Description:
 
-I need **8 high-quality, publication-ready infographics** for a digital government transformation framework (Government as a Service - GaaS) that will be used by governments worldwide. This includes the GSM (Government Service Management) framework and PPT (People-Process-Technology) investment model.
+I need **9 high-quality, publication-ready infographics** for a digital government transformation framework (Government as a Service - GaaS) that will be used by governments worldwide. This includes the GSM (Government Service Management) framework, PPT (People-Process-Technology) investment model, and hierarchical service portfolio management.
 
 The infographics will be featured in:
 - Website (gaas.global)
@@ -370,6 +370,81 @@ The synthesis of best practices:
 
 ---
 
+## INFOGRAPHIC 9: Service Portfolio Hierarchy & Cost Decomposition
+
+**Type:** Hierarchical decomposition diagram with cost flow
+**Size:** 1920×1080px (landscape), high-res
+
+**Content:**
+
+**Title:** "Hierarchical Service Portfolio: From Business Services to Infrastructure with Complete Cost Visibility"
+
+**Visual Structure:** 5-level vertical decomposition showing how a government service breaks down to infrastructure with cost allocation
+
+**Example: Healthcare Insurance Service ($45M/year)**
+
+**LEVEL 1: BUSINESS SERVICES** (Top - Citizen-Facing)
+- **Healthcare Insurance Service** - $45M/year total
+- Icon: Medical cross or health symbol
+- Tag: "What citizens see and use"
+
+**LEVEL 2: TECHNICAL SERVICES** (Supporting Backend)
+- **Eligibility Verification Service** - $15M/year
+- **Claims Processing Service** - $20M/year
+- **Provider Network Management** - $10M/year
+- Icon: Gears or service components
+- Tag: "Backend services supporting business services"
+
+**LEVEL 3: APPLICATIONS** (Software Systems)
+- **Healthcare Portal** (React) - $3M/year
+- **Claims API** (Java) - $2M/year
+- **Provider Directory** (PostgreSQL) - $2M/year
+- **Document Management** (S3) - $1M/year
+- Icon: Application window or code
+- Tag: "Applications delivering technical services"
+
+**LEVEL 4: INFRASTRUCTURE** (Cloud Resources)
+- **50 EC2 Instances** (compute) - $3.5M/year
+- **2TB RDS PostgreSQL** (database) - $2M/year
+- **CloudFront CDN** (delivery) - $1M/year
+- **S3 Storage** (documents) - $0.5M/year
+- Icon: Servers or cloud
+- Tag: "Infrastructure supporting applications"
+
+**LEVEL 5: COST ALLOCATION** (PPT Breakdown)
+Shown as three segments flowing into all levels above:
+- **40% PEOPLE**: $20M (100 FTE @ $200K fully-loaded)
+- **40% PROCESS**: $15M (GSM operations, compliance, QA)
+- **20% TECHNOLOGY**: $10M (infrastructure + software + cloud)
+
+**Side Panel - "Why This Matters":**
+- ✓ **Cost Visibility**: "Healthcare IT: $120M/year, Education: $80M/year"
+- ✓ **Impact Analysis**: "Expanding by 100K users = 15 servers, $2.5M infrastructure"
+- ✓ **Isolated Governance**: Healthcare CIO owns healthcare services and budget
+- ✓ **PPT Balance Tracking**: Monitor 40-40-20 by service domain
+
+**Service Domain Comparison (Bottom):**
+Mini bar chart showing:
+- Healthcare: $120M/year
+- Education: $80M/year
+- Justice: $60M/year
+- Shared Services: $50M/year
+
+**Visual Style:**
+- Top-to-bottom flow showing decomposition from business to infrastructure
+- Use connecting lines/arrows to show relationships
+- Color-code each level distinctly (5 different shades)
+- Show cost amounts at each level clearly
+- PPT breakdown as three colored segments that flow through all levels
+- Clean, professional, hierarchical structure
+- Make it obvious how services decompose and costs roll up
+- Include "Inspired by ITIL SPM + ServiceNow CSDM + TBM" footnote
+
+**Key Message:**
+"Hierarchical service portfolios enable governments to answer: 'How much does Healthcare IT cost?' and 'What infrastructure changes are needed if we expand this service?'"
+
+---
+
 ## Requirements for ALL Infographics:
 
 ### Technical Specifications:
@@ -400,7 +475,7 @@ The synthesis of best practices:
 - Same overall aesthetic
 
 ### Deliverables:
-1. **8 high-res PNG files** (300 DPI, 1920×1080px)
+1. **9 high-res PNG files** (300 DPI, 1920×1080px)
 2. **Source files** (AI, Figma, or similar - editable)
 3. **SVG versions** (for web scalability)
 4. **2 rounds of revisions** included in price (per infographic)
@@ -420,14 +495,14 @@ The synthesis of best practices:
 ## Timeline:
 
 - **Day 1-2:** Designer review and questions
-- **Day 3-4:** First drafts of infographics 1-4 (Legacy vs Digital, World Map, Timeline, Venn Diagram)
-- **Day 5:** My feedback on first batch
-- **Day 6-7:** First drafts of infographics 5-8 (PPT Framework, GSM Overview, GSM vs ITSM, Country PPT)
-- **Day 8:** My feedback on second batch
-- **Day 10-11:** Second drafts incorporating all feedback
-- **Day 12-14:** Final approval and file delivery
+- **Day 3-5:** First drafts of infographics 1-5 (Legacy vs Digital, World Map, Timeline, Venn Diagram, PPT Framework)
+- **Day 6:** My feedback on first batch
+- **Day 7-9:** First drafts of infographics 6-9 (GSM Overview, GSM vs ITSM, Country PPT, Service Portfolio)
+- **Day 10:** My feedback on second batch
+- **Day 12-14:** Second drafts incorporating all feedback
+- **Day 15-16:** Final approval and file delivery
 
-**Total: 10-14 days from start to final delivery**
+**Total: 12-16 days from start to final delivery**
 
 ---
 
@@ -460,16 +535,16 @@ Please share examples of:
 
 ## Budget:
 
-**$1,200-1,600** for 8 professional infographics (depending on experience and portfolio quality)
+**$1,350-1,800** for 9 professional infographics (depending on experience and portfolio quality)
 
-- $1,200: Good quality, meets all requirements ($150/infographic)
-- $1,400: Excellent quality, strong relevant portfolio ($175/infographic)
-- $1,600: Exceptional quality, extensive government/policy design experience ($200/infographic)
+- $1,350: Good quality, meets all requirements ($150/infographic)
+- $1,575: Excellent quality, strong relevant portfolio ($175/infographic)
+- $1,800: Exceptional quality, extensive government/policy design experience ($200/infographic)
 
 **Payment Terms:**
 - 40% upfront upon project start
-- 30% upon delivery of first 4 infographics
-- 30% upon final delivery and approval of all 8
+- 30% upon delivery of first 5 infographics
+- 30% upon final delivery and approval of all 9
 
 **Revisions:**
 - 2 rounds of revisions per infographic included in price
@@ -492,8 +567,8 @@ These infographics will be part of a **global digital government transformation 
 ## How to Apply:
 
 1. **Share your portfolio** (especially government, policy, data viz work)
-2. **Provide a quote** ($600-800 range)
-3. **Confirm timeline** (can you deliver in 7-10 days?)
+2. **Provide a quote** ($1,350-1,800 range)
+3. **Confirm timeline** (can you deliver in 12-16 days?)
 4. **Ask any questions** about the project
 
 I will review applications and select the designer within 24-48 hours.
