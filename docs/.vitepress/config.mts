@@ -69,7 +69,8 @@ export default defineConfig({
           { text: '6. Cybersecurity', link: '/tier3-playbooks/6-cybersecurity-operations' },
           { text: '7. Data Governance', link: '/tier3-playbooks/7-data-governance-framework' },
           { text: '8. Change Management', link: '/tier3-playbooks/8-change-management-training' },
-          { text: '9. GSM Implementation Guide', link: '/tier3-playbooks/9-gsm-implementation-guide' }
+          { text: '9. GSM Implementation Guide', link: '/tier3-playbooks/9-gsm-implementation-guide' },
+          { text: '10. Service Portfolio & Cost Management', link: '/tier3-playbooks/10-service-portfolio-cost-management' }
         ]
       },
       {

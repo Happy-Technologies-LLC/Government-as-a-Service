@@ -71,7 +71,7 @@ The playbook provides:
 
 **Audience:** Project managers, team leads, specialists
 **Purpose:** Step-by-step tactical guides
-**Length:** 8 playbooks, 15-20 pages each
+**Length:** 10 playbooks, 15-30 pages each
 **Format:** Modular, standalone guides
 
 ### Available Playbooks:
@@ -84,6 +84,8 @@ The playbook provides:
 6. **[Cybersecurity Operations](/tier3-playbooks/6-cybersecurity-operations)** - SOC establishment and incident response
 7. **[Data Governance Framework](/tier3-playbooks/7-data-governance-framework)** - Classification, sharing, compliance
 8. **[Change Management and Training](/tier3-playbooks/8-change-management-training)** - Stakeholder engagement and adoption
+9. **[GSM Implementation Guide](/tier3-playbooks/9-gsm-implementation-guide)** - Government Service Management framework deployment
+10. **[Service Portfolio & Cost Management](/tier3-playbooks/10-service-portfolio-cost-management)** - Hierarchical service portfolios with TBM cost allocation
 
 ---
 

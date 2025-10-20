@@ -689,8 +689,9 @@ GSM organizes service delivery into six core activities:
 
 **1. PLAN** (Democratic Mandate & Strategy)
 - Align services with democratic mandates and citizen needs
-- Strategic portfolio management
+- Strategic service portfolio management (hierarchical decomposition from business services to infrastructure)
 - Multi-year roadmaps with transparent accountability
+- Cost visibility by service domain enabling "Healthcare IT costs $120M/year, Education $80M/year"
 
 **2. IMPROVE** (Continual Service Improvement)
 - Performance analysis and optimization
@@ -725,9 +726,9 @@ GSM provides 28 specific management practices organized into three categories:
 #### **Governance Practices (10 practices)**
 Strategic oversight ensuring accountability and public value:
 - Service Strategy & Planning
-- Service Financial Management
+- Service Financial Management (with TBM cost allocation by service domain)
 - Risk & Compliance Management
-- Portfolio & Program Management
+- Portfolio & Program Management (hierarchical service portfolios decomposing from business services through technical services, applications, and infrastructure to enable complete cost transparency and impact analysis)
 - Organizational Change Management
 - Workforce & Talent Management
 - Stakeholder Relationship Management
@@ -737,7 +738,7 @@ Strategic oversight ensuring accountability and public value:
 
 #### **Service Practices (14 practices)**
 Operational excellence in citizen-facing delivery:
-- Service Catalog & Offering Management
+- Service Catalog & Offering Management (inspired by ITIL Service Portfolio Management and ServiceNow CSDM, organizing services hierarchically to enable full cost visibility, impact analysis, and isolated governance by service domain)
 - Service Level Management (SLAs with citizen commitments)
 - Service Design & Co-creation
 - Service Continuity & Resilience

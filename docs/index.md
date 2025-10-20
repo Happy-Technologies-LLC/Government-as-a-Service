@@ -37,7 +37,7 @@ features:
 
   - icon: 📋
     title: Tier 3 - Implementation Playbooks
-    details: 8 step-by-step guides (15-20 pages each) for workstream leads. From digital identity to change management.
+    details: 10 step-by-step guides (15-30 pages each) for workstream leads. From digital identity to service portfolio management.
     link: /tier3-playbooks/1-digital-identity-implementation
 
   - icon: ⚖️

@@ -74,7 +74,7 @@ GaaS is not about efficiency gains. It is about **fundamentally redefining what 
 
 **Estonia's Model**: Every citizen can see exactly who accessed their data, when, and why. Corruption plummets when opacity disappears.
 
-**GaaS Impact**: Every transaction logged on blockchain, real-time budget dashboards, mandatory publication of all procurement. **Result**: Transition from "trust us" to "verify everything."
+**GaaS Impact**: Every transaction logged on blockchain, real-time budget dashboards, mandatory publication of all procurement. **Service portfolio management** enables complete cost visibility—"Healthcare IT costs $120M/year, Education $80M/year"—with full decomposition from citizen-facing services down to infrastructure. **Result**: Transition from "trust us" to "verify everything."
 
 ### Promise 3: True Inclusion
 
@@ -90,9 +90,9 @@ GaaS is not about efficiency gains. It is about **fundamentally redefining what 
 
 ### Promise 5: Anticipatory Governance
 
-Using data and AI to predict needs before citizens ask. Proactive benefit enrollment. Fraud detection before money leaves. Health interventions before diseases spread.
+Using data and AI to predict needs before citizens ask. Proactive benefit enrollment. Fraud detection before money leaves. Health interventions before diseases spread. Service portfolios enable precise impact analysis—understanding exactly which infrastructure supports which citizen services.
 
-**GaaS Impact**: Child benefits auto-enrolled at birth, license renewals handled automatically, personalized emergency alerts. **Result**: Government that serves rather than processes.
+**GaaS Impact**: Child benefits auto-enrolled at birth, license renewals handled automatically, personalized emergency alerts. When expanding healthcare services, instantly predict infrastructure needs and costs. **Result**: Government that serves rather than processes.
 
 ---
 
@@ -175,6 +175,8 @@ None succeeded through incremental reform. All share: (1) Top-level political co
 **Why This Order Matters**: People must come FIRST because technology adoption depends on human capability. Process comes SECOND to ensure services are designed before platforms are built. Technology comes LAST as the enabler of optimized people and processes.
 
 **Why This Allocation Matters**: Evidence shows that balanced PPT approaches achieve **85% ROI vs. 22% for technology-only** initiatives. The common failure pattern is over-investing in technology while neglecting people and processes—we've learned from this mistake.
+
+**Service Portfolio Governance**: Hierarchical service portfolios (inspired by ITIL Service Portfolio Management and ServiceNow's CSDM model) enable tracking PPT investments by service domain—decomposing healthcare services from business level (insurance, research) down through technical services, applications, and infrastructure to complete cost allocation. This enables isolated governance, full transparency, and accurate ROI measurement by service area.
 
 **Expected ROI**: 8:1 to 15:1 typical; up to 473:1 for specific use cases like e-procurement⁵
 

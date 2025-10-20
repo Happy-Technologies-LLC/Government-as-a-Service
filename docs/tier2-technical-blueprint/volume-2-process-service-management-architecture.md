@@ -183,7 +183,71 @@ A service catalog is the authoritative source listing all services government pr
 
 ---
 
-### 5.2.2 Service Classification Framework
+### 5.2.2 Service Portfolio Hierarchy & Cost Visibility
+
+**Beyond the Basic Catalog: Hierarchical Service Portfolios**
+
+While the two-layer catalog above provides citizen-facing and technical views, **service portfolio management** adds a critical financial and governance dimension inspired by ITIL Service Portfolio Management, ServiceNow's Common Services Data Model (CSDM), and Technology Business Management (TBM) frameworks.
+
+**The 5-Level Service Hierarchy:**
+
+Modern service portfolio management decomposes services from the business level down to infrastructure, enabling complete cost transparency and impact analysis:
+
+**Level 1: Business Services** (Citizen-Facing)
+- Example: "Healthcare Insurance Service"
+- What citizens see and use
+- Organized by service domains (Healthcare, Education, Justice, etc.)
+
+**Level 2: Technical Services** (Supporting Backend)
+- Example: "Eligibility Verification Service," "Claims Processing Service"
+- Backend services that support business services
+- Often consumed by multiple business services
+
+**Level 3: Applications**
+- Example: "Healthcare Portal (React)," "Claims API (Java)," "Provider Directory (PostgreSQL)"
+- Software systems delivering technical services
+- Tracked in CMDB with version control
+
+**Level 4: Infrastructure**
+- Example: "50 EC2 instances," "2TB RDS storage," "CloudFront CDN"
+- Compute, storage, network resources supporting applications
+- Mapped to cost allocation
+
+**Level 5: Cost Allocation** (PPT Breakdown)
+- People: FTE costs allocated to service (e.g., 100 FTE @ $200K fully-loaded = $20M)
+- Process: Service management operations, compliance, QA (e.g., $15M)
+- Technology: Infrastructure + software + cloud costs (e.g., $10M)
+
+**Why This Matters: The "Healthcare IT" Question**
+
+Without hierarchical service portfolios, executives cannot answer: "How much does Healthcare IT cost us?" or "What happens to infrastructure if we expand healthcare insurance services?"
+
+With service portfolio management:
+- **Cost Visibility**: "Healthcare domain IT costs $120M/year, Education $80M/year"
+- **Impact Analysis**: "Expanding healthcare insurance by 100K users requires 15 additional servers, $2.5M infrastructure"
+- **Isolated Governance**: Healthcare CIO owns healthcare services, budgets, and infrastructure
+- **PPT Balance Tracking**: Monitor 40-40-20 investment by service domain
+
+**Service Domain Governance Model:**
+
+| Domain | Annual IT Budget | Services | Dedicated FTE | Infrastructure |
+|--------|-----------------|----------|---------------|----------------|
+| Healthcare | $120M | Insurance, Research, Public Health | 50 FTE | Healthcare-specific servers |
+| Education | $80M | K-12, Higher Ed, Scholarships | 30 FTE | Education portals, LMS |
+| Justice | $60M | Courts, Prisons, Legal Aid | 25 FTE | Case management systems |
+| Shared Services | $50M | Digital Identity, Payments | 40 FTE | Cross-domain platforms |
+
+**Implementation Note:** See **Tier 3 Playbook #10: Service Portfolio & Cost Management** for complete implementation guidance including TBM cost allocation methodology, service hierarchy templates, and 18-month roadmap.
+
+**Integration with ServiceNow CMDB:**
+- Configuration Items (CIs) mapped to applications and infrastructure
+- Service relationships tracked (Business Service → Technical Service → Application → CI)
+- Cost allocation automated through CMDB attributes
+- Impact analysis powered by service dependency mapping
+
+---
+
+### 5.2.3 Service Classification Framework
 
 **Not all services are equal—classify by criticality and volume to allocate resources appropriately:**
 
