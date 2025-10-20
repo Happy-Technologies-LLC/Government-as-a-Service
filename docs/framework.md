@@ -25,14 +25,20 @@ The manifesto makes the case for digital government transformation through:
 
 **Audience:** Heads of government, ministers, C-suite
 **Purpose:** Strategic decision-making
-**Length:** 30 pages
+**Length:** 200+ pages (main playbook + implementation guides)
 **Format:** Premium printed book + interactive PDF
 
-The playbook provides:
+The Executive Playbook provides:
 - **Part I:** The Strategic Case (ROI, business case, competitive necessity)
-- **Part II:** Implementation Framework (GSM Five-Layer Model, Three Pathways)
+- **Part II:** Implementation Framework (GSM Five-Layer Model, People-Process-Technology)
 - **Part III:** Learning from Leaders (Estonia, Singapore, UAE, Denmark deep-dives)
+- **Part IV:** Implementation Pathways (Greenfield, Transformation, Acceleration)
+- **Part V:** Investment & Fiscal Framework (Funding models, ROI, build/buy decisions)
 - **Action Plan:** First 100 days roadmap with critical decisions
+
+### Supplementary Guides:
+- **[Greenfield Implementation Guide](/tier1-executive-playbook/greenfield-implementation-guide)** - 18-month roadmap for new governments building from scratch
+- **[Fiscal Architecture](/tier1-executive-playbook/fiscal-architecture)** - Budget allocation by GSM layer, build/buy/partner decisions, ROI calculation
 
 [Read the Executive Playbook →](/tier1-executive-playbook/executive-playbook)
 
@@ -50,6 +56,8 @@ The playbook provides:
 - Organizational Design & Culture
 - Leadership Development
 - Change Management
+
+**Supplement:** [Talent Strategy Guide](/tier2-technical-blueprint/talent-strategy) - How to compete with Google for talent, compensation frameworks, secondments, knowledge transfer
 
 ### Volume II: Process & Service Management (40% Investment)
 - GSM Framework Implementation
@@ -136,28 +144,13 @@ The playbook provides:
 
 ---
 
-## Critical Modules
-
-In addition to the 5 tiers, three **critical modules** address cross-cutting challenges:
-
-### [Greenfield Implementation Guide](/critical-modules/greenfield-implementation-guide)
-18-month roadmap for new governments building from scratch. The "blank canvas" advantage.
-
-### [Talent Strategy](/critical-modules/talent-strategy)
-How to compete with Google for talent. Compensation frameworks, secondments, knowledge transfer.
-
-### [Fiscal Architecture](/critical-modules/fiscal-architecture)
-Budget allocation by GSM layer, build/buy/partner decisions, ROI calculation.
-
----
-
 ## How to Navigate This Framework
 
 ### If you're a...
 
 **🏛️ Head of Government / Minister**
 1. Start: [Manifesto](/tier0-manifesto/gaas-manifesto) (15 min)
-2. Then: [Executive Playbook](/tier1-executive-playbook/executive-playbook) (2 hours)
+2. Then: [Executive Playbook](/tier1-executive-playbook/executive-playbook) (3-4 hours)
 3. Action: Request country assessment, build political coalition
 
 **💻 CTO / Chief Architect**
@@ -167,7 +160,7 @@ Budget allocation by GSM layer, build/buy/partner decisions, ROI calculation.
 
 **📋 Project Manager / Implementation Lead**
 1. Start: [Relevant Implementation Playbook](/tier3-playbooks/1-digital-identity-implementation)
-2. Then: [Critical Modules](/critical-modules/greenfield-implementation-guide) (talent, fiscal)
+2. Then: Tier 1 supplements ([Greenfield](/tier1-executive-playbook/greenfield-implementation-guide) or [Fiscal](/tier1-executive-playbook/fiscal-architecture))
 3. Action: Build project plan, identify risks, assemble team
 
 **⚖️ Legal Advisor / Policy Maker**

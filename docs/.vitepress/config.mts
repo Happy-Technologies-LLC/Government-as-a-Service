@@ -45,7 +45,9 @@ export default defineConfig({
         text: 'Tier 1: Executive Playbook',
         collapsed: false,
         items: [
-          { text: 'Executive Playbook', link: '/tier1-executive-playbook/executive-playbook' }
+          { text: 'Executive Playbook', link: '/tier1-executive-playbook/executive-playbook' },
+          { text: 'Greenfield Implementation Guide', link: '/tier1-executive-playbook/greenfield-implementation-guide' },
+          { text: 'Fiscal Architecture', link: '/tier1-executive-playbook/fiscal-architecture' }
         ]
       },
       {
@@ -54,7 +56,8 @@ export default defineConfig({
         items: [
           { text: 'Volume 1: People & Organizational Architecture', link: '/tier2-technical-blueprint/volume-1-people-organizational-architecture' },
           { text: 'Volume 2: Process & Service Management', link: '/tier2-technical-blueprint/volume-2-process-service-management-architecture' },
-          { text: 'Volume 3: Technology & Platform Architecture', link: '/tier2-technical-blueprint/volume-3-technology-platform-architecture' }
+          { text: 'Volume 3: Technology & Platform Architecture', link: '/tier2-technical-blueprint/volume-3-technology-platform-architecture' },
+          { text: 'Talent Strategy (Supplement)', link: '/tier2-technical-blueprint/talent-strategy' }
         ]
       },
       {
@@ -122,15 +125,6 @@ export default defineConfig({
           { text: 'Implementation Registry', link: '/tier5-community/implementation-registry' },
           { text: 'Events Program', link: '/tier5-community/events-program' },
           { text: 'Governance Model', link: '/tier5-community/governance-model' }
-        ]
-      },
-      {
-        text: 'Critical Modules',
-        collapsed: true,
-        items: [
-          { text: 'Greenfield Guide', link: '/critical-modules/greenfield-implementation-guide' },
-          { text: 'Talent Strategy', link: '/critical-modules/talent-strategy' },
-          { text: 'Fiscal Architecture', link: '/critical-modules/fiscal-architecture' }
         ]
       }
     ],
