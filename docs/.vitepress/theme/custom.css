@@ -202,15 +202,35 @@ h3 .flag-icon .fi {
 
 /* === HOME PAGE HERO CUSTOMIZATION === */
 .VPHero .name {
-  color: var(--vp-c-text-1);
+  background: linear-gradient(120deg, var(--vp-c-brand-1) 0%, var(--vp-c-accent-digital) 50%, var(--vp-c-accent-process) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .VPHero .text {
   color: var(--vp-c-text-2);
+  font-size: 20px !important;
+  line-height: 1.4;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .VPHero .tagline {
   color: var(--vp-c-text-3);
+  font-size: 16px !important;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Dark mode gradient adjustment */
+.dark .VPHero .name {
+  background: linear-gradient(120deg, var(--vp-c-accent-digital) 0%, var(--vp-c-accent-process) 50%, var(--vp-c-accent-digital) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* === FEATURE CARDS === */

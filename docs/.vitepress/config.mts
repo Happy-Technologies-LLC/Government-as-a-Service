@@ -24,13 +24,22 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Framework', link: '/framework' },
-      { text: 'Downloads', link: '/downloads' },
+      {
+        text: 'Documentation',
+        items: [
+          { text: 'Framework Overview', link: '/framework' },
+          { text: 'The Manifesto', link: '/tier0-manifesto/gaas-manifesto' },
+          { text: 'Executive Playbook', link: '/tier1-executive-playbook/executive-playbook' },
+          { text: 'Technical Blueprints', link: '/tier2-technical-blueprint/volume-1-people-organizational-architecture' },
+          { text: 'Implementation Playbooks', link: '/tier3-playbooks/1-digital-identity-implementation' }
+        ]
+      },
       {
         text: 'Community',
         items: [
           { text: 'Discussions Forum', link: 'https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions' },
-          { text: 'Community Hub', link: '/tier5-community/community-platform-overview' }
+          { text: 'Community Hub', link: '/tier5-community/community-platform-overview' },
+          { text: 'Certification Program', link: '/tier5-community/certification-program' }
         ]
       },
       { text: 'Contact', link: '/contact' }
@@ -41,8 +50,7 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Framework Overview', link: '/framework' },
-          { text: 'Quick Start Guide', link: '/tier0-manifesto/gaas-manifesto' },
-          { text: 'Downloads', link: '/downloads' }
+          { text: 'Quick Start Guide', link: '/tier0-manifesto/gaas-manifesto' }
         ]
       },
       {

@@ -3,8 +3,7 @@ layout: home
 
 hero:
   name: "Government as a Service"
-  text: "The Global Framework for Digital Government Transformation"
-  tagline: 1,800+ pages of implementation guidance based on Estonia, Singapore, UAE, and Denmark
+  tagline: "The Global Framework for Digital Government Transformation"
   image:
     src: /icons/android-chrome-512x512.png
     alt: Government as a Service
@@ -13,8 +12,8 @@ hero:
       text: Read the Manifesto
       link: /tier0-manifesto/gaas-manifesto
     - theme: alt
-      text: Download Framework
-      link: /downloads
+      text: Explore Documentation
+      link: /framework
     - theme: alt
       text: View on GitHub
       link: https://github.com/Happy-Technologies-LLC/Government-as-a-Service
@@ -169,7 +168,7 @@ This framework is released under **Creative Commons Attribution 4.0 (CC BY 4.0)*
 
 [Read Manifesto](/tier0-manifesto/gaas-manifesto){style="padding: 12px 24px; background: var(--vp-button-brand-bg); color: var(--vp-button-brand-text); border-radius: 4px; text-decoration: none; display: inline-block;"}
 
-[Download PDFs](/downloads){style="padding: 12px 24px; background: var(--vp-button-alt-bg); color: var(--vp-button-alt-text); border-radius: 4px; text-decoration: none; display: inline-block;"}
+[Join Community](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions){style="padding: 12px 24px; background: var(--vp-button-alt-bg); color: var(--vp-button-alt-text); border-radius: 4px; text-decoration: none; display: inline-block;"}
 
 [View Framework](/framework){style="padding: 12px 24px; background: var(--vp-button-alt-bg); color: var(--vp-button-alt-text); border-radius: 4px; text-decoration: none; display: inline-block;"}
 
