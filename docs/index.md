@@ -20,33 +20,27 @@ hero:
       link: https://github.com/Happy-Technologies-LLC/Government-as-a-Service
 
 features:
-  - icon: 📖
-    title: Tier 0 - Manifesto
+  - title: Tier 0 - Manifesto
     details: 6-page vision document for viral spread and executive awareness. Start here to understand the digital government transformation opportunity.
     link: /tier0-manifesto/gaas-manifesto
 
-  - icon: 📘
-    title: Tier 1 - Executive Playbook
+  - title: Tier 1 - Executive Playbook
     details: 30-page strategic guide for heads of government, ministers, and C-suite executives. Build the business case and implementation roadmap.
     link: /tier1-executive-playbook/executive-playbook
 
-  - icon: 🏗️
-    title: Tier 2 - Technical Blueprints
+  - title: Tier 2 - Technical Blueprints
     details: 200+ pages of detailed architecture specifications for CTOs and technical teams. Proven patterns from global leaders.
     link: /tier2-technical-blueprint/volume-1-people-organizational-architecture
 
-  - icon: 📋
-    title: Tier 3 - Implementation Playbooks
+  - title: Tier 3 - Implementation Playbooks
     details: 10 step-by-step guides (15-30 pages each) for workstream leads. From digital identity to service portfolio management.
     link: /tier3-playbooks/1-digital-identity-implementation
 
-  - icon: ⚖️
-    title: Tier 4 - Policy & Legal Templates
+  - title: Tier 4 - Policy & Legal Templates
     details: 21 model legislative acts, policies, and governance documents. Ready to adapt for your jurisdiction.
     link: /tier4-policy-legal/digital-identity-act
 
-  - icon: 🌐
-    title: Tier 5 - Community Hub
+  - title: Tier 5 - Community Hub
     details: Build a global community with certification programs, events, and a practitioner network.
     link: /tier5-community/community-platform-overview
 ---
@@ -58,7 +52,7 @@ features:
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;">
 
 <div style="padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 8px;">
-<h3>🇪🇪 Estonia</h3>
+<h3><span class="flag-icon"><span class="fi fi-ee fis"></span>Estonia</span></h3>
 <ul>
 <li>99% of services online 24/7</li>
 <li>2% of GDP to run entire government</li>
@@ -68,7 +62,7 @@ features:
 </div>
 
 <div style="padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 8px;">
-<h3>🇸🇬 Singapore</h3>
+<h3><span class="flag-icon"><span class="fi fi-sg fis"></span>Singapore</span></h3>
 <ul>
 <li>97% Singpass adoption</li>
 <li>$385M annual economic value</li>
@@ -78,7 +72,7 @@ features:
 </div>
 
 <div style="padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 8px;">
-<h3>🇦🇪 UAE</h3>
+<h3><span class="flag-icon"><span class="fi fi-ae fis"></span>UAE</span></h3>
 <ul>
 <li>90%+ smart-enabled services</li>
 <li>Top-10 global e-government</li>
@@ -88,7 +82,7 @@ features:
 </div>
 
 <div style="padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 8px;">
-<h3>🇩🇰 Denmark</h3>
+<h3><span class="flag-icon"><span class="fi fi-dk fis"></span>Denmark</span></h3>
 <ul>
 <li>90%+ digital service usage</li>
 <li>Trust-based inclusive design</li>
@@ -139,19 +133,19 @@ The framework uses a **5-tier documentation architecture** to serve different au
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0;">
 
-**🏛️ Newly Forming Governments**
+**Newly Forming Governments**
 Start with digital-native infrastructure from day one
 
-**🎯 Digital Ministers & CTOs**
+**Digital Ministers & CTOs**
 Proven architectures and implementation roadmaps
 
-**🌍 Development Partners**
+**Development Partners**
 World Bank, OECD, ITU - unified framework for programs
 
-**💼 Technology Vendors**
+**Technology Vendors**
 Build GaaS-compliant solutions for global market
 
-**🎓 Researchers & Academia**
+**Researchers & Academia**
 Evidence-based practices and case studies
 
 </div>

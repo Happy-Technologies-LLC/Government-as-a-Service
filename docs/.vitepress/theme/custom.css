@@ -156,6 +156,50 @@
 .bg-accent-people { background-color: var(--vp-c-accent-people); }
 .bg-accent-warning { background-color: var(--vp-c-accent-warning); }
 
+/* === FLAG ICONS === */
+.flag-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-icon .fi {
+  font-size: 1.5em;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Flag in headings */
+h3 .flag-icon .fi {
+  font-size: 1.2em;
+}
+
+/* Square flags (1x1 ratio) */
+.fi.fis {
+  width: 1em;
+  height: 1em;
+}
+
+/* === INLINE ICON UTILITIES === */
+.icon-inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Icon sizes */
+.icon-sm { width: 16px; height: 16px; }
+.icon-md { width: 20px; height: 20px; }
+.icon-lg { width: 24px; height: 24px; }
+
 /* === HOME PAGE HERO CUSTOMIZATION === */
 .VPHero .name {
   color: var(--vp-c-text-1);

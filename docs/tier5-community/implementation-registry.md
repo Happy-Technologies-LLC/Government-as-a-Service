@@ -122,11 +122,11 @@ The GaaS Implementation Registry is a transparent, community-powered database tr
 - Lesson: Community-driven data collection works at scale
 
 **GaaS Registry Differentiation:**
-- ✅ Real-time (quarterly) vs. biennial (OECD)
-- ✅ Global coverage (100+ countries) vs. OECD members (33)
-- ✅ Implementation-focused (not just policy)
-- ✅ Free and open vs. consultant-gated
-- ✅ Community-validated vs. self-reported only
+- Real-time (quarterly) vs. biennial (OECD)
+- Global coverage (100+ countries) vs. OECD members (33)
+- Implementation-focused (not just policy)
+- Free and open vs. consultant-gated
+- Community-validated vs. self-reported only
 
 ### 1.4 Theory of Change
 

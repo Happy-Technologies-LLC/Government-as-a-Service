@@ -27,7 +27,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ### 1.2 Layer-by-Layer Allocation
 
-#### **Governance Layer: 5-8% of Total Budget**
+#### Governance Layer: 5-8% of Total Budget
 
 **Purpose:** Strategic direction, oversight, change management, and organizational transformation.
 
@@ -50,7 +50,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ---
 
-#### **Infrastructure Layer: 35-45% of Total Budget**
+#### Infrastructure Layer: 35-45% of Total Budget
 
 **Purpose:** Foundational technology platforms enabling all digital services.
 
@@ -76,7 +76,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ---
 
-#### **Engagement Layer: 20-25% of Total Budget**
+#### Engagement Layer: 20-25% of Total Budget
 
 **Purpose:** Citizen-facing services and multi-channel interaction platforms.
 
@@ -101,7 +101,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ---
 
-#### **Intelligence Layer: 10-15% of Total Budget**
+#### Intelligence Layer: 10-15% of Total Budget
 
 **Purpose:** Analytics, AI/ML, monitoring, and evidence-based decision-making.
 
@@ -124,7 +124,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ---
 
-#### **Performance Layer: 5-8% of Total Budget**
+#### Performance Layer: 5-8% of Total Budget
 
 **Purpose:** KPI systems, performance reporting, continuous optimization.
 
@@ -146,7 +146,7 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ---
 
-#### **Contingency: 10-15% of Total Budget**
+#### Contingency: 10-15% of Total Budget
 
 **Purpose:** Risk mitigation, scope changes, unforeseen requirements.
 

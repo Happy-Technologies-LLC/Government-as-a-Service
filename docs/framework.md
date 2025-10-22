@@ -148,27 +148,27 @@ The Executive Playbook provides:
 
 ### If you're a...
 
-**🏛️ Head of Government / Minister**
+**Head of Government / Minister**
 1. Start: [Manifesto](/tier0-manifesto/gaas-manifesto) (15 min)
 2. Then: [Executive Playbook](/tier1-executive-playbook/executive-playbook) (3-4 hours)
 3. Action: Request country assessment, build political coalition
 
-**💻 CTO / Chief Architect**
+**CTO / Chief Architect**
 1. Start: [Executive Playbook Part II](/tier1-executive-playbook/executive-playbook) (Implementation Framework)
 2. Then: [Technical Blueprints](/tier2-technical-blueprint/volume-1-people-organizational-architecture) (full read)
 3. Action: Adapt architecture to your context, select technologies
 
-**📋 Project Manager / Implementation Lead**
+**Project Manager / Implementation Lead**
 1. Start: [Relevant Implementation Playbook](/tier3-playbooks/1-digital-identity-implementation)
 2. Then: Tier 1 supplements ([Greenfield](/tier1-executive-playbook/greenfield-implementation-guide) or [Fiscal](/tier1-executive-playbook/fiscal-architecture))
 3. Action: Build project plan, identify risks, assemble team
 
-**⚖️ Legal Advisor / Policy Maker**
+**Legal Advisor / Policy Maker**
 1. Start: [Legislative Templates](/tier4-policy-legal/digital-identity-act)
 2. Then: [Policy Templates](/tier4-policy-legal/national-digital-strategy-template)
 3. Action: Adapt for your jurisdiction, legal review, stakeholder consultation
 
-**👥 Community Builder / Educator**
+**Community Builder / Educator**
 1. Start: [Community Platform Overview](/tier5-community/community-platform-overview)
 2. Then: [Certification Program](/tier5-community/certification-program)
 3. Action: Join global network, pursue certification, share learnings
@@ -228,10 +228,10 @@ Under the following terms:
 
 ## Get Support
 
-**📧 Email:** [info@gaas.global](mailto:info@gaas.global)
-**🐙 GitHub:** [github.com/yourusername/gaas-framework](https://github.com/yourusername/gaas-framework)
-**💬 Discussions:** Join our community forums
-**📅 Events:** Attend workshops and summits
+**Email:** [info@gaas.global](mailto:info@gaas.global)
+**GitHub:** [github.com/yourusername/gaas-framework](https://github.com/yourusername/gaas-framework)
+**Discussions:** Join our community forums
+**Events:** Attend workshops and summits
 
 **Request Country Assessment:** Free 2-week rapid assessment with customized roadmap
 

@@ -18,7 +18,7 @@ The GaaS community uses a **hybrid approach**:
 1. Go to your GitHub repository: https://github.com/Happy-Technologies-LLC/Government-as-a-Service
 2. Click **Settings** tab
 3. Scroll down to **Features** section
-4. Check ✅ **Discussions**
+4. Check **Discussions**
 5. Click **Set up Discussions**
 
 ### Step 2: Create Discussion Categories
@@ -26,45 +26,45 @@ The GaaS community uses a **hybrid approach**:
 GitHub will create default categories. Customize them:
 
 **Recommended Categories:**
-- 📣 **Announcements** - Framework updates, new releases
-- 💡 **Ideas** - Feature requests, improvements
-- ❓ **Q&A** - Questions about implementation
-- 🏛️ **Implementation Showcase** - Countries/orgs sharing their implementations
-- 🤝 **General** - Everything else
-- 🐛 **Issues & Bugs** - Problems with documentation or framework
+- **Announcements** - Framework updates, new releases
+- **Ideas** - Feature requests, improvements
+- **Q&A** - Questions about implementation
+- **Implementation Showcase** - Countries/orgs sharing their implementations
+- **General** - Everything else
+- **Issues & Bugs** - Problems with documentation or framework
 
 ### Step 3: Pin Welcome Discussion
 
 Create a pinned welcome post:
 
 ```markdown
-# 👋 Welcome to the GaaS Community!
+# Welcome to the GaaS Community!
 
 Government as a Service is a global framework for digital government transformation.
 This community is where practitioners, policymakers, and technologists collaborate.
 
-## 🗂️ Discussion Categories
+## Discussion Categories
 
-- 📣 **Announcements** - Stay updated with framework releases
-- ❓ **Q&A** - Get help with implementation questions
-- 💡 **Ideas** - Suggest improvements to the framework
-- 🏛️ **Implementation Showcase** - Share your success stories
-- 🤝 **General** - Everything else
+- **Announcements** - Stay updated with framework releases
+- **Q&A** - Get help with implementation questions
+- **Ideas** - Suggest improvements to the framework
+- **Implementation Showcase** - Share your success stories
+- **General** - Everything else
 
-## 📚 Resources
+## Resources
 
 - [Framework Documentation](https://happy-technologies-llc.github.io/Government-as-a-Service/)
 - [Downloads & PDFs](https://happy-technologies-llc.github.io/Government-as-a-Service/downloads)
 - [GitHub Repository](https://github.com/Happy-Technologies-LLC/Government-as-a-Service)
 
-## 🤝 Community Guidelines
+## Community Guidelines
 
 - Be respectful and constructive
 - Search before posting duplicate questions
 - Share your implementation experiences
 - Help others when you can
 
-Looking forward to building the future of digital government together! 🚀
+Looking forward to building the future of digital government together!
 ```
 
 ---
@@ -141,14 +141,14 @@ Create a banner on community pages linking to GitHub Discussions.
 
 ## Alternative Options Considered
 
-### ✅ **Recommended: Giscus + GitHub Discussions**
+### Recommended: Giscus + GitHub Discussions
 - **Cost:** Free
 - **Hosting:** None needed
 - **Maintenance:** Minimal
 - **Integration:** Native VitePress
 - **Best for:** Documentation sites with GitHub repos
 
-### ⚠️ **Discourse** (Alternative for larger communities)
+### Discourse (Alternative for larger communities)
 - **Cost:** Free (self-hosted) or $100/month (cloud)
 - **Hosting:** Requires server (2GB RAM minimum)
 - **Maintenance:** Moderate (updates, backups)
@@ -156,7 +156,7 @@ Create a banner on community pages linking to GitHub Discussions.
 - **Best for:** Large communities (1,000+ active users)
 - **Setup:** https://github.com/discourse/discourse/blob/main/docs/INSTALL.md
 
-### ⚠️ **Flarum** (Lightweight alternative)
+### Flarum (Lightweight alternative)
 - **Cost:** Free (self-hosted)
 - **Hosting:** Requires PHP server
 - **Maintenance:** Low
@@ -209,11 +209,11 @@ Since Giscus uses GitHub Discussions, moderation is handled through GitHub:
 
 Both solutions are GDPR-friendly:
 
-- ✅ No third-party tracking cookies
-- ✅ User data stored by GitHub (GDPR compliant)
-- ✅ Users can delete their own comments
-- ✅ No email harvesting
-- ✅ Open source and auditable
+- ✓ No third-party tracking cookies
+- ✓ User data stored by GitHub (GDPR compliant)
+- ✓ Users can delete their own comments
+- ✓ No email harvesting
+- ✓ Open source and auditable
 
 **Privacy Notice Template:**
 
@@ -230,7 +230,7 @@ Both solutions are GDPR-friendly:
 5. **Test** (5 minutes)
 6. **Create welcome post** (10 minutes)
 
-**Total setup time: ~25 minutes** 🚀
+**Total setup time: ~25 minutes**
 
 ---
 

@@ -2352,7 +2352,7 @@ As referenced throughout this playbook, governments face different starting cond
 
 **Outcome:** World-class digital government faster than established nations achieve through transformation
 
-**📖 Detailed Implementation Guide:** For comprehensive guidance on greenfield implementation including 18-month roadmap, talent acquisition strategy, and architectural decisions, see the **[Greenfield Implementation Guide](/tier1-executive-playbook/greenfield-implementation-guide)**.
+**Detailed Implementation Guide:** For comprehensive guidance on greenfield implementation including 18-month roadmap, talent acquisition strategy, and architectural decisions, see the **[Greenfield Implementation Guide](/tier1-executive-playbook/greenfield-implementation-guide)**.
 
 This standalone guide (2,000+ lines) provides:
 - Month-by-month implementation timeline
@@ -2577,7 +2577,7 @@ As detailed in Part I, balanced PPT investment is critical:
 - Career development and training investment
 - Secondment programs with technology companies
 
-📖 **Detailed Fiscal Framework:** For comprehensive budget templates, ROI calculation methodology, PPP contract models, and build/buy decision frameworks, see the **[Fiscal Architecture Guide](/tier1-executive-playbook/fiscal-architecture)**.
+**Detailed Fiscal Framework:** For comprehensive budget templates, ROI calculation methodology, PPP contract models, and build/buy decision frameworks, see the **[Fiscal Architecture Guide](/tier1-executive-playbook/fiscal-architecture)**.
 
 This standalone guide (1,100+ lines) provides:
 - Detailed budget allocation templates by GSM layer

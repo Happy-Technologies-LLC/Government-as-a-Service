@@ -40,8 +40,8 @@ This volume provides comprehensive guidance for designing and deploying **Techno
 
 **The 40-40-20 PPT Framework**
 
-- **40% PEOPLE**: Volume I - talent, culture, change, leadership ✅
-- **40% PROCESS**: Volume II - service management, process design, governance ✅
+- **40% PEOPLE**: Volume I - talent, culture, change, leadership
+- **40% PROCESS**: Volume II - service management, process design, governance
 - **20% TECHNOLOGY**: **This volume** - platforms, infrastructure, tools
 
 **Why Technology Comes Last**:
@@ -244,10 +244,10 @@ Citizen Journey:
 
 | Protocol | Use Case | Complexity | Recommended |
 |----------|----------|------------|-------------|
-| **SAML 2.0** | Enterprise SSO, government-to-government | High | ✅ Primary for government services |
-| **OAuth 2.0 + OpenID Connect** | Mobile apps, third-party integration | Medium | ✅ Primary for private sector integration |
-| **CAS (Central Authentication Service)** | Simple web applications | Low | ⚠️ Legacy only |
-| **Kerberos** | Internal enterprise networks | High | ❌ Not recommended for citizen-facing |
+| **SAML 2.0** | Enterprise SSO, government-to-government | High | Primary for government services |
+| **OAuth 2.0 + OpenID Connect** | Mobile apps, third-party integration | Medium | Primary for private sector integration |
+| **CAS (Central Authentication Service)** | Simple web applications | Low | Legacy only |
+| **Kerberos** | Internal enterprise networks | High | Not recommended for citizen-facing |
 
 **Recommended**: SAML 2.0 for government services, OAuth 2.0 + OpenID Connect for private sector
 
@@ -394,15 +394,15 @@ Response (200 OK):
 
 **Before Once-Only** (Traditional):
 - Citizen applies for passport → provides birth certificate, address, photo
-- Citizen applies for driver's license → provides birth certificate, address, photo (again!)
-- Citizen applies for business license → provides ID, address, tax info (again!)
+- Citizen applies for driver's license → provides birth certificate, address, photo (again)
+- Citizen applies for business license → provides ID, address, tax info (again)
 - **Result**: Citizen provides same data 10-50 times across lifetime
 
 **After Once-Only** (Digital Government):
 - Citizen registers birth → stored in population registry
-- Citizen updates address ONCE → all services updated automatically
+- Citizen updates address once → all services updated automatically
 - Citizen applies for passport → system pre-fills from registry (citizen verifies only)
-- **Result**: Citizen provides data ONCE, verifies thereafter
+- **Result**: Citizen provides data once, verifies thereafter
 
 **Economic Impact:**
 - Estonia: 834 hours/year saved per citizen via once-only
@@ -435,18 +435,18 @@ Scenario: Citizen applies for business license
 ### 13.1.1 Why Cloud Matters for Government
 
 **Traditional On-Premise Model:**
-- ❌ 3-6 months to provision new infrastructure
-- ❌ 40-60% average server utilization (wasteful)
-- ❌ Capital expenditure (CAPEX) upfront investment
-- ❌ Manual scaling (cannot handle spikes)
-- ❌ Single point of failure (datacenter outage = full disruption)
+- 3-6 months to provision new infrastructure
+- 40-60% average server utilization (wasteful)
+- Capital expenditure (CAPEX) upfront investment
+- Manual scaling (cannot handle spikes)
+- Single point of failure (datacenter outage = full disruption)
 
 **Cloud-Native Model:**
-- ✅ Minutes to provision new resources
-- ✅ 85-95% utilization via autoscaling
-- ✅ Operational expenditure (OPEX) pay-per-use
-- ✅ Automatic scaling (handles 10x traffic spikes)
-- ✅ Multi-region redundancy (99.99%+ availability)
+- Minutes to provision new resources
+- 85-95% utilization via autoscaling
+- Operational expenditure (OPEX) pay-per-use
+- Automatic scaling (handles 10x traffic spikes)
+- Multi-region redundancy (99.99%+ availability)
 
 **Evidence:**
 - Cloud migration reduces infrastructure costs by **40-60%**
@@ -627,16 +627,16 @@ Scenario: Citizen applies for housing loan subsidy
 ### 14.1.1 Zero-Trust Principles for Government
 
 **Traditional Perimeter Security** (Obsolete):
-- ❌ "Trust but verify" - internal network assumed safe
-- ❌ Castle-and-moat model - hard perimeter, soft interior
-- ❌ VPNs as trust boundary
-- ❌ Fails when insider threat or perimeter breach occurs
+- "Trust but verify" - internal network assumed safe
+- Castle-and-moat model - hard perimeter, soft interior
+- VPNs as trust boundary
+- Fails when insider threat or perimeter breach occurs
 
 **Zero-Trust Security** (Modern):
-- ✅ "Never trust, always verify" - verify every user, device, request
-- ✅ Assume breach - minimize blast radius
-- ✅ Least privilege access - grant minimum needed permissions
-- ✅ Continuous verification - not just at login, but every action
+- "Never trust, always verify" - verify every user, device, request
+- Assume breach - minimize blast radius
+- Least privilege access - grant minimum needed permissions
+- Continuous verification - not just at login, but every action
 
 **Zero-Trust Pillars:**
 
@@ -1067,18 +1067,18 @@ Government AI systems make decisions affecting citizens' lives (benefit eligibil
 ### 16.2.1 Why IaC Matters
 
 **Traditional Infrastructure Management** (Manual):
-- ❌ Snowflake servers (each unique, unrepeatable)
-- ❌ Configuration drift over time
-- ❌ No version control for infrastructure
-- ❌ Manual changes, no audit trail
-- ❌ Disaster recovery takes days/weeks
+- Snowflake servers (each unique, unrepeatable)
+- Configuration drift over time
+- No version control for infrastructure
+- Manual changes, no audit trail
+- Disaster recovery takes days/weeks
 
 **Infrastructure as Code** (Modern):
-- ✅ Identical environments (dev = staging = production)
-- ✅ Version-controlled infrastructure (Git history)
-- ✅ Repeatable, automated provisioning
-- ✅ Full audit trail of all changes
-- ✅ Disaster recovery in minutes (re-run Terraform)
+- Identical environments (dev = staging = production)
+- Version-controlled infrastructure (Git history)
+- Repeatable, automated provisioning
+- Full audit trail of all changes
+- Disaster recovery in minutes (re-run Terraform)
 
 **Example Terraform Code: Provision Government Portal**
 

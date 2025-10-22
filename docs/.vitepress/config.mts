@@ -10,6 +10,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/Government-as-a-Service/icons/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/Government-as-a-Service/icons/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/Government-as-a-Service/site.webmanifest' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css' }],
     ['meta', { name: 'theme-color', content: '#334155' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Government as a Service' }],

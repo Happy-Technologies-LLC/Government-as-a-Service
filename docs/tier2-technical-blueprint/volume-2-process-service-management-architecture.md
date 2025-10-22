@@ -39,7 +39,7 @@ This volume provides comprehensive guidance for designing and operating **Proces
 
 **The 40-40-20 PPT Framework**
 
-- **40% PEOPLE**: Volume I - talent, culture, change, leadership ✅
+- **40% PEOPLE**: Volume I - talent, culture, change, leadership
 - **40% PROCESS**: **This volume** - service management, process design, governance
 - **20% TECHNOLOGY**: Volume III - platforms, infrastructure, tools
 
@@ -77,20 +77,20 @@ This volume provides comprehensive guidance for designing and operating **Proces
 **Why GSM Matters:**
 
 Without formal service management, governments experience:
-- ❌ Frequent service disruptions (avg. 99.2% uptime = 7 hours downtime/month)
-- ❌ No clear service levels or citizen commitments
-- ❌ Reactive incident response (firefighting)
-- ❌ Recurring problems never addressed at root cause
-- ❌ Uncontrolled changes causing instability
-- ❌ No systematic improvement
+- Frequent service disruptions (avg. 99.2% uptime = 7 hours downtime/month)
+- No clear service levels or citizen commitments
+- Reactive incident response (firefighting)
+- Recurring problems never addressed at root cause
+- Uncontrolled changes causing instability
+- No systematic improvement
 
 With GSM, governments achieve:
-- ✅ 99.9%+ uptime (52 minutes downtime/year)
-- ✅ Clear SLAs with citizen commitments
-- ✅ Proactive incident prevention and rapid resolution
-- ✅ Root cause analysis eliminating recurring issues
-- ✅ Controlled changes balancing innovation and stability
-- ✅ Continual improvement culture
+- 99.9%+ uptime (52 minutes downtime/year)
+- Clear SLAs with citizen commitments
+- Proactive incident prevention and rapid resolution
+- Root cause analysis eliminating recurring issues
+- Controlled changes balancing innovation and stability
+- Continual improvement culture
 
 ---
 
@@ -295,18 +295,18 @@ With service portfolio management:
 ### 5.3.1 Citizen-Centric Service Design Methodology
 
 **Traditional Government Approach** (Department-Centric):
-- ❌ Organized by ministry/agency structure
-- ❌ Citizens navigate complex org charts
-- ❌ Multiple touchpoints for single life event
-- ❌ Redundant data collection across agencies
-- ❌ One-size-fits-all processes
+- Organized by ministry/agency structure
+- Citizens navigate complex org charts
+- Multiple touchpoints for single life event
+- Redundant data collection across agencies
+- One-size-fits-all processes
 
 **GSM Approach** (Citizen-Centric):
-- ✅ Organized by life events and citizen journeys
-- ✅ Single service for complex life events
-- ✅ Once-only data principle (tell us once)
-- ✅ Personalized based on eligibility and needs
-- ✅ Co-designed with actual citizens
+- Organized by life events and citizen journeys
+- Single service for complex life events
+- Once-only data principle (tell us once)
+- Personalized based on eligibility and needs
+- Co-designed with actual citizens
 
 ---
 

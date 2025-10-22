@@ -287,7 +287,7 @@ By completing GaaS Foundation, participants will be able to:
 
 ---
 
-## 3. GSM Practitioner Certification (Government Service Management)
+## 3. GaaS Practitioner Certification (Government Service Management)
 
 ### 3.1 Overview
 
@@ -494,7 +494,7 @@ Certified GaaS Practitioners demonstrate ability to:
 
 ---
 
-## 4. GaaS Service Architect Certification (Balanced PPT Architecture)
+## 4. GaaS Architect Certification (Balanced PPT Architecture)
 
 ### 4.1 Overview
 

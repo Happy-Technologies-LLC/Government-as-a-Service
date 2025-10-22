@@ -4,14 +4,14 @@ Access the Government as a Service framework in multiple formats.
 
 ---
 
-## 📥 Download Key Documents (PDF)
+## Download Key Documents (PDF)
 
 Pre-generated PDFs for offline sharing and executive presentations:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 32px 0;">
 
 <div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
-<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">📖 The Manifesto</h3>
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">The Manifesto</h3>
 <p>6-page vision document ideal for executive briefings and political leaders.</p>
 <div style="display: flex; gap: 12px; margin-top: 16px;">
 <a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
@@ -20,7 +20,7 @@ Pre-generated PDFs for offline sharing and executive presentations:
 </div>
 
 <div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
-<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">📋 Framework Overview</h3>
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">Framework Overview</h3>
 <p>10-page summary of the complete GaaS framework with implementation pathways.</p>
 <div style="display: flex; gap: 12px; margin-top: 16px;">
 <a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
@@ -29,7 +29,7 @@ Pre-generated PDFs for offline sharing and executive presentations:
 </div>
 
 <div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
-<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">🚀 Executive Quick Start</h3>
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">Executive Quick Start</h3>
 <p>15-page guide for heads of government and digital ministers to get started.</p>
 <div style="display: flex; gap: 12px; margin-top: 16px;">
 <a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
@@ -41,14 +41,14 @@ Pre-generated PDFs for offline sharing and executive presentations:
 
 ---
 
-## 🖨️ Print Any Page as PDF
+## Print Any Page as PDF
 
 All documentation is print-optimized with clean, professional layouts. Look for the **Print Page** button at the top of every document.
 
 ### How to Print:
 
 **Option 1: Use the Print Button** (Recommended)
-- Click the **🖨️ Print Page** button at the top of any document
+- Click the **Print Page** button at the top of any document
 - Your browser's print dialog will open
 - Select "Save as PDF" as your printer
 - Click "Save"
@@ -61,15 +61,15 @@ All documentation is print-optimized with clean, professional layouts. Look for 
 
 ### Print Features:
 
-✅ Clean layouts without navigation sidebars
-✅ Optimized typography for reading
-✅ Proper page breaks
-✅ Table of contents preserved
-✅ Brand-consistent styling
+✓ Clean layouts without navigation sidebars
+✓ Optimized typography for reading
+✓ Proper page breaks
+✓ Table of contents preserved
+✓ Brand-consistent styling
 
 ---
 
-## 📂 Browse by Category
+## Browse by Category
 
 Navigate to any section and use the print button to save as PDF:
 
@@ -119,9 +119,9 @@ git clone https://github.com/Happy-Technologies-LLC/Government-as-a-Service.git
 All documents are released under **Creative Commons Attribution 4.0 (CC BY 4.0)**.
 
 You are free to:
-- ✅ Share and redistribute
-- ✅ Adapt and build upon
-- ✅ Use for commercial purposes
+- ✓ Share and redistribute
+- ✓ Adapt and build upon
+- ✓ Use for commercial purposes
 
 With attribution to: Government as a Service Community
 
