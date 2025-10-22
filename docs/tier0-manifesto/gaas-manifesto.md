@@ -46,7 +46,7 @@ While digital leaders surge ahead, the majority of governments remain trapped in
 - **2.6 billion people**: Lacking meaningful internet access, excluded from digital economies³
 - **Billions of hours**: Citizens worldwide waste annually on bureaucratic processes that should take minutes⁴
 
-**[VISUAL: Side-by-side comparison infographic - Legacy vs. Digital-Native Government Service Delivery]**
+![Legacy vs. Digital-Native Government Service Delivery](/images/infographics/infographic-1-legacy-vs-digital.png)
 
 A mother travels 50 kilometers to a district office, waits 4 hours, only to be told she lacks one document. An entrepreneur spends 6 months navigating permits across 8 agencies while market opportunity closes. A retiree must prove her own work history because government "lost" her records.
 
@@ -98,7 +98,7 @@ Using data and AI to predict needs before citizens ask. Proactive benefit enroll
 
 ## IV. The Evidence: Proven Results
 
-**[VISUAL: World map showing Estonia, Singapore, UAE, Denmark with key metrics overlay]**
+![Global Digital Government Success Stories](/images/infographics/infographic-2-world-success-map.png)
 
 ### Estonia: The Revolutionary Clean Slate
 
@@ -128,7 +128,7 @@ None succeeded through incremental reform. All share: (1) Top-level political co
 
 ## V. The Path: From Vision to Reality in 36 Months
 
-**[VISUAL: 36-month timeline infographic with phase milestones and deliverables]**
+![36-Month Implementation Timeline](/images/infographics/infographic-3-implementation-timeline.png)
 
 ### The Three-Phase Roadmap
 
@@ -218,7 +218,7 @@ You have the blueprint: proven architectural patterns, evidence from successful 
 
 ## The Final Word: The Fourth Model
 
-**[VISUAL: Venn diagram showing synthesis of Estonia + Singapore + Denmark + UAE best practices]**
+![The Fourth Model - Synthesis of Best Practices](/images/infographics/infographic-4-fourth-model.png)
 
 The world has three proven models: Estonia (revolutionary boldness), Singapore (technocratic excellence), Denmark (trust-based inclusion).
 

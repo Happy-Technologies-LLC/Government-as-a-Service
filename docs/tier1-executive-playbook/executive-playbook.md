@@ -222,6 +222,8 @@ Research from 150+ digital transformation programs shows clear patterns:
 
 Based on analysis of 50+ successful digital transformations and evidence-based ROI research, the recommended allocation is:
 
+![40-40-20 PPT Investment Framework](/images/infographics/infographic-5-ppt-framework.png)
+
 **The 40-40-20 Principle: People First, Process Second, Technology Last**
 
 This balanced investment framework reflects a fundamental truth about digital transformation: **technology enables, but people and processes deliver value**. Organizations following this allocation pattern achieve 85% higher ROI (4.2:1 average) compared to technology-heavy approaches (0.8:1 average ROI).
@@ -330,6 +332,8 @@ This balanced investment framework reflects a fundamental truth about digital tr
 - **Rationale**: Integration and standardization require process discipline; avoid technology proliferation
 
 ### 2.5 PPT in Practice: Examples from Leading Nations
+
+![40-40-20 in Practice: Country Case Studies](/images/infographics/infographic-8-country-case-studies.png)
 
 #### **Estonia: People-First Strategy**
 

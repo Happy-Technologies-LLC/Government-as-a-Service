@@ -60,6 +60,8 @@ This volume provides comprehensive guidance for designing and operating **Proces
 
 **Government Service Management (GSM)** is a purpose-built framework for managing digital government services. While inspired by IT Service Management (ITSM) best practices, GSM is tailored to the unique context of government: citizen-centricity, democratic accountability, equity, transparency, and public value creation.
 
+![Why GSM is Different: Government Service Management vs. Corporate ITSM](/images/infographics/infographic-7-gsm-vs-itsm.png)
+
 **GSM is NOT:**
 - Corporate ITSM/ITIL adapted for government
 - Just technology service management
@@ -112,6 +114,8 @@ GSM provides a holistic approach through its Service Value System:
 │  CONTINUAL IMPROVEMENT & PUBLIC VALUE CREATION                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Government Service Management (GSM) Framework](/images/infographics/infographic-6-gsm-framework.png)
 
 **7 GSM Guiding Principles:**
 1. Focus on citizen outcomes and public value
@@ -186,6 +190,8 @@ A service catalog is the authoritative source listing all services government pr
 ### 5.2.2 Service Portfolio Hierarchy & Cost Visibility
 
 **Beyond the Basic Catalog: Hierarchical Service Portfolios**
+
+![Hierarchical Service Portfolio & Cost Decomposition](/images/infographics/infographic-9-hierarchical-portfolio.png)
 
 While the two-layer catalog above provides citizen-facing and technical views, **service portfolio management** adds a critical financial and governance dimension based on ITIL Service Portfolio Management, industry-standard Common Services Data Model (CSDM) patterns, and Technology Business Management (TBM) frameworks.
 

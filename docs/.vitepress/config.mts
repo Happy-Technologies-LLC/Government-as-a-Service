@@ -6,16 +6,20 @@ export default defineConfig({
   base: '/Government-as-a-Service/',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#3b82f6' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/Government-as-a-Service/icons/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/Government-as-a-Service/icons/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/Government-as-a-Service/icons/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/Government-as-a-Service/site.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#334155' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Government as a Service' }],
     ['meta', { property: 'og:description', content: 'The Global Framework for Digital Government Transformation' }],
+    ['meta', { property: 'og:image', content: '/Government-as-a-Service/icons/android-chrome-512x512.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/images/logos/logo.png',
 
     nav: [
       { text: 'Home', link: '/' },

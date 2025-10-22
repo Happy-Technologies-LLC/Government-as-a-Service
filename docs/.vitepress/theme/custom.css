@@ -1,0 +1,222 @@
+/**
+ * GaaS Global Brand Colors & Styling
+ * Based on brand guidelines in press-kit/brand-guidelines.md
+ */
+
+:root {
+  /* === PRIMARY & CORE COLORS === */
+  /* Primary - Slate 700 for headings, primary buttons */
+  --vp-c-brand-1: #334155;
+  --vp-c-brand-2: #475569;
+  --vp-c-brand-3: #334155;
+  --vp-c-brand-soft: #f1f5f9;
+
+  /* Primary Light - Slate 600 */
+  --vp-c-brand-light: #475569;
+
+  /* Background - Slate 100 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f1f5f9;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #ffffff;
+
+  /* Text - Slate 800 & 500 */
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748b;
+
+  /* === ACCENT COLORS === */
+  /* Accent A (Process) - Sky Blue 500 */
+  --vp-c-accent-process: #0ea5e9;
+
+  /* Accent B (Digital) - Teal 500 */
+  --vp-c-accent-digital: #14b8a6;
+
+  /* Accent C (People) - Amber 400 */
+  --vp-c-accent-people: #facc15;
+
+  /* Accent D (Contrast) - Rose 500 */
+  --vp-c-accent-warning: #f43f5e;
+
+  /* === BRAND-SPECIFIC OVERRIDES === */
+  /* Links & Interactive Elements - Use Digital (Teal) */
+  --vp-c-brand-accent: #14b8a6;
+
+  /* Dividers & Borders */
+  --vp-c-divider: #e2e8f0;
+  --vp-c-divider-light: #f1f5f9;
+
+  /* Code blocks */
+  --vp-c-bg-code: #f8fafc;
+
+  /* Sidebar */
+  --vp-sidebar-bg-color: #ffffff;
+
+  /* Nav */
+  --vp-nav-bg-color: #ffffff;
+
+  /* Footer */
+  --vp-c-bg-footer: #f1f5f9;
+}
+
+/* === DARK MODE ADJUSTMENTS === */
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-alt: #334155;
+  --vp-c-bg-elv: #1e293b;
+
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #e2e8f0;
+  --vp-c-text-3: #cbd5e1;
+
+  --vp-c-divider: #334155;
+  --vp-c-divider-light: #1e293b;
+
+  --vp-c-brand-1: #0ea5e9;
+  --vp-c-brand-2: #14b8a6;
+  --vp-c-brand-3: #0ea5e9;
+
+  --vp-sidebar-bg-color: #0f172a;
+  --vp-nav-bg-color: #0f172a;
+  --vp-c-bg-footer: #0f172a;
+}
+
+/* === BUTTON STYLING === */
+.vp-button.brand {
+  background-color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+
+.vp-button.brand:hover {
+  background-color: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+}
+
+.vp-button.alt {
+  background-color: transparent;
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.vp-button.alt:hover {
+  background-color: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-brand-2);
+}
+
+/* === TYPOGRAPHY ENHANCEMENTS === */
+/* Already using Inter font family - ensure proper weights */
+.vp-doc h1 {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  border-bottom-color: var(--vp-c-divider);
+}
+
+.vp-doc h2 {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  border-top-color: var(--vp-c-divider);
+}
+
+.vp-doc h3 {
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+
+/* === LINK STYLING === */
+.vp-doc a {
+  color: var(--vp-c-accent-digital);
+  text-decoration: none;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-accent-process);
+}
+
+/* === ROUNDED CORNERS === */
+.vp-doc .custom-block,
+.vp-doc .vp-code-group,
+.vp-doc pre {
+  border-radius: 8px;
+}
+
+/* === CARDS & DEPTH === */
+.vp-doc .custom-block {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* === ACCENT COLOR UTILITIES === */
+.accent-process { color: var(--vp-c-accent-process); }
+.accent-digital { color: var(--vp-c-accent-digital); }
+.accent-people { color: var(--vp-c-accent-people); }
+.accent-warning { color: var(--vp-c-accent-warning); }
+
+.bg-accent-process { background-color: var(--vp-c-accent-process); }
+.bg-accent-digital { background-color: var(--vp-c-accent-digital); }
+.bg-accent-people { background-color: var(--vp-c-accent-people); }
+.bg-accent-warning { background-color: var(--vp-c-accent-warning); }
+
+/* === HOME PAGE HERO CUSTOMIZATION === */
+.VPHero .name {
+  color: var(--vp-c-text-1);
+}
+
+.VPHero .text {
+  color: var(--vp-c-text-2);
+}
+
+.VPHero .tagline {
+  color: var(--vp-c-text-3);
+}
+
+/* === FEATURE CARDS === */
+.VPFeature {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.VPFeature:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === NAVIGATION BAR === */
+.VPNav {
+  background-color: var(--vp-nav-bg-color);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* === SIDEBAR === */
+.VPSidebar {
+  background-color: var(--vp-sidebar-bg-color);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+/* === FOOTER === */
+.VPFooter {
+  background-color: var(--vp-c-bg-footer);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* === CODE BLOCKS === */
+.vp-doc div[class*='language-'] {
+  background-color: var(--vp-c-bg-code);
+  border-radius: 8px;
+}
+
+/* === CUSTOM CALLOUTS === */
+.vp-doc .tip {
+  border-color: var(--vp-c-accent-digital);
+}
+
+.vp-doc .warning {
+  border-color: var(--vp-c-accent-people);
+}
+
+.vp-doc .danger {
+  border-color: var(--vp-c-accent-warning);
+}
+
+.vp-doc .info {
+  border-color: var(--vp-c-accent-process);
+}

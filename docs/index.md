@@ -6,7 +6,7 @@ hero:
   text: "The Global Framework for Digital Government Transformation"
   tagline: 1,800+ pages of implementation guidance based on Estonia, Singapore, UAE, and Denmark
   image:
-    src: /hero-image.svg
+    src: /icons/android-chrome-512x512.png
     alt: Government as a Service
   actions:
     - theme: brand
