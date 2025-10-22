@@ -220,3 +220,150 @@
 .vp-doc .info {
   border-color: var(--vp-c-accent-process);
 }
+
+/* ========================================
+   PRINT STYLES - Optimized for PDF Export
+   ======================================== */
+
+@media print {
+  /* Hide UI elements that shouldn't print */
+  .VPNav,
+  .VPSidebar,
+  .VPFooter,
+  .VPLocalNav,
+  .VPDocFooter,
+  .print-button,
+  .vp-doc .header-anchor,
+  .aside,
+  .edit-link,
+  .prev-next {
+    display: none !important;
+  }
+
+  /* Reset page layout for print */
+  body {
+    background: white !important;
+  }
+
+  .VPDoc {
+    padding: 0 !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .content {
+    padding: 0 !important;
+  }
+
+  /* Optimize text for print */
+  .vp-doc {
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .vp-doc h1 {
+    font-size: 24pt;
+    page-break-after: avoid;
+    margin-top: 0;
+  }
+
+  .vp-doc h2 {
+    font-size: 18pt;
+    page-break-after: avoid;
+    margin-top: 24pt;
+  }
+
+  .vp-doc h3 {
+    font-size: 14pt;
+    page-break-after: avoid;
+    margin-top: 16pt;
+  }
+
+  /* Avoid breaking elements across pages */
+  .vp-doc pre,
+  .vp-doc table,
+  .vp-doc figure,
+  .vp-doc .custom-block {
+    page-break-inside: avoid;
+  }
+
+  /* Links - show URLs */
+  .vp-doc a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
+  }
+
+  /* Code blocks - optimize for print */
+  .vp-doc pre {
+    border: 1px solid #ddd;
+    padding: 12pt;
+    background: #f8f8f8 !important;
+    overflow: visible;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .vp-doc code {
+    background: #f0f0f0 !important;
+    padding: 2pt 4pt;
+    border: 1px solid #ddd;
+  }
+
+  /* Tables */
+  .vp-doc table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .vp-doc th,
+  .vp-doc td {
+    border: 1px solid #333;
+    padding: 8pt;
+  }
+
+  .vp-doc th {
+    background: #f0f0f0;
+    font-weight: bold;
+  }
+
+  /* Images */
+  .vp-doc img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 2cm;
+    size: A4;
+  }
+
+  /* Add page numbers */
+  @page {
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 9pt;
+      color: #666;
+    }
+  }
+
+  /* Custom blocks (callouts) */
+  .vp-doc .custom-block {
+    border: 1pt solid #333;
+    padding: 8pt;
+    margin: 8pt 0;
+    background: #f9f9f9 !important;
+  }
+
+  /* Blockquotes */
+  .vp-doc blockquote {
+    border-left: 3pt solid #333;
+    padding-left: 12pt;
+    font-style: italic;
+  }
+}

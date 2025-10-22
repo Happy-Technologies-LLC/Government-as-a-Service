@@ -3,17 +3,22 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import PrintButton from './components/PrintButton.vue'
+import GiscusComments from './components/GiscusComments.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      // Add print button to the doc-top slot (appears at top of content)
+      'doc-top': () => h(PrintButton),
+      // Add Giscus comments to the doc-after slot (appears at bottom of content)
+      'doc-after': () => h(GiscusComments)
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // app is the Vue 3 app instance from `createApp()`.
-    // router is VitePress' custom router. `siteData` is
-    // a `ref` of current site-level metadata.
+    // Register components globally
+    app.component('PrintButton', PrintButton)
+    app.component('GiscusComments', GiscusComments)
   }
 } satisfies Theme

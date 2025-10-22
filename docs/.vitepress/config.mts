@@ -25,7 +25,13 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Framework', link: '/framework' },
       { text: 'Downloads', link: '/downloads' },
-      { text: 'Community', link: '/tier5-community/community-platform-overview' },
+      {
+        text: 'Community',
+        items: [
+          { text: 'Discussions Forum', link: 'https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions' },
+          { text: 'Community Hub', link: '/tier5-community/community-platform-overview' }
+        ]
+      },
       { text: 'Contact', link: '/contact' }
     ],
 

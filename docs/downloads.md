@@ -1,130 +1,102 @@
-# Downloads
+# Downloads & Print Options
 
-Download the complete Government as a Service framework or individual documents.
-
-## Complete Framework Bundle
-
-**[Download All Documents (ZIP)](#)**
-
-Contains all 40 documents as PDFs (~50MB total)
-- 1 Manifesto
-- 1 Executive Playbook + 2 Supplementary Guides
-- 3 Technical Blueprint Volumes + 1 Supplement
-- 10 Implementation Playbooks
-- 21 Policy & Legal Templates
-- 5 Community Hub Documents
+Access the Government as a Service framework in multiple formats.
 
 ---
 
-## Tier 0: Manifesto
+## 📥 Download Key Documents (PDF)
 
-The 6-page vision document for political leaders and executives.
+Pre-generated PDFs for offline sharing and executive presentations:
 
-- **[The Manifesto (PDF)](#)** - 6 pages
-- [Read Online](/tier0-manifesto/gaas-manifesto)
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 32px 0;">
 
----
+<div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">📖 The Manifesto</h3>
+<p>6-page vision document ideal for executive briefings and political leaders.</p>
+<div style="display: flex; gap: 12px; margin-top: 16px;">
+<a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
+<a href="/tier0-manifesto/gaas-manifesto" style="padding: 8px 16px; border: 1px solid var(--vp-c-brand-1); color: var(--vp-c-brand-1); border-radius: 6px; text-decoration: none; display: inline-block;">Read Online</a>
+</div>
+</div>
 
-## Tier 1: Executive Playbook
+<div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">📋 Framework Overview</h3>
+<p>10-page summary of the complete GaaS framework with implementation pathways.</p>
+<div style="display: flex; gap: 12px; margin-top: 16px;">
+<a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
+<a href="/framework" style="padding: 8px 16px; border: 1px solid var(--vp-c-brand-1); color: var(--vp-c-brand-1); border-radius: 6px; text-decoration: none; display: inline-block;">Read Online</a>
+</div>
+</div>
 
-Strategic guide for heads of government, ministers, and C-suite executives.
+<div style="padding: 24px; border: 2px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft);">
+<h3 style="margin-top: 0; color: var(--vp-c-brand-1);">🚀 Executive Quick Start</h3>
+<p>15-page guide for heads of government and digital ministers to get started.</p>
+<div style="display: flex; gap: 12px; margin-top: 16px;">
+<a href="#" style="padding: 8px 16px; background: var(--vp-c-brand-1); color: white; border-radius: 6px; text-decoration: none; display: inline-block;">Download PDF</a>
+<a href="/tier1-executive-playbook/executive-playbook" style="padding: 8px 16px; border: 1px solid var(--vp-c-brand-1); color: var(--vp-c-brand-1); border-radius: 6px; text-decoration: none; display: inline-block;">Read Online</a>
+</div>
+</div>
 
-- **[Executive Playbook (PDF)](#)** - 200+ pages (Parts I-V)
-- **[Greenfield Implementation Guide (PDF)](#)** - 25 pages (Supplement)
-- **[Fiscal Architecture (PDF)](#)** - 18 pages (Supplement)
-
-[Read Online](/tier1-executive-playbook/executive-playbook)
-
----
-
-## Tier 2: Technical Blueprints
-
-Detailed architecture specifications for CTOs and technical teams.
-
-- **[Volume 1: People & Organizational Architecture (PDF)](#)** - Talent, Culture, Change, Leadership (40% Investment)
-- **[Volume 2: Process & Service Management (PDF)](#)** - GSM Framework, Service Design, Operations (40% Investment)
-- **[Volume 3: Technology & Platform Architecture (PDF)](#)** - Platforms, Infrastructure, Security (20% Investment)
-- **[Talent Strategy (PDF)](#)** - 20 pages (Supplement to Volume 1)
-
-[Read Online](/tier2-technical-blueprint/volume-1-people-organizational-architecture)
-
----
-
-## Tier 3: Implementation Playbooks
-
-Step-by-step guides for workstream leads and project managers.
-
-- **[1. Digital Identity Implementation (PDF)](#)** - 15 pages
-- **[2. API Gateway Deployment (PDF)](#)** - 15 pages
-- **[3. Co-Design and Citizen Engagement (PDF)](#)** - 15 pages
-- **[4. Zero Trust Architecture Migration (PDF)](#)** - 15 pages
-- **[5. Digital Inclusion Strategy (PDF)](#)** - 15 pages
-- **[6. Cybersecurity Operations (PDF)](#)** - 15 pages
-- **[7. Data Governance Framework (PDF)](#)** - 15 pages
-- **[8. Change Management and Training (PDF)](#)** - 20 pages
-- **[9. GSM Implementation Guide (PDF)](#)** - 30 pages
-- **[10. Service Portfolio & Cost Management (PDF)](#)** - 30 pages
-
-[Browse Online](/tier3-playbooks/1-digital-identity-implementation)
+</div>
 
 ---
 
-## Tier 4: Policy & Legal Templates
+## 🖨️ Print Any Page as PDF
 
-Model legislation, policies, and governance documents.
+All documentation is print-optimized with clean, professional layouts. Look for the **Print Page** button at the top of every document.
 
-### Legislative Templates (5 acts)
+### How to Print:
 
-- **[Digital Identity Act (PDF)](#)** - 15 pages
-- **[Data Protection and Privacy Act (PDF)](#)** - 20 pages
-- **[E-Government Services Act (PDF)](#)** - 15 pages
-- **[Cybersecurity Act (PDF)](#)** - 15 pages
-- **[Open Data and Transparency Act (PDF)](#)** - 15 pages
+**Option 1: Use the Print Button** (Recommended)
+- Click the **🖨️ Print Page** button at the top of any document
+- Your browser's print dialog will open
+- Select "Save as PDF" as your printer
+- Click "Save"
 
-### Policy Templates (10 policies)
+**Option 2: Keyboard Shortcut**
+- Navigate to any page
+- Press `Ctrl + P` (Windows/Linux) or `Cmd + P` (Mac)
+- Select "Save as PDF"
+- Done!
 
-- **[National Digital Strategy Template (PDF)](#)**
-- **[API Governance Policy (PDF)](#)**
-- **[Cloud First Policy (PDF)](#)**
-- **[Digital Identity Assurance Framework (PDF)](#)**
-- **[Algorithmic Accountability Policy (PDF)](#)**
-- **[Data Sharing Framework (PDF)](#)**
-- **[Privacy Impact Assessment Template (PDF)](#)**
-- **[Algorithmic Impact Assessment Template (PDF)](#)**
-- **[Vendor Security Requirements (PDF)](#)**
-- **[Acceptable Use Policy (PDF)](#)**
+### Print Features:
 
-### Governance Documents (6 documents)
-
-- **[Digital Transformation Office Charter (PDF)](#)**
-- **[Chief Digital Officer Job Description (PDF)](#)**
-- **[Digital Service Standard (PDF)](#)**
-- **[Technology Selection Framework (PDF)](#)**
-- **[Risk Management Framework (PDF)](#)**
-- **[Performance Dashboard Specification (PDF)](#)**
-
-[Browse Online](/tier4-policy-legal/digital-identity-act)
+✅ Clean layouts without navigation sidebars
+✅ Optimized typography for reading
+✅ Proper page breaks
+✅ Table of contents preserved
+✅ Brand-consistent styling
 
 ---
 
-## Tier 5: Community Hub
+## 📂 Browse by Category
 
-Documentation for building a global practitioner community.
+Navigate to any section and use the print button to save as PDF:
 
-- **[Community Platform Overview (PDF)](#)** - 20 pages
-- **[Certification Program (PDF)](#)** - 25 pages
-- **[Implementation Registry (PDF)](#)** - 15 pages
-- **[Events Program (PDF)](#)** - 18 pages
-- **[Governance Model (PDF)](#)** - 18 pages
+### Tier 0: Strategic Vision
+- [The Manifesto](/tier0-manifesto/gaas-manifesto) - 6-page vision document
 
-[Browse Online](/tier5-community/community-platform-overview)
+### Tier 1: Executive Guidance
+- [Executive Playbook](/tier1-executive-playbook/executive-playbook) - Strategic guide (200+ pages)
+- [Greenfield Implementation Guide](/tier1-executive-playbook/greenfield-implementation-guide) - New government pathway
+- [Fiscal Architecture](/tier1-executive-playbook/fiscal-architecture) - Funding models
 
----
+### Tier 2: Technical Architecture
+- [Volume 1: People & Organizational Architecture](/tier2-technical-blueprint/volume-1-people-organizational-architecture)
+- [Volume 2: Process & Service Management](/tier2-technical-blueprint/volume-2-process-service-management-architecture)
+- [Volume 3: Technology & Platform Architecture](/tier2-technical-blueprint/volume-3-technology-platform-architecture)
 
-## Additional Resources
+### Tier 3: Implementation Playbooks
+- [Digital Identity](/tier3-playbooks/1-digital-identity-implementation) | [API Gateway](/tier3-playbooks/2-api-gateway-deployment) | [Co-Design](/tier3-playbooks/3-codesign-engagement)
+- [Zero Trust](/tier3-playbooks/4-zero-trust-migration) | [Digital Inclusion](/tier3-playbooks/5-digital-inclusion-strategy) | [Cybersecurity](/tier3-playbooks/6-cybersecurity-operations)
+- [Data Governance](/tier3-playbooks/7-data-governance-framework) | [Change Management](/tier3-playbooks/8-change-management-training)
+- [GSM Implementation](/tier3-playbooks/9-gsm-implementation-guide) | [Service Portfolio](/tier3-playbooks/10-service-portfolio-cost-management)
 
-- **[Peer Review Summary (PDF)](#)** - Comprehensive quality assessment
-- **[Implementation Roadmap (PDF)](#)** - 4-week launch plan
+### Tier 4: Policy & Legal Templates
+- [View All Legislative Acts & Policies](/tier4-policy-legal/digital-identity-act) (21 documents)
+
+### Tier 5: Community Hub
+- [View All Community Documents](/tier5-community/community-platform-overview) (5 documents)
 
 ---
 
