@@ -219,19 +219,31 @@ The GaaS Community Governance Model establishes the organizational structure, de
 - Member may be removed for: Conflict of interest violations, Code of Conduct violations, failure to participate (miss 3 consecutive meetings)
 - Removal requires 2/3 vote of Steering Committee + approval by community (60% vote in favor)
 
-### 2.3 Meetings and Operations
+### 2.3 Meetings and Operations - Reality Check
+
+⚠️ **GOVERNANCE COMPLEXITY:** 15-person committee across 10 time zones is HARD
 
 **Meeting Frequency:**
 - Quarterly in-person meetings (co-located with GaaS Summit or regional workshops)
+  - **Reality:** Travel costs $30K-$50K per meeting (15 people × $2K-$3K average)
+  - **Reality:** Scheduling across time zones requires 3-4 weeks advance planning
 - Monthly video calls (1-2 hours, standing agenda)
+  - **Reality:** Finding 2-hour slot for 15 people across 10 zones = impossible
+  - **Solution:** 90-minute calls at rotating times (fair to all regions)
 - Ad-hoc calls as needed (urgent decisions, crisis response)
+  - **Reality:** "Urgent" decisions still take 2-3 days minimum (time zones + async voting)
 
 **Quorum:** 60% of members (9 of 15) must be present to conduct official business
+- **Reality:** Achieving quorum for monthly calls is challenging (30% absence rate typical)
+- **Mitigation:** Async voting for non-urgent decisions, lower bar (7 of 15) for routine items
 
 **Decision-Making:**
 - Consensus preferred (seek agreement from all members)
+  - **Reality:** Consensus with 15 people rarely happens. Budget 6-8 weeks for major decisions.
 - If consensus not possible, majority vote (8 of 15)
+  - **Reality:** This is the norm, not the exception. Accept it.
 - Major decisions require supermajority (10 of 15): Budget approval, governance changes, removal of member
+  - **Reality:** Supermajority can take 3-4 months if controversial. Build timelines accordingly.
 
 **Roles:**
 - **Chair:** Elected annually by Steering Committee, presides over meetings, represents community externally, 2-year term limit

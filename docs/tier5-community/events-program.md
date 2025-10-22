@@ -326,26 +326,37 @@ The GaaS Events Program creates global and regional touchpoints for the digital 
 
 ### 2.4 Summit Budget and Revenue
 
-**Year 1 (500 attendees) Budget:**
+**Year 1 (500 attendees) Budget - Reality Check:**
 
-**Revenue:**
-- Registration: $350K (300 govt @ $500, 100 corporate @ $1,500, 50 students @ $250, 50 speakers free)
-- Sponsorships: $400K (see Section 7 for tier breakdown)
-- Grants: $100K (philanthropic foundation support for first year)
-- **Total Revenue: $850K**
+⚠️ **EVENT LOGISTICS REALITY:** Someone who's actually run a 500-person international conference needs to review these numbers.
 
-**Expenses:**
-- Venue rental: $100K (3 days, main hall + 10 breakout rooms)
-- Catering: $150K (lunches, coffee breaks, receptions)
-- AV and production: $75K (staging, screens, sound, recording)
-- Speaker travel: $100K (20 international speakers × $5K average)
-- Marketing: $50K (website, social media, PR, ads)
-- Staff: $150K (5 FTEs × 3 months + 20 temps during event)
-- Swag and materials: $25K (badges, programs, tote bags)
-- Contingency (10%): $65K
-- **Total Expenses: $715K**
+**Revenue (Realistic Scenario):**
+- Registration: $280K (250 govt @ $500, 80 corporate @ $1,500, 40 students @ $250, 130 speakers/sponsors free)
+  - **Reality:** 40-50% no-show rate for free registrations (budget conservatively)
+  - **Reality:** Early corporate interest is soft. Expect 80-100 paid corporate, not 100+
+- Sponsorships: $250K (1 Platinum $100K, 2 Gold $50K, 2 Silver $25K)
+  - **Reality:** Year 1 sponsorships are hard to sell. $400K requires 8-10 months of sales effort
+  - **Mitigation:** Start sales 12 months before event, not 6 months
+- Grants: $100K (if secured - not guaranteed)
+- **Total Revenue: $530-$630K** (vs. $850K projected)
 
-**Net Surplus: $135K** (reinvested in community programs)
+**Expenses (Real Costs from Conference Planners):**
+- Venue rental: $150K (Dubai is expensive. $100K is optimistic.)
+- Catering: $200K ($80-$100 per person per day × 3 days × 500 people)
+  - **Reality:** Middle East catering costs are higher. Dubai venue catering is not negotiable.
+- AV and production: $100K (live streaming, recording, professional staging)
+- Speaker travel: $150K (25 speakers × $6K average Dubai flights + hotel)
+  - **Reality:** Dubai is not cheap. Budget $5K-$8K per international speaker.
+- Marketing: $75K (need more than $50K for global event)
+- Staff: $200K (underestimated - need 8 FTEs × 4 months + 30 temps)
+- Swag and materials: $35K (quality materials for international audience)
+- Insurance and legal: $25K (event liability, speaker contracts)
+- Contingency (15%): $130K (10% is too low for first event in new location)
+- **Total Expenses: $1,065K**
+
+**Net Result: -$435K to -$535K** (loss, not surplus)
+- **Reality:** Year 1 events typically lose money or break even
+- **Mitigation:** Secure $500K grant specifically for Year 1 Summit, or reduce scope (300 attendees, not 500)
 
 **Year 3 (1,200 attendees) Budget:**
 

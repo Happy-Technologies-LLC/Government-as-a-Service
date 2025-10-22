@@ -9,7 +9,15 @@ This playbook follows the People-Process-Technology (PPT) framework with process
 - **Process (45%):** Classification policies, sharing agreements, Privacy Impact Assessments, retention schedules, compliance audits
 - **Technology (20%):** Master data management, data catalogs, privacy management tools, monitoring systems
 
-**Investment Required:** 2-3% of digital transformation budget (typically $5-15M setup + $2-5M annual)
+**Investment Required (Budget Edition):** 2-3% of digital transformation budget (typically $6-10M setup + $2-5M annual)
+**Investment Required (Reality Edition):** $10-16M setup + $4-8M annual (because data cleansing, politics, and steward salaries cost more than Excel formulas suggest)
+
+**Why the 60% overrun?**
+- Data is messier than you think (duplicate records, inconsistent formats, years of technical debt)
+- Data stewards are expensive and hard to find (need domain + technical knowledge)
+- Politics slow everything down (agencies fight over who "owns" shared data)
+- Master data management tools cost 2-3x more than brochure prices (licensing + professional services + integration)
+- Compliance requirements expand mid-project (new privacy law passes, scope doubles)
 
 This allocation reflects that data governance is predominantly about policy, procedures, and compliance frameworks, with technology playing an enabling rather than driving role.
 
@@ -38,12 +46,19 @@ Effective data governance is essential for digital government transformation. It
 - Implement "Tell Us Once" to reduce citizen burden
 - Ensure compliance through monitoring, audit, and enforcement
 
-**Expected Outcomes:**
+**Expected Outcomes (Aspirational):**
 - 100% of data assets classified within 12 months
 - 80% reduction in duplicate data collection from citizens (via Tell Us Once)
 - 95%+ compliance with data retention and deletion policies
 - Zero major data breaches attributed to governance failures
 - 90%+ citizen trust in government data handling
+
+**Expected Outcomes (Realistic):**
+- 70% of data assets classified within 18 months (the rest are legacy systems nobody understands)
+- 40-50% reduction in duplicate data collection within 24 months (Tell Us Once is hard)
+- 75% compliance with retention policies (someone always forgets to delete old data)
+- 1-2 governance-related incidents (human error happens)
+- 70% citizen trust (up from 50% if you're transparent about problems)
 
 ---
 
@@ -1304,6 +1319,493 @@ See "PIA Template (20+ Questions)" section above (comprehensive template provide
 - Access logging and audit trails
 - Automated data retention and deletion
 - Secure data sharing platforms
+
+---
+
+## What Usually Goes Wrong
+
+Reality check: Data governance fails more often than it succeeds. Here's why (and how to avoid it):
+
+### 1. Committee Without Authority
+**The mistake:** Create a "Data Governance Board" with representatives from every agency, no executive sponsor, no budget, no authority.
+
+**What happens:** Board meets monthly. Discusses important policies. Makes recommendations. Nothing happens. Agencies ignore recommendations. Board becomes a talking shop. After 6 months, attendance drops to 30%. After 12 months, board is disbanded quietly.
+
+**Reality check:** Data governance needs TEETH. The board must:
+- Report directly to Cabinet/CEO (not buried under CIO)
+- Control budget ($5-15M for governance initiatives)
+- Have enforcement power (can block projects, suspend data sharing)
+- Have executive representation (not just middle managers)
+
+If your Data Governance Board can't say "no" to a Minister, it's powerless.
+
+### 2. Trying to Perfect Master Data on Day One
+**The mistake:** "Before we launch Tell Us Once, we need to clean ALL citizen data across ALL systems. Then we'll have perfect master data!"
+
+**What happens:** You discover:
+- 20% of citizen records have no email address
+- 15% have old addresses
+- 10% are duplicates (same person, different ID numbers)
+- 5% have data quality issues (name misspelled, DOB wrong)
+- Legacy system from 1987 has data nobody can decode
+
+You spend 2 years trying to clean everything. Budget triples. Tell Us Once never launches. Initiative fails.
+
+**Reality check:** Launch with "good enough" data (80-90% clean). Use Tell Us Once to IMPROVE data quality over time (citizens correct their own data). Perfectionism kills data projects.
+
+**Better approach:**
+- Identify critical data (name, DOB, address)
+- Clean critical data for active citizens (focus on 80% who interact with govt regularly)
+- Accept that 10-20% of data will always be messy (inactive citizens, deceased, duplicates)
+- Launch Tell Us Once, use feedback loops to improve quality
+
+### 3. IT Owns Data Governance (Recipe for Disaster)
+**The mistake:** "Data governance is about databases and systems, so IT should run it."
+
+**What happens:** IT creates technical data governance (database schemas, API standards, encryption). But has no authority over business processes. Result:
+- Marketing department creates rogue database (IT doesn't know about it)
+- HR shares employee data with consultant (IT says "no", HR does it anyway)
+- Minister demands data for political purposes (IT has no power to refuse)
+
+**Reality check:** Data governance is 80% business/policy, 20% technical. IT enables governance, but BUSINESS must own it.
+
+**Correct model:**
+- Chief Data Officer (CDO) is a business role (reports to CEO/Cabinet)
+- Data owners are business leaders (agency heads, department directors)
+- IT provides tools and technical guidance (but doesn't make policy decisions)
+
+If IT owns data governance, you've lost before you started.
+
+### 4. Centralizing All Data (The Death Star Approach)
+**The mistake:** "We'll create a central data warehouse with ALL government data. One database to rule them all!"
+
+**What happens:**
+- Project costs $50M and takes 5 years
+- Agencies refuse to share data (loss of control, security concerns)
+- Central warehouse becomes bottleneck (every query must go through it)
+- Data is stale (batched nightly, not real-time)
+- Single point of failure (warehouse goes down, entire government paralyzed)
+
+**Reality check:** Distributed data with federated governance works better than centralization.
+
+**Better approach:**
+- Data stays in agencies (they own it, they're accountable)
+- Central catalog/registry (index of what data exists where)
+- APIs for access (agencies query each other in real-time)
+- Common standards (so data can be integrated when needed)
+- Tell Us Once for core citizen data only (name, DOB, address, contact)
+
+Don't build a Death Star. Build a federation.
+
+### 5. Policy Without Enforcement
+**The mistake:** "We've published our data classification policy and retention schedules. Everyone will comply!"
+
+**What happens:** Policies sit on SharePoint. Nobody reads them. Agencies do whatever they want. Audit finds:
+- 30% of data is unclassified
+- 40% of data should have been deleted per retention policy (but wasn't)
+- 15 data sharing agreements expired 2+ years ago (still sharing data)
+- Nobody knows who the data owners are
+
+**Reality check:** Policy without enforcement is just words.
+
+**Enforcement mechanisms needed:**
+- Automated checks (systems enforce classification, deletion)
+- Regular audits (sample 10% of data quarterly)
+- Consequences for non-compliance (budget impact, public reporting)
+- Executive backing (CEO/Cabinet supports enforcement)
+
+If you can't audit compliance, you can't govern.
+
+### 6. DPO Without Independence
+**The mistake:** Data Protection Officer reports to CIO or COO (operational role), has no budget, has no veto power.
+
+**What happens:** DPO reviews Privacy Impact Assessments. Finds privacy risks. Recommends mitigations. CIO overrules ("too expensive"). Project proceeds with risks. Data breach happens 6 months later. DPO says "I told you so." Nobody cares.
+
+**Reality check:** DPO must be independent or the role is theater.
+
+**Independence requirements:**
+- Reports to CEO/Cabinet, not operational managers
+- Cannot be fired for DPO decisions (employment protection)
+- Has veto power over high-risk projects (can be overridden only by executive with public risk acceptance)
+- Has dedicated budget and staff
+
+If your DPO can't say "no" and make it stick, hire a consultant instead (same outcome, cheaper).
+
+### 7. Tell Us Once Without Data Standards
+**The mistake:** "We'll build Tell Us Once! Citizen updates address once, we propagate to all agencies."
+
+**What happens:** You discover every agency stores addresses differently:
+- Agency A: Single "address" field (free text, no structure)
+- Agency B: Structured (street, city, postal code) but uses old postal codes
+- Agency C: Geocoded (lat/long) but no street address
+- Agency D: Uses PO Box (no physical address)
+
+Tell Us Once tries to update all systems. Fails 60% of the time (data format mismatch). Citizen gets error message. Calls helpdesk. Told to update each agency manually. Tell Us Once is abandoned.
+
+**Reality check:** Tell Us Once requires data standards FIRST.
+
+**Prerequisites:**
+- Common data model (all agencies use same address structure)
+- Data quality rules (validation, required fields)
+- Master data repository (source of truth for citizen data)
+- Agency commitment to migrate (retrofit old systems to support standards)
+
+Budget 12-18 months for data standardization BEFORE launching Tell Us Once.
+
+### 8. No Business Case (Governance for Governance's Sake)
+**The mistake:** "We need data governance because compliance requires it!"
+
+**What happens:** Executive sees $10M budget, asks "what do we get for this?" Answer: "Uh... compliance? Good governance?" Executive says "too vague, not funding."
+
+**Reality check:** Data governance must deliver business value, not just compliance.
+
+**Business case examples:**
+- **Reduce duplicate data collection:** Tell Us Once saves citizens 500,000 hours/year (quantified value)
+- **Improve data quality:** Better addresses = fewer undeliverable mailings = $2M/year savings
+- **Enable data sharing:** Tax + social services share data = 30% reduction in benefit fraud = $50M/year savings
+- **Avoid fines:** GDPR compliance prevents €20M fine (happened to Agency X)
+
+If you can't quantify value, executives won't fund it.
+
+### 9. Ignoring Legacy Systems
+**The mistake:** "Data governance applies to all systems!"
+
+**What happens:** You discover 40% of government data is in systems built 1980-2000. These systems:
+- Have no APIs (batch file transfer only)
+- Use proprietary formats (nobody knows how to decode)
+- Have no documentation (original developers retired 15 years ago)
+- Cannot be modified (source code lost or too risky to change)
+
+Your data governance policy says "all systems must classify data, log access, delete per retention schedule." Legacy systems can't do any of this.
+
+**Reality check:** Legacy systems can't comply with modern governance. Accept this.
+
+**Pragmatic approach:**
+- Tier systems: Modern (full governance), Legacy (best effort), Critical Legacy (replacement roadmap)
+- Workarounds: Manual classification (spreadsheet tracking), periodic purges (not automated)
+- Sunset legacy systems (replace over 5-10 years)
+
+Don't let legacy systems kill your governance program. Work around them.
+
+### 10. Measuring Activity Instead of Outcomes
+**The mistake:** "We've classified 10,000 datasets! We've completed 50 PIAs! We've signed 30 data sharing agreements! Success!"
+
+**What happens:** You're measuring activity (inputs), not outcomes. Questions nobody asks:
+- Did classification improve security? (Or just create paperwork?)
+- Did PIAs prevent breaches? (Or rubber-stamp everything?)
+- Did data sharing improve services? (Or just shuffle data around?)
+
+**Reality check:** Measure outcomes, not activity.
+
+**Better metrics:**
+- Data breach rate (decreasing?)
+- Citizen satisfaction with data handling (improving?)
+- Efficiency gains from data sharing (quantified?)
+- Compliance audit pass rate (high?)
+- Time to provision data access (decreasing?)
+
+If your metrics don't prove value, you're just counting widgets.
+
+---
+
+## Realistic Timeline (What Actually Happens)
+
+**Your plan:** 9 months to operational data governance
+
+**Reality:** 24-36 months to clean data and functional governance, 4-5 years to maturity
+
+Here's the brutal truth:
+
+### Phase 1: Discovery & Planning (Months 1-6) - Plan says 2 months, reality is 6
+**Planned:**
+- Catalog existing data assets
+- Define classification framework
+- Establish governance board
+
+**Reality:**
+- Month 1-2: Ask agencies "what data do you have?" Get vague answers ("citizen data", "operational data")
+- Month 3-4: Send auditors to agencies, discover databases nobody knew existed
+- Month 5: Compile inventory, discover 40% of data has no documented owner
+- Month 6: Fight over who should be on governance board (every agency wants a seat, 20 people show up to first meeting, nothing gets done)
+
+**Delay causes:**
+- Agencies don't know what data they have (no documentation)
+- Political arguments over governance structure
+- Legacy systems emerge from shadows (nobody mentioned the 1987 COBOL system until now)
+
+### Phase 2: Policy Development (Months 6-12) - Plan says 3 months, reality is 6
+**Planned:**
+- Draft classification policy
+- Draft retention schedules
+- Draft data sharing framework
+
+**Reality:**
+- Month 6-7: Draft policies, circulate for comment
+- Month 8-9: Receive 200+ pages of comments from agencies (everyone disagrees)
+- Month 10-11: Negotiating consensus (classification tier debate rages for 2 months: "Is personnel data Confidential or Secret?")
+- Month 12: Policies approved by governance board (after 3 revisions)
+
+**Delay causes:**
+- Every agency wants custom rules for their data
+- Legal review takes forever (counsel is backlogged)
+- Executive approval delayed (waiting for Cabinet meeting slot)
+
+### Phase 3: Data Classification (Months 12-24) - Plan says 6 months, reality is 12
+**Planned:**
+- Classify all data assets per new policy
+
+**Reality:**
+- Month 12-15: Train data stewards (need 50+ stewards across agencies, training takes 3 months)
+- Month 16-20: Stewards classify known data (60% of inventory)
+- Month 21-24: Fight over the 40% of data with unclear ownership or legacy systems
+
+**What you discover:**
+- 30% of data assets have no clear owner (orphan data)
+- 20% of systems can't support classification metadata (legacy systems)
+- 10% of data is classified differently by different agencies (address data is "Public" in Agency A, "Confidential" in Agency B - now what?)
+
+**Delay causes:**
+- Stewards have day jobs (data governance is 10-20% of their time)
+- Legacy systems require manual classification (can't automate)
+- Political disputes over classification (agency wants lower classification to share more freely, another wants higher for security)
+
+### Phase 4: Master Data Management & Tell Us Once (Months 12-36) - Plan says 6 months, reality is 24
+**Planned:**
+- Implement master data repository
+- Launch Tell Us Once
+
+**Reality:**
+- Month 12-18: Select master data management (MDM) vendor (RFP, evaluation, procurement)
+- Month 19-24: Deploy MDM platform, integrate with 3 pilot agencies
+- Month 25-30: Data cleansing (discover 20% of citizen records have quality issues)
+- Month 31-33: Expand to 10 agencies, hit integration problems (every agency's system is different)
+- Month 34-36: Limited launch of Tell Us Once (address updates only, 50% success rate)
+
+**What goes wrong:**
+- MDM tool costs 3x vendor quote (professional services, customization)
+- Data cleansing takes forever (manual review of millions of records)
+- Agencies resist integration (loss of control, technical complexity)
+- Tell Us Once fails 50% of the time (data format issues, validation errors)
+
+**Delay causes:**
+- Vendor delivery and deployment (6-12 months)
+- Data quality worse than expected (12-18 months cleansing)
+- Agency integration backlog (IT teams overwhelmed)
+
+### Phase 5: Privacy & Compliance (Months 6-24) - Parallel to other phases
+**Planned:**
+- Appoint DPO
+- Establish PIA process
+- Complete PIAs for existing systems
+
+**Reality:**
+- Month 6-9: Recruit DPO (hard to find qualified candidates)
+- Month 10-12: DPO develops PIA framework, templates
+- Month 13-24: Backlog of 50+ systems needing retroactive PIAs (5-10 PIAs completed per month)
+
+**What you discover:**
+- Many existing systems don't pass PIA (privacy risks identified, need remediation)
+- DPO rejects 20% of PIAs on first review (need revisions)
+- Agencies complain DPO is "blocking progress" (political pressure on DPO)
+
+**Delay causes:**
+- PIA backlog enormous (50+ systems x 4 weeks per PIA = 200 weeks if sequential)
+- Remediation required (systems need to be modified, takes months)
+- Political pressure (agencies want fast approval, DPO wants thorough review)
+
+### Phase 6: Enforcement & Maturity (Months 24-48) - Not in plan, but essential
+**What actually happens:**
+- Month 24-30: First audits reveal 30% non-compliance (data not classified, retention not followed)
+- Month 31-36: Enforcement begins (agencies forced to comply, pushback)
+- Month 37-42: Second audit, compliance improves to 70%
+- Month 43-48: Third audit, compliance reaches 85% (realistic target)
+- Year 4-5: Continuous improvement, governance becomes "business as usual"
+
+**Why this takes so long:**
+- Compliance is cultural change (takes years, not months)
+- Enforcement is politically sensitive (nobody wants to punish colleagues)
+- Legacy systems can't comply (workarounds take time)
+
+### Key Insight: The 9-Month Fantasy
+Nobody achieves functional data governance in 9 months. Anyone who claims they did either:
+1. Defined "functional" as "policies written" (not implemented)
+2. Governed only new systems (ignored legacy)
+3. Ignored compliance (no audits, no enforcement)
+4. Is lying
+
+Budget 24 months to get basics in place. Budget 36 months to achieve 70%+ compliance. Budget 48+ months for maturity.
+
+---
+
+## Budget Reality Check
+
+**Official budget:** $6-10M setup, $2-5M annual
+
+**What you'll actually spend:** $10-16M setup, $4-8M annual
+
+### Setup Budget Breakdown (Reality Edition)
+
+| Category | Official Budget | Reality | Why the Difference |
+|----------|----------------|---------|-------------------|
+| **MDM Platform** | $1-2M | $2-4M | + Professional services (150% of license cost), + Customization (your data model is unique), + Integration (every system needs a connector) |
+| **Data Catalog** | $500K-$1M | $750K-$1.5M | + User licenses scale faster than expected, + Premium features needed |
+| **Privacy Management Tools** | $300K-$500K | $500K-$1M | + PIA workflow, consent management, DSAR automation all cost extra |
+| **Data Quality/Cleansing** | $1-2M | $3-5M | + Manual cleansing (hire temps to review records), + De-duplication complexity, + Steward time costs |
+| **People (CDO, DPO, Stewards)** | $2-4M | $3-6M | + Can't find qualified CDO for govt salary (pay premium or use consultant), + DPO needs staff (not just 1 person), + Stewards are 10-50% FTE each (add up fast) |
+| **Consulting** | $1-2M | $2-4M | + Policy development, + Training delivery, + Audit support |
+| **Training** | $300K-$500K | $500K-$1M | + Need to train 500+ staff on governance, + Repeated training (turnover) |
+| **Legacy System Remediation** | $500K-$1M | $1-2M | + Retrofit old systems to support classification, logging, + Replacement roadmap for systems that can't be fixed |
+
+**Total Setup:** $6-10M (plan) → $10-16M (reality)
+
+**Why the 60% overrun?**
+1. Data is messier than you thought (cleansing costs 2-3x estimates)
+2. Tools require extensive customization (vendor brochure prices don't include 150% professional services)
+3. People costs escalate (qualified data governance experts are expensive)
+4. Political delays = extended consultant costs
+
+### Annual Operating Budget Breakdown (Reality Edition)
+
+| Category | Official Budget | Reality | Why the Difference |
+|----------|----------------|---------|-------------------|
+| **People (Salaries)** | $1-2M | $2-4M | + CDO, DPO, deputy DPO, 20-50 data stewards (10-50% FTE each), + Turnover |
+| **Tool Licenses** | $500K-$1M | $750K-$1.5M | + Annual price increases, + User growth |
+| **Data Quality** | $300K-$500K | $500K-$1M | + Ongoing cleansing (data gets dirty again), + Steward time |
+| **Training** | $200K-$300K | $300K-$500K | + New hires, + Refresher training, + Expanding scope |
+| **Audits** | $200K-$300K | $300K-$500K | + Internal audits quarterly, + External audit annually |
+| **Consulting** | $300K-$500K | $500K-$1M | + Spot help (complex PIAs, data sharing agreements, remediation) |
+
+**Total Annual:** $2-5M (plan) → $4-8M (reality)
+
+**Why the 60% overrun?**
+1. People costs dominate (stewards, DPO staff, specialists)
+2. Data quality is never "done" (continuous cleansing needed)
+3. Scope creeps (more systems added to governance over time)
+
+### How to NOT Go 60% Over Budget
+You will go over budget. But you can limit damage:
+
+1. **Phase the scope:** Start with critical data (citizen identity, health, financial), add other data over 3-5 years
+2. **Automate classification:** Use machine learning to classify data (cheaper than manual stewards, 70-80% accurate)
+3. **Buy, don't build:** Use SaaS MDM/catalog tools (cheaper than on-prem, faster to deploy)
+4. **Outsource cleansing:** Hire offshore data cleansing team ($20/hour vs. $100/hour for local staff)
+5. **Limit stewards:** Don't need 50 stewards, 10-15 senior stewards covering multiple domains works
+
+---
+
+## Realistic Success Metrics
+
+Forget "100% compliance" dreams. Here's what success actually looks like:
+
+### Year 1: Foundation Metrics
+- **Governance structure in place:** Board meets monthly, CDO and DPO hired, policies approved
+- **60% of data assets cataloged:** You know what data exists, who owns it
+- **50% of data assets classified:** Critical data classified, rest in progress
+- **PIA process operational:** 20+ PIAs completed, backlog being worked down
+- **First data sharing agreements signed:** 5-10 agreements under new framework
+- **Tell Us Once pilot:** Address updates working for 3-5 agencies (50%+ success rate)
+
+### Year 2: Operational Metrics
+- **80% of data assets classified:** Most data done, only legacy holdouts remain
+- **70% compliance with retention policies:** Agencies starting to delete old data
+- **PIA backlog cleared:** All new systems get PIA, 50+ existing systems done
+- **15-20 active data sharing agreements:** Cross-agency sharing operational
+- **Tell Us Once expanded:** 10+ agencies, 60-70% success rate, 3-5 data types (address, phone, email)
+- **First compliance audit:** 60-70% pass rate (not great, but baseline established)
+
+### Year 3: Maturity Metrics
+- **90% of data assets classified:** Only unsolvable legacy exceptions remain
+- **80% compliance with retention policies:** Automated deletion working
+- **Zero major compliance failures:** No fines, no major breaches due to governance gaps
+- **30+ active data sharing agreements:** Sharing is routine, well-governed
+- **Tell Us Once mainstream:** 80%+ success rate, 15+ agencies, 10+ data types
+- **Compliance audit:** 80-85% pass rate (good)
+
+### The Metrics You WON'T Hit (And That's OK)
+- **100% classification:** Legacy systems will never comply, accept 90-95%
+- **100% compliance:** Human error exists, 85-90% is realistic
+- **Zero governance incidents:** Mistakes happen, aim for <2/year major incidents
+- **Instant Tell Us Once:** Some agencies will always be slow to integrate
+
+### How to Measure Success (For Executives)
+Create a **Data Governance Maturity Score** (0-100):
+
+**Formula:**
+- 20 points: Policy & structure (policies approved +10, board functional +10)
+- 20 points: Classification (60% +10, 80% +15, 90% +20)
+- 15 points: Compliance (retention 70% +10, 85% +15)
+- 15 points: Privacy (PIA backlog cleared +10, zero major incidents +5)
+- 15 points: Data sharing (10+ agreements +10, Tell Us Once working +5)
+- 15 points: Data quality (master data 90% complete +10, 95% accurate +5)
+
+**Scoring:**
+- 80-100: Mature governance (best in class)
+- 60-79: Functional governance (doing the job)
+- 40-59: Developing governance (gaps but improving)
+- <40: Failing governance (need intervention)
+
+**Year 1 target:** 40-50 (developing)
+**Year 2 target:** 55-70 (functional)
+**Year 3 target:** 70-85 (mature)
+
+### The One Metric That Matters
+**Citizen trust in government data handling.**
+
+Survey citizens annually: "Do you trust the government to handle your personal data responsibly?"
+
+If trust is improving (50% → 60% → 70%), your governance is working. If trust is falling, you're failing regardless of technical metrics.
+
+---
+
+## Conclusion: Data Governance Maturity Assessment
+
+Before you launch, assess your readiness. Score yourself (Yes = 1 point, No = 0):
+
+**People:**
+- [ ] Do you have a Chief Data Officer with executive authority?
+- [ ] Do you have an independent DPO with veto power?
+- [ ] Do you have 10+ data stewards identified and trained?
+- [ ] Does your governance board include executive representation?
+- [ ] Do data owners have clear accountability?
+
+**Process:**
+- [ ] Do you have approved classification and retention policies?
+- [ ] Do you have a PIA framework and templates?
+- [ ] Do you have data sharing agreement templates and approval workflow?
+- [ ] Do you have enforcement mechanisms (audits, consequences)?
+- [ ] Do you have dispute resolution processes?
+
+**Technology:**
+- [ ] Do you have a data catalog (inventory of what data exists)?
+- [ ] Do you have an MDM platform (or roadmap to deploy)?
+- [ ] Do you have privacy management tools (PIA workflow, consent, DSAR)?
+- [ ] Do you have automated compliance monitoring?
+- [ ] Do you have data quality tools?
+
+**Readiness Score:**
+- **12-15 points:** Ready to launch (proceed)
+- **9-11 points:** Close (fix gaps first)
+- **6-8 points:** Not ready (build foundation)
+- **<6 points:** Don't start (you'll fail)
+
+### Final Word: The Governance Reality
+**"IT owns governance = fail. Business owns data, IT enables."**
+
+The most common failure mode is treating data governance as an IT project. IT can build systems. IT cannot make business decisions about:
+- Who can access citizen health data
+- How long to retain tax records
+- Whether to share data between agencies
+- What privacy risks are acceptable
+
+These are BUSINESS and POLICY decisions. If IT makes them, governance fails.
+
+**Correct model:**
+- Chief Data Officer = business executive (not IT)
+- Data owners = agency heads (not database admins)
+- DPO = privacy professional (lawyer or policy expert, not IT security)
+- IT = enables governance with tools, doesn't set policy
+
+Get the governance structure right, or save your money.
 
 ---
 

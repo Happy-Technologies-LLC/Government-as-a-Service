@@ -116,11 +116,20 @@ Year 5: Partner → Earns Executive ($5,000)
 
 **For Individuals:**
 - **Career Advancement:** 40% of certified practitioners promoted within 12 months
+  - ⚠️ **DATA NEEDED:** This is aspirational. Comparable certifications (PMP, CISSP, TOGAF) show 25-35% promotion rates
+  - **We must track actual data** from our program starting Year 1
 - **Salary Increase:** Average 20% salary increase post-certification
+  - ⚠️ **DATA NEEDED:** Requires longitudinal study. PMP shows 15-22% increase, CISSP shows 12-18%
+  - **Reality:** Salary impact varies by country (high in emerging markets, modest in developed)
+  - **Commitment:** We will survey certified practitioners annually and publish real data
 - **Job Opportunities:** Access to exclusive job marketplace with 500+ postings annually
+  - **Reality:** Year 1 likely 50-100 postings. 500+ requires critical mass (Year 3+)
 - **Global Mobility:** Recognized credential in 100+ countries
+  - **Reality:** Recognition takes 3-5 years to build. Start with 10-20 countries, expand
 - **Network:** Connect with 2,000+ certified practitioners globally
+  - **Reality:** Year 1: 100-200. Year 3: 500-800. Year 5: 1,200-2,000
 - **Credibility:** Demonstrate expertise to employers and clients
+  - **Reality:** This is true from Day 1 if we maintain rigorous standards
 
 **For Employers (Governments):**
 - **Quality Assurance:** Hire practitioners with validated skills
@@ -481,11 +490,19 @@ Certified GaaS Practitioners demonstrate ability to:
 
 ### 3.7 Success Metrics
 
-**Year 1 Targets:**
-- 500 certified practitioners
-- 70% pass rate (first attempt)
-- 90% pass rate (including retakes)
-- 4.0/5.0 average exam rating ("fair and relevant")
+**Year 1 Targets - Realistic Expectations:**
+- **Certified Practitioners:**
+  - **Pessimistic:** 150-200 (if awareness is low, price is barrier)
+  - **Realistic:** 300-400 (if we execute well on marketing and scholarships)
+  - **Optimistic:** 500+ (if we become must-have certification quickly)
+- **Pass Rate (first attempt):**
+  - **Target:** 70% (balanced difficulty)
+  - **Reality:** New exams often have 55-65% pass rate Year 1 (exam calibration needed)
+  - **Adjustment:** Review quarterly, adjust difficulty if pass rate <60% or >80%
+- **Pass Rate (including retakes):** 85-90% (realistic with one free retake)
+- **Exam Rating:** 3.8-4.2/5.0 realistic for Year 1 (improve to 4.5+ by Year 3)
+- ⚠️ **CRITICAL:** Exam development costs $150K-$250K (psychometrician, item writing, pilot testing)
+  - **Budget reality:** This is a major Year 1 expense that must be funded
 
 **Quality Indicators:**
 - Employer satisfaction: 90% agree certified practitioners are more effective

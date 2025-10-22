@@ -27,15 +27,15 @@ This playbook provides comprehensive guidance for implementing user-centered co-
 - Build culture of user-centered design across government
 - Ensure accessibility (WCAG 2.1 AA compliance)
 
-**Expected Outcomes:**
-- 50%+ reduction in service redesign cycles
-- 80%+ first-time completion rate for digital services
-- 40%+ reduction in support tickets
-- Citizen satisfaction >4.5/5.0 (vs. <3.5 for non-co-designed)
-- Foundation for continuous service improvement
+**Expected Outcomes (What User Research ACTUALLY Delivers):**
+- 30-40% reduction in service redesign cycles in Year 2 (Year 1 you're learning, slower)
+- 65-75% first-time completion rate (80%+ is aspirational—some services are inherently complex)
+- 25-35% reduction in support tickets (big wins come from fixing the TOP 3 pain points, not everything)
+- Citizen satisfaction 4.0-4.3/5.0 vs. 3.2-3.5 for non-co-designed (meaningful but not miraculous)
+- Foundation for continuous service improvement (yes, this is the real value—mindset shift)
 
-**Timeline:** Ongoing (with 6-month setup phase)
-**Team Size:** 10-15 FTEs (Co-Design Center of Excellence)
+**Timeline:** Ongoing (6-month setup takes 9-12 months in reality—hiring user researchers is HARD)
+**Team Size:** 10-15 FTEs (you'll start with 4-5 and grow slowly because good researchers are expensive and scarce)
 
 ---
 
@@ -1223,27 +1223,184 @@ STAGE 3: First Year
 
 ---
 
-## Conclusion
+## Stakeholder Engagement Checklist: Who Needs to Buy In (And How)
 
-Co-design and citizen engagement are not optional in the GaaS framework - they are foundational. Services designed without user input fail more often, cost more to fix, and frustrate citizens.
+Co-design sounds great in theory. In practice, you'll face resistance from 6 different stakeholder groups. Here's how to get them on board:
 
-**Critical Success Factors:**
-- **Executive Sponsorship:** Leadership commitment to user-centered design
-- **Dedicated Team:** User researchers, designers, content specialists (not just developers)
-- **Systematic Process:** Embed co-design in every project (not ad-hoc)
-- **Diverse Participation:** Engage underrepresented groups (elderly, disabled, rural, minorities)
-- **Iterate Based on Feedback:** Launch early, improve continuously
-- **Accessibility Non-Negotiable:** WCAG 2.1 AA minimum (legal and moral imperative)
+### 1. MINISTERS/POLITICAL LEADERSHIP (Make or Break)
 
-**Next Steps:**
-1. Establish Co-Design Center of Excellence (CoE)
-2. Train agency staff in user research methods
-3. Select 2-3 pilot services for intensive co-design
-4. Develop design system (patterns, components, guidelines)
-5. Mandate Service Standard compliance for all major services
-6. Publish case studies and learnings (build momentum)
+**What they care about:**
+- Political wins ("I delivered better services")
+- Avoiding embarrassment (bad launch = media disaster)
+- Budget defensibility (can they explain spending to parliament?)
 
-**Remember:** Co-design is not just about better services - it's about rebuilding trust between government and citizens. When citizens see their feedback implemented, they feel heard and valued. That's the foundation of a responsive, modern government.
+**How to engage:**
+- [ ] **Month 1:** Bring successful case study from another country (Estonia, UK) with THEIR political leader taking credit
+- [ ] **Month 3:** Do a "minister testing day"—have them try the OLD service vs. the co-designed NEW service. Watch them struggle with the old one. They'll get it.
+- [ ] **Quarterly:** One-page success metric dashboard (# citizens helped, satisfaction scores, media mentions). Politicians think in soundbites.
+
+**Red flags:**
+- Minister says "looks good" but doesn't defend budget in cabinet → you're dead, find new sponsor
+- Minister wants to announce before it's ready → negotiate "soft launch" then official announcement
+- New minister kills predecessor's project → this is why you need bi-partisan support early
+
+---
+
+### 2. PERMANENT SECRETARIES/SENIOR CIVIL SERVANTS (Gatekeepers)
+
+**What they care about:**
+- Risk mitigation ("will this embarrass us?")
+- Turf protection ("who controls this?")
+- Legacy ("will this outlast me?")
+
+**How to engage:**
+- [ ] **Month 2:** Map the power structure. Who actually makes decisions? (Hint: not always the org chart)
+- [ ] **Month 4:** Create "Service Standard Compliance" framework so they can mandate it (they love mandates)
+- [ ] **Month 6:** Invite to international conference where they meet peers doing this (peer pressure works on bureaucrats)
+
+**Red flags:**
+- They delegate to junior staff → they don't care, escalate or find different sponsor
+- They want "comprehensive report" before starting → analysis paralysis, push for "pilot first, report later"
+- They say "we already do user research" (they mean one survey 3 years ago) → show them what REAL research looks like
+
+---
+
+### 3. FRONT-LINE STAFF (They'll Make or Break Adoption)
+
+**What they care about:**
+- "Will this make my job harder?"
+- "Am I being replaced?"
+- "Do I have to learn new things?" (honestly)
+
+**How to engage:**
+- [ ] **Month 1:** Include front-line staff in discovery research—they know where bodies are buried
+- [ ] **Month 5:** Show them how NEW service reduces THEIR workload (fewer angry citizens calling)
+- [ ] **Month 7:** Train them FIRST so they feel like experts, not victims of change
+
+**Red flags:**
+- They smile and nod in workshops but sabotage in implementation → find the informal leaders, win them first
+- Union pushback on "job losses" → be honest: "This eliminates repetitive work, redeploys staff to complex cases" (true and defensible)
+- "We've always done it this way" → this is cultural, not logical. Show metrics (old way: 40% satisfaction, new way: 75%)
+
+---
+
+### 4. IT/TECHNOLOGY TEAMS (Frenemies)
+
+**What they care about:**
+- "Is this more work for us?"
+- "Do we control the tech stack?"
+- "Will this break our systems?"
+
+**How to engage:**
+- [ ] **Month 2:** Involve tech lead in architecture decisions (don't surprise them)
+- [ ] **Month 4:** Position as "make your life easier" (better APIs, less manual integration)
+- [ ] **Month 8:** Celebrate technical wins publicly (CTO gets credit for platform, you get credit for UX)
+
+**Red flags:**
+- They say "can't be done technically" → usually means "we don't want to do it." Get second opinion.
+- They build what they think is cool, not what users need → this is why you do user testing BEFORE dev
+- They resist APIs/modular design → long-term disaster, escalate to CTO
+
+---
+
+### 5. BUDGET/FINANCE OFFICE (Money Gatekeepers)
+
+**What they care about:**
+- ROI (show me the money)
+- Budget certainty (no surprises)
+- Auditability (can we defend this spend?)
+
+**How to engage:**
+- [ ] **Month 1:** Build business case with ROI (use Estonia data: $100M invested, $1B saved over 10 years)
+- [ ] **Quarterly:** Show "money saved" metrics (reduced call center costs, fewer in-person visits)
+- [ ] **Annually:** Audit-ready documentation (where every dollar went, outcomes achieved)
+
+**Red flags:**
+- They ask for ROI in Year 1 → educate: investment years 1-2, returns year 3+
+- They want to cut "soft costs" (user research, change management) → show them Healthcare.gov failure (saved $50M, wasted $1.7B)
+- They freeze budget mid-project → have contingency fund or descope gracefully
+
+---
+
+### 6. CITIZENS/ADVOCACY GROUPS (Ultimate Customers)
+
+**What they care about:**
+- "Will this actually work for ME?"
+- "Are you listening or just checking a box?"
+- "What about [elderly/disabled/rural/marginalized group]?"
+
+**How to engage:**
+- [ ] **Month 1:** Recruit citizen advisory panel (12-15 people, paid, diverse)
+- [ ] **Monthly:** Show them what you built based on their feedback ("you said X, we did Y")
+- [ ] **Launch:** Invite them to launch event (they become ambassadors)
+
+**Red flags:**
+- You only talk to easy-to-reach citizens (urban, educated, online) → your service will exclude others
+- Advocacy groups protest because you didn't consult → they're right, fix it by including them NOW
+- Citizens participate once then ghost → you're not showing impact of their feedback, close the loop
+
+---
+
+## The 90-Day Stakeholder Engagement Blitz
+
+Here's the order that actually works:
+
+**Days 1-30: Political Air Cover**
+1. Secure minister sponsor
+2. Get cabinet/leadership approval for pilot
+3. Brief opposition (yes, really—bipartisan support insulates you)
+
+**Days 31-60: Bureaucratic Buy-In**
+1. Permanent secretaries briefing (show international examples)
+2. Create governance structure (steering committee with right people)
+3. Secure multi-year budget commitment
+
+**Days 61-90: Operational Alignment**
+1. Front-line staff workshops (win hearts and minds)
+2. IT architecture review (get technical buy-in)
+3. Citizen advisory panel kickoff (show you mean it)
+
+**If you skip this, you'll spend Year 2 fighting internal resistance instead of serving citizens.**
+
+---
+
+## What Co-Design Actually Costs (The Truth)
+
+Playbook says $2-5M annually. Here's the real breakdown:
+
+| Item | Playbook | Reality | Why the Difference |
+|------|----------|---------|-------------------|
+| **User Researchers** (5 FTEs) | $500K | $750K | Good researchers command $150K+, not $100K |
+| **Service Designers** (5 FTEs) | $500K | $700K | Design talent is expensive, competitive market |
+| **Research Tools** (software) | $200K | $350K | You need video recording, transcription, analytics—adds up |
+| **Participant Incentives** | $100K | $250K | $50-100 per person x 1,000 participants, plus travel for rural |
+| **Workshops/Facilities** | $200K | $400K | Venue rental, catering, materials, travel for participants |
+| **Accessibility Testing** | $150K | $300K | Specialized recruitment, assistive tech, longer sessions |
+| **Training** (agency staff) | $350K | $500K | External trainers are expensive, need multiple rounds |
+| **TOTAL** | **$2M** | **$3.25M** | |
+
+**The gap:** 60% more than "planned." This is normal. Budget for it.
+
+---
+
+## Your Final Reality Check
+
+Co-design will NOT:
+- Make everyone happy (some citizens will still complain)
+- Guarantee political success (bad comms can kill good UX)
+- Eliminate all service redesign (you'll still iterate)
+- Work overnight (culture change takes 2-3 years)
+
+Co-design WILL:
+- Reduce catastrophic failures (you test before launch, not after)
+- Build services people actually use (vs. build and pray)
+- Create internal champions (staff who see citizen impact become believers)
+- Compound over time (each co-designed service makes the next easier)
+
+**The Question:** Are you ready to actually LISTEN to citizens and act on what they say, even if it contradicts your assumptions?
+
+If yes → start recruiting your team.
+If no → don't bother with co-design, you'll just waste everyone's time.
 
 ---
 

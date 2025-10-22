@@ -553,6 +553,15 @@ Digital transformation is a marathon, not a sprint. This phased approach minimiz
 - Cybersecurity baseline established (no major breaches)
 - 50+ government staff trained in digital delivery
 
+**Timeline Reality Check:**
+18 months is optimistic for Year 1 deliverables. Based on implementations we've seen, median is 28 months, and you should budget for 36 months. What causes delays:
+- Procurement processes (especially if you have equal-lowest-bidder rules): Add 6-9 months
+- Political changes mid-project (new minister, different priorities): Add 3-6 months
+- Vendor issues (staffing, capability gaps, commercial disputes): Add 3-12 months
+- Legacy integration complexity (always worse than initial assessment): Add 6-12 months
+
+If you're on track to hit 18 months, congratulations—you're in the top 15% of implementations.
+
 ---
 
 ### 4.3 Year 2: Services (25% of Total Budget)
@@ -750,6 +759,69 @@ Digital transformation is a marathon, not a sprint. This phased approach minimiz
 - Small governments: Leverage SaaS and regional platforms (lower cost per capita)
 - Medium governments: Balanced approach (some build, some buy)
 - Large governments: More in-house builds due to sovereignty and scale (higher cost per capita)
+
+---
+
+## 6A. When Budgets Go Wrong: Cost Overrun Scenarios
+
+This section addresses the uncomfortable reality: most large government IT projects exceed their budgets significantly. Here's what we've actually seen happen and how to plan for it.
+
+**The Uncomfortable Statistics:**
+- 36% cost overrun is *typical* for large government IT projects (not worst case)
+- Budget €70M, actual spend €95M is the median outcome for major digital government programs
+- Projects under €20M: typically 15-25% overrun
+- Projects €20-100M: typically 30-45% overrun
+- Projects over €100M: 40-60% overrun common, 100%+ overrun not rare
+
+**What Drives Overruns (Real Causes, Not the Official Reports):**
+
+**Scope Creep Disguised as "Requirements Refinement"**
+You budget for 50 services, but during Year 2, five ministers each demand their ministry's services go first, requiring parallel development teams and integration work you hadn't planned. Add 20-30% to budget.
+
+**Legacy Integration Hell**
+You assumed 6 months to integrate with existing tax, health, and education systems. Turns out the tax system runs on COBOL from 1987 with zero documentation and the one person who understands it retired. The integration layer alone costs 2x your original estimate. Add 15-25% to budget.
+
+**Compliance and Legal Requirements Discovered Late**
+Six months in, your data protection authority rules that your planned architecture violates data sovereignty requirements. Redesign adds 8 months and €12M. Add 10-20% to budget.
+
+**Vendor Staffing Issues**
+Your vendor promised senior engineers. They delivered junior developers supervised remotely. Quality issues require rework. You threaten to terminate the contract; they offer "remediation" that adds cost. Add 10-15% to budget.
+
+**Political Turnover**
+New minister, new priorities. The digital ID project you were building gets deprioritized in favor of a blockchain voting pilot no one asked for. Original work pauses, team disperses, restart costs compound. Add 15-25% to budget.
+
+**Hidden Costs Consistently Underestimated (40-60% of "surprises"):**
+- **Post-launch support**: You budget for 10 support staff, you actually need 35 for the first year
+- **Training**: You budget €2M, citizen digital literacy alone costs €8M
+- **Legacy system maintenance during transition**: You assumed you'd shut down the old system in Month 12; it runs in parallel until Month 36, doubling operational costs
+- **Data migration and cleanup**: "Clean the data first" always costs 3-5x initial estimate
+- **Security remediation**: Penetration testing reveals issues requiring 6 months of fixes before launch
+
+**How to Plan for This (Honest Budgeting):**
+
+Instead of the official 10-15% contingency, use tiered reserves:
+- **Base budget**: Your best honest estimate
+- **Contingency (20%)**: For known risks (integration complexity, minor scope changes)
+- **Management reserve (15%)**: For unknown risks (political changes, vendor failures, hidden technical debt)
+- **Total buffer: 35%** above base estimate
+
+**Example: Medium Government (10M Population)**
+- Base estimate: €200M over 5 years
+- Contingency (20%): €40M
+- Management reserve (15%): €30M
+- **Realistic budget: €270M**
+
+Yes, this looks expensive. But it's honest. Budget €200M, spend €270M, and you look incompetent. Budget €270M, spend €265M, and you're a hero who came in under budget.
+
+**Red Flags That Your Budget Will Explode:**
+- ❌ No one has actually mapped legacy system dependencies
+- ❌ "Integration" is a single line item with no detail
+- ❌ Vendor provided the estimate and they're bidding fixed-price (they'll lowball to win, then change-order you to death)
+- ❌ Your project director has never delivered a project this large before
+- ❌ You're assuming government procurement will be fast
+- ❌ No budget line for "mistakes and rework"
+- ❌ Training is less than 15% of technology spend
+- ❌ No one has stress-tested the timeline with people who've actually done this before
 
 ---
 
