@@ -1,0 +1,20 @@
+{
+  "name": "Government as a Service",
+  "short_name": "GaaS",
+  "description": "The Global Framework for 21st-Century Digital Governance",
+  "icons": [
+    {
+      "src": "/Government-as-a-Service/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Government-as-a-Service/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#334155",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

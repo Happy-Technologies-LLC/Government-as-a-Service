@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as r,ag as i}from"./chunks/framework.UpazuZ_L.js";const h=JSON.parse('{"title":"Contact Us","description":"","frontmatter":{},"headers":[],"relativePath":"contact.md","filePath":"contact.md"}'),n={name:"contact.md"};function o(s,e,l,u,m,g){return r(),t("div",null,[...e[0]||(e[0]=[i("",62)])])}const p=a(n,[["render",o]]);export{h as __pageData,p as default};

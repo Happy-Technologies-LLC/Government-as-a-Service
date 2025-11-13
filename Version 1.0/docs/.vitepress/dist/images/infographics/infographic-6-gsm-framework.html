@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .infographic {
+            background: white;
+            width: 1920px;
+            height: auto;
+            padding: 112px;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-size: 67px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section-title {
+            font-size: 50px;
+            font-weight: 700;
+            color: #334155;
+            margin-bottom: 24px;
+        }
+        
+        .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 56px;
+            background: #f1f5f9;
+            padding: 89px;
+            border-radius: 12px;
+        }
+
+        .principles-grid .principle:last-child {
+            grid-column: 2 / 4;
+        }
+        
+        .principle {
+            display: flex;
+            align-items: center;
+            gap: 33px;
+            font-size: 45px;
+            color: #475569;
+        }
+        
+        .value-chain {
+            display: flex;
+            align-items: center;
+            gap: 45px;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        
+        .chain-step {
+            background: #14b8a6;
+            color: white;
+            padding: 67px 40px;
+            border-radius: 12px;
+            font-size: 50px;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+        
+        .chain-step:first-child {
+            background: #0ea5e9;
+        }
+        
+        .chain-step:nth-child(3) {
+            background: #0ea5e9;
+        }
+        
+        .chain-step:nth-child(5) {
+            background: #475569;
+        }
+        
+        .chain-step:nth-child(7) {
+            background: #475569;
+        }
+        
+        .chain-arrow {
+            color: #94a3b8;
+        }
+        
+        .chain-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 112px;
+            height: 112px;
+            background: #475569;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .practices-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 89px;
+            margin-top: 32px;
+        }
+        
+        .practice-card {
+            background: white;
+            padding: 89px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            border-top: 4px solid;
+        }
+        
+        .practice-card.governance {
+            border-top-color: #475569;
+        }
+        
+        .practice-card.service {
+            border-top-color: #14b8a6;
+        }
+        
+        .practice-card.technical {
+            border-top-color: #0ea5e9;
+        }
+        
+        .practice-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .practice-card.governance .practice-icon {
+            background: rgba(71, 85, 105, 0.1);
+        }
+        
+        .practice-card.service .practice-icon {
+            background: rgba(20, 184, 166, 0.1);
+        }
+        
+        .practice-card.technical .practice-icon {
+            background: rgba(14, 165, 233, 0.1);
+        }
+        
+        .practice-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+        
+        .practice-label {
+            font-size: 45px;
+            font-weight: 600;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        
+        <div class="section">
+            <div class="section-title">7 Guiding Principles</div>
+            <div class="principles-grid">
+                <div class="principle">
+                    <i data-lucide="users-round" color="#475569" size="156"></i>
+                    <span>Focus on Citizen Outcomes</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="layers" color="#475569" size="156"></i>
+                    <span>Build on Existing Capabilities</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="trending-up" color="#475569" size="156"></i>
+                    <span>Progress Iteratively with Transparency</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="handshake" color="#475569" size="156"></i>
+                    <span>Collaborate Across Government</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="git-branch" color="#475569" size="156"></i>
+                    <span>Think End-to-End Service Journeys</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="minimize-2" color="#475569" size="156"></i>
+                    <span>Keep Services Simple & Accessible</span>
+                </div>
+                <div class="principle">
+                    <i data-lucide="scale" color="#475569" size="156"></i>
+                    <span>Optimize for Equity, Automate for Efficiency</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Service Value Chain</div>
+            <div class="value-chain">
+                <div class="chain-step">PLAN</div>
+                <div class="chain-arrow">
+                    <i data-lucide="arrow-right" size="67"></i>
+                </div>
+                <div class="chain-step">IMPROVE</div>
+                <div class="chain-arrow">
+                    <i data-lucide="arrow-right" size="67"></i>
+                </div>
+                <div class="chain-step">ENGAGE</div>
+                <div class="chain-arrow">
+                    <i data-lucide="arrow-right" size="67"></i>
+                </div>
+                <div class="chain-step">DESIGN</div>
+                <div class="chain-arrow">
+                    <i data-lucide="arrow-right" size="67"></i>
+                </div>
+                <div class="chain-step">BUILD</div>
+                <div class="chain-arrow">
+                    <i data-lucide="arrow-right" size="67"></i>
+                </div>
+                <div class="chain-step">SUPPORT</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">28 Management Practices</div>
+            <div class="practices-grid">
+                <div class="practice-card governance">
+                    <div class="practice-icon">
+                        <i data-lucide="landmark" color="#475569" size="112"></i>
+                    </div>
+                    <div class="practice-number">10</div>
+                    <div class="practice-label">Governance</div>
+                </div>
+                
+                <div class="practice-card service">
+                    <div class="practice-icon">
+                        <i data-lucide="bell" color="#14b8a6" size="112"></i>
+                    </div>
+                    <div class="practice-number">14</div>
+                    <div class="practice-label">Service</div>
+                </div>
+                
+                <div class="practice-card technical">
+                    <div class="practice-icon">
+                        <i data-lucide="settings" color="#0ea5e9" size="112"></i>
+                    </div>
+                    <div class="practice-number">4</div>
+                    <div class="practice-label">Technical</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

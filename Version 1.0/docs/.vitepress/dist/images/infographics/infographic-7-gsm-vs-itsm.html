@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .infographic {
+            background: white;
+            width: 1920px;
+            height: auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-size: 67px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+        }
+        
+        .comparison-table thead {
+            background: #334155;
+            color: white;
+        }
+        
+        .comparison-table th {
+            padding: 67px;
+            text-align: left;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        
+        .comparison-table th:first-child {
+            border-top-left-radius: 12px;
+        }
+        
+        .comparison-table th:last-child {
+            border-top-right-radius: 12px;
+            background: #14b8a6;
+        }
+        
+        .comparison-table tbody tr {
+            background: white;
+        }
+        
+        .comparison-table tbody tr:nth-child(even) {
+            background: #f8fafc;
+        }
+        
+        .comparison-table td {
+            padding: 56px 24px;
+            font-size: 45px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .comparison-table td:first-child {
+            font-weight: 600;
+            color: #334155;
+            width: 180px;
+        }
+        
+        .comparison-table td:nth-child(2) {
+            color: #64748b;
+        }
+        
+        .comparison-table td:last-child {
+            color: #1e293b;
+            background: rgba(20, 184, 166, 0.05);
+            border-left: 3px solid #14b8a6;
+            font-weight: 500;
+        }
+        
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .key-message {
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+            border-left: 6px solid #14b8a6;
+            padding: 89px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        
+        .key-message-text {
+            font-size: 45px;
+            line-height: 1.7;
+            color: #334155;
+        }
+        
+        .key-message-text strong {
+            color: #1e293b;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Corporate ITSM/ITIL</th>
+                    <th>Government Service Management (GSM)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Focus</td>
+                    <td>Customer satisfaction, profit</td>
+                    <td>Citizen outcomes & public value</td>
+                </tr>
+                <tr>
+                    <td>Principles</td>
+                    <td>Efficiency & cost reduction</td>
+                    <td>Equity, inclusion, transparency</td>
+                </tr>
+                <tr>
+                    <td>Accountability</td>
+                    <td>Business outcomes</td>
+                    <td>Democratic accountability</td>
+                </tr>
+                <tr>
+                    <td>Scope</td>
+                    <td>Single enterprise</td>
+                    <td>Whole-of-government</td>
+                </tr>
+                <tr>
+                    <td>Stakeholders</td>
+                    <td>Customers, shareholders</td>
+                    <td>Citizens, civil society, legislators</td>
+                </tr>
+                <tr>
+                    <td>Success Metrics</td>
+                    <td>ROI, customer satisfaction</td>
+                    <td>Public value, equity, trust</td>
+                </tr>
+                <tr>
+                    <td>Practices</td>
+                    <td>34 ITIL practices</td>
+                    <td>28 GSM practices (tailored)</td>
+                </tr>
+                <tr>
+                    <td>Timeframe</td>
+                    <td>Quarterly/annual targets</td>
+                    <td>Multi-year, cross-political cycles</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="key-message">
+            <div class="key-message-text">
+                <strong>Citizens have rights, not just preferences.</strong>
+                Government services require a level of democratic accountability, equity, and transparency
+                that corporate ITSM doesn't address.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
