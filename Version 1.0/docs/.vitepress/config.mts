@@ -1,11 +1,29 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
-  title: "Government as a Service",
-  description: "The Global Operating Model for 21st-Century Digital Government",
-  base: '/Government-as-a-Service/',
+export default withMermaid(
+  defineConfig({
+    title: "Government as a Service",
+    description: "The Global Operating Model for 21st-Century Digital Government",
+    base: '/Government-as-a-Service/',
 
-  head: [
+    // Mermaid configuration with brand colors
+    mermaid: {
+      theme: 'base',
+      themeVariables: {
+        primaryColor: '#334155',      // Slate 700 (brand primary)
+        primaryTextColor: '#ffffff',  // White text on primary
+        primaryBorderColor: '#475569', // Slate 600
+        lineColor: '#0ea5e9',         // Sky Blue 500
+        secondaryColor: '#14b8a6',    // Teal 500
+        tertiaryColor: '#facc15',     // Amber 400
+        noteBkgColor: '#f1f5f9',      // Slate 100
+        noteTextColor: '#1e293b',     // Slate 800
+        noteBorderColor: '#cbd5e1'    // Slate 300
+      }
+    },
+
+    head: [
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/Government-as-a-Service/icons/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/Government-as-a-Service/icons/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/Government-as-a-Service/icons/apple-touch-icon.png' }],
@@ -215,3 +233,4 @@ export default defineConfig({
     }
   }
 })
+)

@@ -1,0 +1,1081 @@
+﻿Blueprint for a "Government as a Service" Framework: A Comprehensive Service Portfolio and TBM Value Mapping Model
+
+
+
+
+Executive Summary
+
+
+The "Government as a Service" (GaaS) model represents a paradigm shift in public sector administration, moving from siloed, agency-centric operations to an integrated, citizen-facing, and transparent digital enterprise. The foundation for this model—its "Layer 3"—is a Transparent Service Portfolio, a comprehensive taxonomy of what a government provides, and a Technology Business Management (TBM) value mapping, a financial framework to understand how much those services cost and what value they deliver.
+Initial analysis confirmed that the "Government-as-a-Service" framework links on GitHub are inaccessible.1 Therefore, this report constructs a new, best-practice framework from the ground up, drawing from an extensive analysis of the world's most powerful and digitally advanced governments.
+This report delivers a complete blueprint for this "Layer 3." It is structured in six parts:
+1. Part I proposes a foundational architecture for the comprehensive Government Service Portfolio (GSP). It recommends adopting the UN's Classification of the Functions of Government (COFOG) 3 as the master taxonomy, providing a globally benchmarkable standard.
+2. Part II provides a deep comparative analysis of the world's most powerful governments (United States, China, United Kingdom, Germany, India, and Japan) 4, structuring their agencies and services within the COFOG framework.
+3. Part III analyzes the digital "GaaS" layer of these nations, comparing their national strategies—from the US "Customer-Centric" model 6 and UK "Common Components" model 7 to China's "Total Integration" 8, India's "Mobile-First" 9, and Japan's "Centralized Cloud" 10 approaches.
+4. Part IV details the Technology Business Management (TBM) framework for financial transparency. It defines the TBM taxonomy (Cost Pools, IT Towers, Services) 11 and provides the crucial "golden thread" mapping TBM's financial data to the COFOG service portfolio.
+5. Part V examines TBM in practice through critical case studies. It contrasts the macro-level "stalled" failure of the 8-year, top-down US federal TBM mandate, as detailed in a recent August 2025 GAO report 13, with the micro-level success of agencies like the U.S. Secret Service, which used TBM as a strategic tool to "defend their budgetary position".17
+6. Part VI concludes with an actionable blueprint, synthesizing these findings. It recommends a hybrid model: Use COFOG as the service portfolio, TBM as the transparency engine, and (critically) an "agency-empowerment" governance model (emulating the USSS success 17) to avoid the "compliance trap" that led to the US federal and German consolidation failures.14
+This document provides the complete architecture and strategic analysis required to build a robust, transparent, and value-driven Layer 3 GaaS portfolio.
+________________
+
+
+Part I: Architecture of a Comprehensive Government Service Portfolio (GSP)
+
+
+
+
+1.1 The Foundational Challenge: Defining "Government Service"
+
+
+The "Government as a Service" (GaaS) model is fundamentally constrained by an organization's ability to define its "services." In the public sector, this is a monumental challenge. Governments are not monolithic entities; they are a complex, often fragmented, federation of agencies, ministries, and programs.19 This fragmentation often results in a "patchwork" system of service delivery 20, creating the "IT black-hole' stereotype" where massive technology spend is disconnected from measurable public outcomes.19
+Before any digital transformation or financial transparency (TBM) initiative can succeed, a rationalized, comprehensive, and mutually-understood Government Service Portfolio (GSP) is required. This GSP must act as the master taxonomy for the entire GaaS framework, providing a common, standardized language to describe what government does. Without this common language, it is impossible to map costs, create shared platforms, or measure value.
+
+
+1.2 The Solution: The UN Classification of the Functions of Government (COFOG)
+
+
+This report recommends against inventing a new, proprietary service portfolio. Such an effort would be subjective, non-standard, and impossible to benchmark. The global standard for this exact purpose already exists: the Classification of the Functions of Government (COFOG).3
+Developed by the Organisation for Economic Co-operation and Development (OECD) and published by the United Nations Statistical Division 21, COFOG is the international standard for classifying government expenditure data by its purpose. It is the established language used by the UN, OECD, IMF, and Eurostat to compare public finance.23
+COFOG is structured as a multi-level classification, with ten primary "divisions" at its highest level.3 These ten divisions form the perfect, comprehensive architecture for a GaaS Layer 3 Service Portfolio.
+The ten primary COFOG divisions are:
+* 01 General Public Services 3
+* 02 Defence 3
+* 03 Public Order and Safety 3
+* 04 Economic Affairs 3
+* 05 Environmental Protection 3
+* 06 Housing and Community Amenities 3
+* 07 Health 3
+* 08 Recreation, Culture and Religion 3
+* 09 Education 3
+* 10 Social Protection 3
+By adopting COFOG as the GSP architecture, the GaaS framework immediately becomes globally benchmarkable. It bridges the gap between public finance (COFOG) and IT finance (TBM). This strategic choice allows a government to move beyond simply asking "How much does our IT cost?" to asking "How does the cost of our 'COFOG 03: Public Order and Safety' service, enabled by IT, compare to that of Germany, the UK, or Japan?"
+
+
+1.3 Proposed Artifact: Table 1. Master Government Service Portfolio (GSP) Taxonomy
+
+
+The following table presents the proposed Master Government Service Portfolio (GSP) taxonomy for the GaaS framework. It is based on the COFOG standard, detailing the 10 First-Level Divisions and their corresponding Second-Level Groups.3 This table is the comprehensive service portfolio.
+Table 1: Master Government Service Portfolio (GSP) Taxonomy (COFOG-Aligned)
+
+
+Division (Level 1)
+	Group (Level 2)
+	Service Description (Purpose)
+	01 General Public Services
+	01.1
+	Executive and legislative organs, financial and fiscal affairs, external affairs 22
+	
+
+	01.2
+	Foreign economic aid
+	
+
+	01.3
+	General services (e.g., central personnel services)
+	
+
+	01.4
+	Basic research
+	
+
+	01.5
+	R&D General public services
+	
+
+	01.6
+	General public services n.e.c.
+	
+
+	01.7
+	Public debt transactions
+	
+
+	01.8
+	Transfers of a general character between levels of government
+	02 Defence
+	02.1
+	Military defence
+	
+
+	02.2
+	Civil defence
+	
+
+	02.3
+	Foreign military aid
+	
+
+	02.4
+	R&D Defence
+	
+
+	02.5
+	Defence n.e.c.
+	03 Public Order and Safety
+	03.1
+	Police services
+	
+
+	03.2
+	Fire-protection services
+	
+
+	03.3
+	Law courts
+	
+
+	03.4
+	Prisons 22
+	
+
+	03.5
+	R&D Public order and safety 22
+	
+
+	03.6
+	Public order and safety n.e.c. 22
+	04 Economic Affairs
+	04.1
+	General economic, commercial and labour affairs 22
+	
+
+	04.2
+	Agriculture, forestry, fishing and hunting 22
+	
+
+	04.3
+	Fuel and energy 22
+	
+
+	04.4
+	Mining, manufacturing and construction 22
+	
+
+	04.5
+	Transport 22
+	
+
+	04.6
+	Communication 22
+	
+
+	04.7
+	Other industries 22
+	
+
+	04.8
+	R&D Economic affairs
+	
+
+	04.9
+	Economic affairs n.e.c.
+	05 Environmental Protection
+	05.1
+	Waste management
+	
+
+	05.2
+	Waste water management
+	
+
+	05.3
+	Pollution abatement
+	
+
+	05.4
+	Protection of biodiversity and landscape
+	
+
+	05.5
+	R&D Environmental protection
+	
+
+	05.6
+	Environmental protection n.e.c.
+	06 Housing and Community
+	06.1
+	Housing development
+	Amenities
+	06.2
+	Community development
+	
+
+	06.3
+	Water supply
+	
+
+	06.4
+	Street lighting
+	
+
+	06.5
+	R&D Housing and community amenities
+	
+
+	06.6
+	Housing and community amenities n.e.c.
+	07 Health
+	07.1
+	Medical products, appliances and equipment
+	
+
+	07.2
+	Outpatient services
+	
+
+	07.3
+	Hospital services
+	
+
+	07.4
+	Public health services
+	
+
+	07.5
+	R&D Health
+	
+
+	07.6
+	Health n.e.c.
+	08 Recreation, Culture & Religion
+	08.1
+	Recreational and sporting services 21
+	
+
+	08.2
+	Cultural services 21
+	
+
+	08.3
+	Broadcasting and publishing services 21
+	
+
+	08.4
+	Religious and other community services 21
+	
+
+	08.5
+	R&D Recreation, culture and religion 21
+	
+
+	08.6
+	Recreation, culture and religion n.e.c. 21
+	09 Education
+	09.1
+	Pre-primary and primary education 21
+	
+
+	09.2
+	Secondary education 21
+	
+
+	09.3
+	Post-secondary non-tertiary education 21
+	
+
+	09.4
+	Tertiary education 21
+	
+
+	09.5
+	Education not definable by level 21
+	
+
+	09.6
+	Subsidiary services to education 21
+	
+
+	09.7
+	R&D Education 21
+	
+
+	09.8
+	Education n.e.c. 21
+	10 Social Protection
+	10.1
+	Sickness and disability 21
+	
+
+	10.2
+	Old age 21
+	
+
+	10.3
+	Survivors 21
+	
+
+	10.4
+	Family and children 21
+	
+
+	10.5
+	Unemployment 21
+	
+
+	10.6
+	Housing 21
+	
+
+	10.7
+	Social exclusion n.e.c. 21
+	
+
+	10.8
+	R&D Social protection 21
+	
+
+	10.9
+	Social protection n.e.c. 21
+	(Source: Compiled from UN, OECD, and Eurostat classifications) 3
+________________
+
+
+Part II: Comparative Service Analysis of Global Powers (A COFOG Deep Dive)
+
+
+This section provides the requested "deep analysis" of the world's most powerful governments, as defined by global power, economic, and military indices.4 The analysis is structured using the COFOG framework from Part I, providing concrete examples of the agencies and services that populate the portfolio. The nations selected for this comparative analysis are primarily the United States, China, United Kingdom, Germany, India, and Japan.
+
+
+2.1 COFOG 01: General Public Services
+
+
+This function covers the core operation of the state: executive and legislative bodies, financial and fiscal affairs (finance ministries/treasuries), and external affairs (foreign ministries).
+* United States:
+   * Executive/Legislative: U.S. Congress (comprising the Senate and House of Representatives) 28 and the Executive Office of the President.
+   * Financial/Fiscal: The U.S. Department of the Treasury is the primary agency, managing federal finances, international tax policy, and currency transactions.30 The Bureau of the Fiscal Service, within Treasury, manages foreign currency transactions for federal agencies operating overseas.30
+   * External Affairs: The U.S. Department of State manages diplomacy, international agreements, and foreign aid.30 It also collaborates on international policy for emerging technologies, such as designing a Risk Management Profile for AI and Human Rights.29
+* China:
+   * Executive: The State Council is the chief administrative authority.32
+   * Financial/Fiscal: The Ministry of Finance (MOF) manages the national budget.34 The Chinese state budget is complex, composed of four main parts: the general public service budget, government-managed funds (for public projects), the state capital operation budget, and the social security fund budget.34
+   * External Affairs: The Ministry of Foreign Affairs handles diplomatic relations.35
+* United Kingdom:
+   * Executive/Legislative: The UK Parliament (comprising the House of Commons and House of Lords).37
+   * Financial/Fiscal: His Majesty's Treasury (HM Treasury) holds a powerful, centralized leadership role in managing public expenditure, setting fiscal policy, and presenting the budget to Parliament.39
+   * External Affairs: The Foreign, Commonwealth & Development Office (FCDO) (formerly the Foreign Office).37
+* India:
+   * Executive/Legislative: The Parliament of India, which includes the Lok Sabha (House of the People) and Rajya Sabha (Council of States).42
+   * Financial/Fiscal: The Ministry of Finance and its Department of Economic Affairs, which manage the budget and financial support schemes, such as those for Public Private Partnerships (PPPs) in infrastructure.44
+   * External Affairs: The Ministry of External Affairs (MEA).42
+* Germany:
+   * Financial/Fiscal: The Bundesfinanzministerium (Federal Ministry of Finance) manages the federal budget (Bundeshaushalt).46
+   * External Affairs: The Auswärtiges Amt (Federal Foreign Office).47
+The GaaS and TBM implications of this structure are profound. A federal system (US, Germany, India) involves complex cost allocations and financial transfers between central, state, and local governments.28 A TBM framework is essential to create transparency in this federated model. Conversely, a centralized system (UK, Japan) with a powerful, single finance ministry (like HM Treasury 39) can enforce financial transparency more directly.
+
+
+2.2 COFOG 02: Defence
+
+
+This function includes all military and civil defence services, as well as foreign military aid. Defence spending is a primary component of national power.26
+* United States:
+   * Agency: Department of Defense (DoD).51
+   * Services: Manages the five armed service branches: Air Force, Army, Coast Guard, Marine Corps, and Navy.51 The DoD also manages a vast portfolio of services including international alliances (e.g., National Guard State Partnership Program 52), extensive procurement of goods and services 53, and the use of private military and security companies (PMSCs).54
+   * GaaS Trend: The DoD is a major adopter of "as a service" enterprise agreements, shifting IT modernization from capital expenditure (CAPEX) to operating expenditure (OPEX) to accelerate modernization.53
+* China:
+   * Agency: Ministry of National Defense (MND), operating under the control of the Central Military Commission (CMC).55
+   * Services: Manages the People's Liberation Army (PLA) (Army, Navy, Air Force).57 PLA services include not only national defense but also maintaining public order/internal security 58 and "Non-War Military Activities" such as anti-piracy escorts in the Gulf of Aden.59
+* United Kingdom:
+   * Agency: Ministry of Defence (MOD).60
+   * Services: Manages the British Armed Forces.60 Key roles include the Chief of the Defence Staff (professional head of the armed forces) 61 and the Defence Services Secretary, who acts as the liaison between the MOD and the Royal Household.62
+* Germany:
+   * Agency: Bundesministerium der Verteidigung (BMVg) (Federal Ministry of Defence).65
+   * Services: Manages the Bundeswehr (the armed forces).68
+* India:
+   * Agency: Ministry of Defence (MOD).69
+   * Services: Manages the Indian Armed Forces (Army, Navy, Air Force).69 The MOD is structured into four key departments: Department of Defence (policy), Department of Military Affairs (DMA), Department of Defence Production (indigenous production), and Department of Ex-servicemen Welfare.69 The DMA was specifically created to promote "jointness" in procurement, training, and operations—a goal that aligns perfectly with a TBM/GaaS shared-services model.72
+* Japan:
+   * Agency: Ministry of Defense (MOD).74
+   * Services: Manages the Japan Self-Defense Forces (JSDF).76 Services are focused on national defense, but also include extensive international cooperation, joint research, and training of foreign military personnel.74
+For TBM, defence is often a "black box" due to security concerns. However, the non-combat services (IT, procurement, logistics, HR, facilities) are a massive area of expenditure. The US DoD's move to "as a service" models 53 and India's push for "jointness in procurement" 72 are explicit drivers for a TBM framework to manage and demonstrate the value of these shared services.
+
+
+2.3 COFOG 03: Public Order and Safety
+
+
+This function includes police services, law courts, and prisons. Service delivery in this area is a key indicator of state capacity.
+* United States:
+   * Agencies: A highly federated system.
+   * Services: Federal law enforcement is handled by the Department of Justice (DOJ) (e.g., FBI) and the Department of Homeland Security (DHS).78 The DOJ also manages the federal immigration courts and the Board of Immigration Appeals.78 However, the vast majority of police and court services are delivered by state and local governments.78
+* China:
+   * Agencies: A centralized, multi-agency system.
+   * Services: The Ministry of Public Security (MPS) manages standard police services.82 The Ministry of State Security (MSS) manages intelligence and state security.83 The People's Armed Police (PAP), under the Central Military Commission, handles internal security and riot control.82 The judicial branch includes the Supreme People's Court (SPC).84
+* United Kingdom:
+   * Agencies: A mixed central/local model.
+   * Services: The Home Office is the central department responsible for police policy, funding, and oversight.85 The Ministry of Justice (MOJ) is responsible for the courts (HM Courts & Tribunals Service) and prisons.85 Operational police services are delivered by regional forces (e.g., the Metropolitan Police Service in London).86
+* India:
+   * Agencies: A state-level responsibility with federal oversight.
+   * Services: The central Ministry of Home Affairs (MHA) oversees national security and the Indian Police Service (IPS) cadre.90 However, primary State Police services (law and order) are managed by the individual states.90 The Supreme Court heads the judiciary.93
+* Japan:
+   * Agencies: A centralized system.
+   * Services: The National Police Agency (NPA) manages the police system.94 The Ministry of Justice (MOJ) manages the legal system, courts, and correctional services.96
+* Germany:
+   * Agencies: A federal system.
+   * Services: Includes the Bundespolizei (Federal Police), the Landpolizei (State Police forces), and the Justizministerium (Ministry of Justice).98
+This function highlights the complexity of a GaaS model. "Public Safety" is not a single service. A GaaS "shared platform" here is less about a single citizen portal and more about secure, interoperable data sharing between agencies (e.g., shared case files between police, prosecutors, and courts).79
+
+
+2.4 COFOG 04: Economic Affairs
+
+
+This is a broad function covering services for general economic policy, commerce, labor, agriculture, transport, and energy.
+* United States:
+   * Agencies: Department of Commerce (DOC), Department of Transportation (DOT), and Department of Agriculture (USDA).99
+   * Services: DOC provides key economic data services via the Bureau of Economic Analysis (BEA) (e.g., GDP statistics) 101 and patent services via the Patent and Trademark Office.102 The USDA provides agricultural data via the National Agricultural Statistics Service (NASS).101 The DOT manages federal transportation services (e.g., Federal Aviation Administration, Federal Highway Administration).100
+* China:
+   * Agencies: National Development and Reform Commission (NDRC), Ministry of Commerce (MOFCOM), and Ministry of Industry and Information Technology (MIIT).
+   * Services: These agencies actively steer the economy. The NDRC manages macroeconomic planning.103 MOFCOM manages foreign trade and investment 104, including the "Catalogue of Industries for Encouraging Foreign Investment" which offers preferential tax and land treatment.104 MIIT drives industrial policy, such as "Made in China 2025" and promoting the manufacturing industry.103
+* United Kingdom:
+   * Agencies: Department for Business and Trade (DBT), Department for Transport (DfT), and Department for Environment, Food and Rural Affairs (DEFRA).
+   * Services: These recently reorganized departments 107 manage services for business, trade, and exports 108, national transport infrastructure 109, and food/agriculture (within DEFRA).109
+* Germany:
+   * Agencies: Bundesministerium für Wirtschaft (Ministry for Economic Affairs), Bundesministerium für Verkehr (Ministry for Transport), and Landwirtschaft (Agriculture) ministries.
+   * Services: These federal ministries manage economic policy, including the "just transition" policies for former coal regions 111 and support for rural agriculture.112
+* India:
+   * Agencies: Ministry of Commerce and Industry, Ministry of Transport (and Railways), and Ministry of Agriculture.
+   * Services: These ministries manage trade and economic policy 113, national transport agreements (like the development of maritime communications between Chennai and Vladivostok) 114, and agricultural policy.113
+* Japan:
+   * Agencies: Ministry of Economy, Trade and Industry (METI), Ministry of Land, Infrastructure, Transport and Tourism (MLIT), and Ministry of Agriculture, Forestry and Fisheries (MAFF).117
+   * Services: METI is a powerful ministry that guides industrial policy, energy, and trade.117 MLIT manages all transport and infrastructure.119 MAFF manages food security and agricultural promotion.117
+In nations like China and Japan, these ministries are engaged in "Policy-as-a-Service." Their GaaS platforms are not just regulatory; they are instruments of economic steering, providing data, incentives, and frameworks (like the "Encouraging FI Catalogue" 104) to guide private sector innovation.103 TBM is essential here to map the cost of these GaaS platforms to the national economic outcomes they are designed to produce.
+
+
+2.5 COFOG 05: Environmental Protection
+
+
+This function includes services for waste management, pollution abatement, and the protection of biodiversity.
+* United States:
+   * Agencies: Environmental Protection Agency (EPA) and the Department of the Interior (DOI).122
+   * Services: The EPA is the primary regulator, consolidating environmental activities from five former departments.124 Its services include air and water pollution control 122, hazardous waste management enforcement (under the RCRA) 123, and solid waste management.126 The DOI manages public lands and wildlife protection.122
+* China:
+   * Agency: Ministry of Ecology and Environment (MEE).127
+   * Services: Environmental protection is a high-priority policy.127 MEE services include air, water, and soil pollution prevention 129, solid and medical waste management (a focus that intensified during the COVID-19 pandemic) 130, and setting technical specifications for pollutant discharge.131
+* United Kingdom:
+   * Agencies: Department for Environment, Food and Rural Affairs (DEFRA) (policy) and the Environment Agency (operations).132
+   * Services: The Environment Agency is the main regulator, responsible for services like environmental permitting for waste sites 133, registering waste carriers 132, air quality monitoring 134, and prosecuting waste crime.135 Local authorities handle municipal waste collection.132
+* Germany:
+   * Agencies: Bundesministerium für Umwelt (BMU) (Federal Ministry for Environment) and the Umweltbundesamt (UBA) (Federal Environment Agency).137
+   * Services: Services are heavily focused on "waste prevention" and the Circular Economy Act (Kreislaufwirtschaftsgesetz).138 The UBA provides services for air quality control, pollution reduction, and waste management.137
+* India:
+   * Agencies: Ministry of Environment, Forest and Climate Change (MoEFCC) 141 and the Central Pollution Control Board (CPCB).141
+   * Services: The CPCB is a statutory organization providing technical services to the MoEFCC.141 Its core services include: monitoring air, water, and soil pollution levels; setting environmental standards for industries; and enforcement/compliance.144 It also oversees hazardous waste, municipal waste, and e-waste management.144
+* Japan:
+   * Agency: Ministry of the Environment (MOE).146
+   * Services: Japan's environmental services, established in response to the "Pollution Diet" of 1970 148, are highly advanced. Services focus on pollution prevention 149 and promoting a "sound material-cycle society" (i.e., Reduce, Reuse, Recycle) through waste management legislation.148
+This function is data-intensive. The core "GaaS" service is often the platform itself—the platforms for monitoring pollution in real-time 144, issuing environmental permits 133, and modeling air quality.134 TBM is the ideal tool to justify the cost of these data platforms by mapping them to the public value of "health protection".137
+
+
+2.6 COFOG 07: Health
+
+
+This function covers public health services, hospitals, and medical products. It is one of the largest and most complex areas of government spending.
+* United States:
+   * Agencies: Department of Health and Human Services (HHS), Centers for Disease Control and Prevention (CDC), and Centers for Medicare & Medicaid Services (CMS).20
+   * Services: The US system is a "patchwork" of public and private actors.20 HHS oversees the system, with the CDC providing national public health services and pandemic response 151 and CMS managing the massive public insurance programs (Medicare and Medicaid).152
+* United Kingdom:
+   * Agencies: Department of Health and Social Care (DHSC) and the National Health Service (NHS).155
+   * Services: The DHSC provides policy and funding, while the NHS provides comprehensive, state-delivered healthcare services to all citizens.155 Pandemic preparedness and response is now handled by the UK Health Security Agency (UKHSA) 156, created after "lessons learned" from the pandemic.157
+* India:
+   * Agencies: Ministry of Health and Family Welfare (MOHFW), Indian Council of Medical Research (ICMR), and National Center for Disease Control (NCDC).160
+   * Services: The MOHFW manages national health policy.162 The NCDC and ICMR are the key technical bodies for pandemic preparedness, disease surveillance (including genomic sequencing), and research.160
+* Japan:
+   * Agencies: Ministry of Health, Labour and Welfare (MHLW).165
+   * Services: The MHLW manages the comprehensive national health and long-term care insurance systems.165 A key partner is the new Digital Agency, which is driving "Medical DX" (Digital Transformation) to create a nationwide data infrastructure for public health.165
+The COVID-19 pandemic was a global, real-time stress test of GaaS health platforms.151 It revealed the critical need for integrated, real-time data platforms (for test data, surveillance, and mortality statistics) 154 and exposed the fatal flaws of fragmented systems 20 or preparedness plans that were not rigorously tested.159 TBM can be used to justify investments in pandemic preparedness platforms before the next crisis, by mapping their cost to the avoided economic and social cost of a failed response.
+
+
+2.7 COFOG 09: Education
+
+
+This function includes primary, secondary, and tertiary education services.
+* United States:
+   * Agencies: U.S. Department of Education (USED) (federal), with state and local governments (delivery).169
+   * Services: This is a classic federal model. The USED provides only a small fraction of funding (~8.5%) 169 but provides key services: setting national policy and distributing "Title I" funds to assist children from low-income families, children with disabilities, and English language learners.169 The vast majority of service delivery is by local school districts.170
+* United Kingdom:
+   * Agencies: Department for Education (DfE) and Ofsted (Office for Standards in Education, Children's Services and Skills).174
+   * Services: The DfE provides funding and sets policy for public education services, including programs like the National Tutoring Programme.174 Ofsted provides the critical "quality assurance" service through its independent inspection framework.174
+* India:
+   * Agencies: Ministry of Education (MoE) and the University Grants Commission (UGC).179 (Note: Data is for Sri Lanka, but used as a proxy for a South Asian model as requested by outline).
+   * Services: The MoE manages primary and secondary education, which is co-delivered by the central government ("National Schools") and provincial governments ("Provincial Schools").179 The UGC is the key body for higher education, overseeing universities and post-graduate institutions.179
+* Japan:
+   * Agency: Ministry of Education, Culture, Sports, Science and Technology (MEXT).182
+   * Services: MEXT is a powerful central ministry that oversees the entire education system, from "upper secondary schools" (high schools) 183 to higher education institutions (universities).182
+The US federal model 169 presents a perfect TBM use case. A local school district's IT budget (a "Cost Pool") must be mapped to multiple "Business Capabilities" (COFOG 09) and multiple "funding-source" capabilities (Local Taxes, State Grants, Federal Title I Grants 172). TBM is the only framework that can provide this multi-dimensional cost transparency.
+
+
+2.8 COFOG 10: Social Protection
+
+
+This function covers services for old age (pensions), sickness and disability, and unemployment.21
+* United States:
+   * Agency: Social Security Administration (SSA).187
+   * Services: The SSA is a massive federal agency providing core social protection services, primarily Old-Age pensions and Disability benefits.185
+* United Kingdom:
+   * Agency: Department for Work and Pensions (DWP).189
+   * Services: The DWP is a comprehensive agency managing the State Pension and Universal Credit (UC).189 UC is a flagship GaaS platform, designed to consolidate multiple "siloed" benefits (for unemployment, sickness, housing) into a single, simplified service.189
+* India:
+   * Agencies: Ministry of Labour and Employment (MoL&E) 193 and the Employees' Provident Fund Organisation (EPFO).193
+   * Services: Social protection is primarily for the formal sector. The EPFO provides pension and provident fund benefits.194 The MoL&E is also developing policies to extend these benefits to gig and platform workers.195
+* Japan:
+   * Agency: Ministry of Health, Labour and Welfare (MHLW).197
+   * Services: The MHLW manages a comprehensive social security system, which is fully integrated with health and labor services. This includes the national pension system (for old-age and disability).198
+This sector is defined by its legacy technology. The US SSA's core systems are "over 30 years old" and "increasingly fragile and costlier to maintain".201 The UK's Universal Credit GaaS platform was "delayed mainly due to information technology difficulties".189 This makes social protection the number one use case for TBM. TBM provides the framework to articulate the value of modernization 201 and justify the massive capital expenditure by showing how a new GaaS platform reduces operational risk and lowers the long-term cost per transaction.
+________________
+
+
+Part III: The Digital "GaaS" Layer: A Comparative Analysis of National Strategies
+
+
+This section analyzes the how of service delivery, synthesizing the digital transformation strategies (the "GaaS" layer) of these powerful nations. This layer is the bridge between the COFOG services (Part II) and the TBM costing model (Part IV).
+
+
+3.1 United States: A Federated, "Customer-Centric" Model
+
+
+* Strategy: The U.S. Digital Government Strategy.202
+* Core Principles: The strategy is built on three main pillars:
+   1. "Customer-Centric": Delivering better digital services using modern tools and improving priority services for mobile use.6
+   2. "Information-Centric": Making Open Data, content, and Web APIs the "New Default" for all new IT systems.6
+   3. "Shared Platform": Establishing a Digital Services Innovation Center and Advisory Group to improve intra-agency governance.6
+* Governance: The strategy is facilitated by the Office of Management and Budget (OMB) 6 and supported by agencies like the General Services Administration (GSA) 204, which manages a Digital Experience Executive Board to oversee policy and compliance.204
+* Analysis: The US model is a framework for coordination, not a mandate for consolidation. It encourages agencies to use common APIs 203 and policies 202 but stops short of forcing them onto a single, monolithic platform. This federated structure explains the necessity for a separate framework like TBM to discover and report on costs, rather than a centralized model that sets and allocates costs.
+
+
+3.2 United Kingdom: The Centralized, "Common Components" Model
+
+
+* Strategy: "Transforming for a Digital Future: 2022-2025 Roadmap" 7 and the new "Blueprint for Modern Digital Government".206
+* Core Principles: The strategy aims to "exceed public expectations" (user-centric) and "enhance government efficiency and security".7 The primary method is creating a "more joined-up...government that uses common building blocks" 7 and "scale[s] common infrastructure".206
+* Governance: The strategy is driven by a "strengthened digital centre of government" 206, which evolves from the highly influential Government Digital Service (GDS).208 This central body is responsible for building and scaling these common components, such as GOV.UK One Login 209, and driving AI adoption.207
+* Analysis: The UK model is a centralized, platform-driven GaaS model. The GDS 208 and its successor 207 build the common platforms that departments are expected to use. This GaaS architecture simplifies TBM implementation, as the cost of the "common building blocks" 7 can be clearly calculated and shown back to the agencies that consume them.
+
+
+3.3 China: The Top-Down, "Total Integration" Model
+
+
+* Strategy: The "Digital China" Construction Framework.8
+* Core Principles: This is a comprehensive, long-term plan (to 2035) structured around the "2522" framework 8:
+   * 2 Foundations: Strengthening digital infrastructure and data resource systems.
+   * 5-Sphere Integration: Promoting the deep integration of digital technology into the economy, politics, culture, society, and ecological development.
+   * 2 Capabilities: Enhancing digital technology innovation and safeguarding digital security.
+   * 2 Environments: Optimizing domestic and international environments for digital development.
+* Governance: This is a top-down, Party-led national strategy. Progress on "Digital China" construction serves as a "performance evaluation" metric for Party and government leaders.8 The strategy is explicitly linked to national goals like achieving "common prosperity" 210 and promoting "firm innovation".211
+* Analysis: China's "GaaS" is a totalizing concept, fusing economic, social, and political governance through a single digital lens.8 It is not merely a "service delivery" model; it is a national governance model. The TBM equivalent is not about "cost transparency" for agencies, but about macro-level resource allocation and performance evaluation against national five-year plans.8
+
+
+3.4 India: The "Leapfrog" and "Mobile-First" Model
+
+
+* Strategy: The Digital India programme 213 and its core service delivery pillar, "e-Kranti - Electronic Delivery of Services".9
+* Core Principles: The vision of e-Kranti is "Transforming e-Governance for Transforming Governance".9 Its 11 key principles are a masterclass in modern GaaS, including:
+   * "Transformation and not Translation" 9 (i.e., re-engineer processes, don't just digitize old forms).
+   * "Integrated Services and not Individual Services".9
+   * "Cloud by Default".9
+   * "Mobile First".9
+* Governance: The Digital India initiative is a national program 213 with a budget of ~INR 14,903 Cr from 2021-2026.215 e-Kranti is managed via 44 "Mission Mode Projects" (MMPs) 9, with oversight from an Apex Committee chaired by the Cabinet Secretary.217
+* Analysis: India's GaaS model is designed to leapfrog legacy technology. By mandating "Cloud by Default" and "Mobile First" 9 in a nation with high mobile penetration, it avoids the legacy-system traps that plague the US (like the SSA's 30-year-old systems 201) and the UK (the IT "difficulties" with Universal Credit 189). The financial model is project-based (MMPs) 217, making TBM valuable for project portfolio management (PPM) and linking project spend to the nine pillars of Digital India.216
+
+
+3.5 Japan: The "Centralized Cloud" Model
+
+
+* Strategy: The "Vision for a Digital Garden City Nation".219
+* Core Principles: The strategy is built on a foundation of robust, centrally-planned digital infrastructure. This includes completing a "Digital Garden City Superhighway" (submarine cables) by 2025 222, building regional data centers 221, and achieving near-universal optical fiber and 5G coverage.221 The core of the GaaS model is the "Government Cloud" 10, which is designed to enable the "construction of systems that are fast, flexible, secure, and cost-effective".10
+* Governance: This vision is executed by the powerful, newly created Digital Agency.10 The Digital Agency has been given a unique and powerful mandate: it is establishing a "mechanism to record the budget collectively in [the] Digital Agency, allocate it to each ministry, and execute it".225
+* Analysis: Japan's approach is perhaps the most structurally "GaaS" of all. By creating a single agency (Digital Agency) 224 that controls both the central platform (Government Cloud) 10 and the IT budgets of other ministries 225, Japan has built TBM into its central governance structure. It does not need a separate framework to discover costs; it dictates and allocates costs from the center. This is "structural TBM."
+
+
+3.6 Germany: The "Consolidation" Model (A Cautionary Tale)
+
+
+* Strategy: "IT-Konsolidierung Bund" (Federal IT Consolidation).226
+* Core Principles: The goal is simple: to create "mehr Effizienz" (more efficiency) in the federal administration by consolidating fragmented IT systems.226
+* Governance: The strategy is managed by the IT-Rat (IT Council) 18 and implemented by ITZBund (Federal Center for IT).226
+* Analysis: The German model is a cautionary tale that perfectly mirrors the struggles of the US. A 2024 report from the Bundesrechnungshof (Federal Audit Office) 18 identifies a critical failure: a central "IT-Controlling Bund" (Federal IT Controlling), which was decided upon in 2016 to create "Transparenz über die IT des Bundes" (transparency over federal IT), is still not built.18 The audit finds that the IT Council "failed to fully follow up on and enforce its decision" and that the "abstimmungsprinzip" (principle of consensus) "lähmt IT-Steuerung" (paralyzes IT governance).18
+This shared failure in two major federal nations (US and Germany) is a critical finding. In decentralized federal systems, top-down IT consolidation/transparency initiatives that rely on "committees" (like the US OMB or the German IT-Rat) and "consensus" 18 are prone to failure. They are "stalled" 14 because they lack the centralized executive power of Japan's Digital Agency 225 or the clear, agency-level value proposition of a bottom-up success story.17
+
+
+3.7 Proposed Artifact: Table 2. Comparative GaaS Strategy Matrix
+
+
+This table provides a high-level, scannable comparison of the national digital strategies, mapping their approaches to the key components of a GaaS model.
+Table 2: Comparative GaaS Strategy Matrix
+
+
+Country
+	National GaaS Strategy
+	Lead Agency / Body
+	Core Principle / Method
+	IT Financial Governance Model
+	United States
+	Digital Government Strategy 202
+	OMB 202, GSA 204
+	"Customer-Centric" / "Information-Centric" (APIs as default) 6
+	Decentralized (Federated): Agencies manage budgets. TBM is a reporting/transparency mandate.13
+	United Kingdom
+	Blueprint for Modern Digital Government 206
+	GDS / "Digital Centre" 206
+	"Common Components" (Build central "building blocks" and "common infrastructure") 7
+	Centralized (Platform-Led): GDS builds common platforms; costs can be shown back to agencies.
+	China
+	"Digital China" (2522 Framework) 8
+	State Council / CCP
+	"Total Integration" (Deep fusion of digital tech into 5 spheres: economy, politics, society, etc.) 8
+	Top-Down (Performance-Led): IT spend is a tool for national goals; progress is a performance metric for leaders.8
+	India
+	Digital India / e-Kranti 216
+	MeitY / Apex Committee
+	"Leapfrog Model" ("Cloud by Default," "Mobile First," "Transformation not Translation") 9
+	Project-Based: Funding is allocated to 44 "Mission Mode Projects" (MMPs).9 TBM is useful for PPM.
+	Japan
+	Digital Garden City Nation 219
+	Digital Agency 10
+	"Centralized Cloud" (Build common "Government Cloud" as a cost-effective, flexible foundation) 10
+	Centralized (Budget-Led): The Digital Agency controls the IT budgets and allocates funds to ministries.225
+	Germany
+	IT-Konsolidierung Bund 226
+	IT-Rat (IT Council) 18
+	"Consolidation" (Create efficiency by consolidating fragmented IT) 226
+	Decentralized (Consensus-Led): A federated model that has "paralyzed" IT governance and failed to build a central IT controlling/transparency function.18
+	________________
+
+
+Part IV: TBM Value Mapping for Government: The Financial Transparency Framework
+
+
+This section delivers the detailed "TBM value mapping" framework. It defines the TBM taxonomy and adapts it to the COFOG service portfolio from Part II, creating the "transparent" layer of the GaaS model.
+
+
+4.1 Defining Technology Business Management (TBM) for the Public Sector
+
+
+Technology Business Management (TBM) is an IT management framework that implements a standard, non-proprietary taxonomy to categorize IT costs, technologies, resources, applications, and services.11 It was developed by the TBM Council, a nonprofit organization of technology and finance leaders.230
+In the private sector, TBM connects IT spend to business value (e.g., profit, market share). In the public sector, the goal is different but the mechanism is the same. The objective is not profit, but mission delivery.17
+TBM enables a public sector CIO to "run IT like a business" 11 by connecting technology investments to the value of the public service being delivered.11 It provides a "shared language" 230 that allows IT, finance (CFOs), and agency leaders (program managers) to collaborate.19 It breaks down the "IT black hole" 19 by turning "opaque spend into transparency".231
+This "empowerment" 230 is the core of TBM's public sector value. It positions the IT organization as a "strategic partner, not just a cost center" 230, by giving leaders the data to "formulate and defend their budgetary position" 17 and "guide IT investment decisions".233
+
+
+4.2 The TBM Taxonomy: The "Golden Thread" of Value Mapping
+
+
+The TBM taxonomy 230 creates a "golden thread" by linking foundational costs (like an electricity bill) to high-level business outcomes (like delivering a pension). This data-driven model maps and allocates costs from their source to their use.230 The taxonomy is layered, and when adapted for government, it connects as follows:
+1. Level 1: Cost Pools (What you buy): This is the "General Ledger" of IT spend. It is a standard set of categories, such as "Hardware," "Software," "Internal Labor," "Outside Services," and "Facilities and Power".13 This is the source of all TBM data.
+2. Level 2: IT Towers (What you build): These are the technology "building blocks" or "towers" that are built from the cost pools.13 The TBM taxonomy provides a standard list, including "Data Centers," "Networks," "Storage," "Applications," and "Compute".13 This layer shows the total cost of, for example, "running all applications."
+3. Level 3: IT Services (What you provide): This is the IT service catalog from the perspective of the agency. These are the specific, consumable IT products that the agency "buys" from its IT department. Examples include "Email-as-a-Service," "Help Desk," "Case Management Platform," or "Citizen-facing Website".234 This is the crucial linkage between IT and the business.234
+4. Level 4: Business Capabilities & Services (What you enable): This is the top layer, representing the mission of the agency. This is what the agency delivers to the public. For the GaaS framework, this layer is defined by the COFOG Government Service Portfolio (GSP) from Part I.
+This four-level "golden thread" allows a CIO to show exactly how spend on "Hardware" (Cost Pool) supports the "Mainframe" (IT Tower), which in turn runs the "Pension Calculation Platform" (IT Service), which is essential to deliver the "Old Age Pensions" (Business Service / COFOG 10.2).
+
+
+4.3 Distinguishing TBM from ITIL, ITFM, and FITARA
+
+
+TBM is a specific discipline and should not be confused with related frameworks.
+* TBM vs. ITIL (IT Infrastructure Library): ITIL is a best-practice framework for IT Service Management (ITSM).236 ITIL (developed by the UK government in the 1980s 237) provides the processes for defining, managing, and delivering services (e.g., incident management, change management) and defining a "Service Portfolio".238 TBM is the financial engine for an ITIL-defined service catalog. ITIL defines the "what" (the service), while TBM defines the "how much" (the cost and value of that service).235
+* TM vs. ITFM (IT Financial Management): ITFM is the general practice of managing IT finances (budgeting, planning, service costing).19 TBM is a specific discipline of ITFM that provides a "purpose-built tool" 235 and a "standardized approach to cost categorization and allocation" (the TBM Taxonomy).11 In short, TBM is a standardized, value-oriented implementation of ITFM.
+* TBM & FITARA (US Case): The Federal IT Acquisition Reform Act (FITARA) is a 2014 US law.244 FITARA mandates increased CIO authority and "Enhanced Transparency and Improved Risk Management in IT Investments".245 TBM is the framework the US government adopted to implement the FITARA mandate.12 TBM provides the standardized data to "benchmark IT spending," "improve acquisitions," and enhance understanding of investment costs 12, thereby fulfilling the legal requirements of FITARA. The GSA's "FITARA Scorecard" is a direct parallel to TBM's goal of data-driven transparency.249
+
+
+4.4 Proposed Artifact: Table 3. Public Sector TBM Taxonomy Mapping (COFOG-Aligned)
+
+
+This is the central blueprint of the report, merging the GSP (COFOG) with the TBM value mapping framework. It uses the U.S. Social Security Administration (SSA) as a concrete, data-supported example, drawing from its IT Modernization Plan.201
+The SSA's problem is that its core systems are "over 30 years old," "increasingly fragile and costlier to maintain".201 The agency's goal is to "derive the greatest value possible from these technology investments".201 The TBM-COFOG mapping provides the business case to do exactly that.
+Table 3: TBM-COFOG "Golden Thread" Mapping (Example: U.S. Social Security Administration)
+
+
+TBM Layer
+	Mapping (Example: SSA)
+	Description (The "Value Conversation")
+	Level 4: Business Capability
+	COFOG Division 10: Social Protection 3
+	The Mission: "What is our mandate?" Our mandate is to provide Social Protection services to the American people.188
+	Level 4: Business Service
+	COFOG Group 10.2: Old Age 21 (Service: "Deliver Old-Age Pension Benefits")
+	The Public-Facing Service: "What service do we deliver?" We deliver pension benefits to eligible seniors.
+	Level 3: IT Service
+	"Pension Benefits Calculation & Delivery Platform"
+	The Enabling Technology Service: "What IT service enables this?" We run a core platform that calculates and processes all pension payments. This is the "core system" that is "over 30 years old".201
+	Level 2: IT Tower
+	"Mainframe" "Legacy Applications" "Data Center (On-Premise)"
+	The Technology Stack: "What is this IT service built on?" It is built on "fragile" 201 mainframe hardware, legacy code, and our on-premise data centers.13
+	Level 1: Cost Pool
+	"Hardware Maintenance" "Software Licenses (Legacy)" "Internal Personnel (COBOL experts)" "Facilities & Power" 13
+	The General Ledger: "What are the root costs?" The cost of this platform is driven by expensive hardware maintenance contracts, high-cost legacy software licenses, specialized personnel, and data center power.
+	The TBM-Powered Business Case:
+This mapping creates the "transparent" value chain. Without it, the SSA's CIO can only report costs: "I am spending $100M on mainframes."
+With this mapping, the CIO can make a value and risk argument:
+"Our $100M annual spend in the 'Hardware Maintenance' and 'Internal Personnel' cost pools (Level 1) is being consumed by our 'Mainframe' and 'Legacy Application' towers (Level 2). These towers are "fragile" and "costlier to maintain" 201, and they only support one IT Service: our 'Pension Benefits Platform' (Level 3). This platform creates an unacceptably high operational risk to our primary mission: delivering 'Old-Age Pension Benefits' (Level 4).
+Therefore, we request a $50M modernization investment 250 to build a new 'Cloud' IT Tower and a modern 'Microservices Application' tower. This new IT service will reduce our 'Hardware Maintenance' and 'Facilities' cost pools, lower our long-term operating cost, and, most importantly, reduce the mission risk of failing to deliver benefits to millions of Americans."
+This is the "value conversation" TBM enables.230 It changes the IT discussion from cost to risk, value, and modernization.201
+________________
+
+
+Part V: Public Sector TBM in Practice: Case Studies and National Models
+
+
+This section provides critical, real-world context for TBM implementation, focusing on the lessons learned from both success and failure. The U.S. federal experience provides the most important and well-documented case study for any government considering TBM adoption.
+
+
+5.1 Case Study 1: The U.S. Federal TBM Mandate (A Dual Narrative)
+
+
+This case study is the single most important "lesson learned" for any GaaS framework. It presents a clear contradiction: a failing, top-down federal mandate existing at the same time as award-winning, agency-level success.
+
+
+5.1.1 The Macro-Level Challenge: A "Stalled" Mandate
+
+
+* The Data: A series of U.S. Government Accountability Office (GAO) reports, culminating in the critical GAO-25-106488 report (published July 2025, publicly released August 2025).13
+* The Problem: The U.S. federal government spends over $100 billion annually on IT.13 In 2017, the Office of Management and Budget (OMB) started requiring agencies to adopt the TBM framework to address "longstanding challenges with transparency".13
+* The Findings: As of August 2025, after 8 years of this initiative, the GAO has concluded that the government-wide TBM effort is "stalled".14 The primary cause is a "lack of action and guidance" from OMB.13 Five years after the initial plan, OMB had still not expanded TBM reporting requirements beyond the most basic taxonomy layers (Layer 1 and 2).13 As a result, "most agencies had not developed a plan for implementing TBM" (15 of 26 agencies reviewed).13
+* The Result: The GAO has issued a "Go or No Go" ultimatum, recommending that the Director of OMB "either (1) terminate the stalled government-wide TBM effort... or (2) deem TBM an Administration priority" and "expeditiously implement GAO's prior recommendations".15
+
+
+5.1.2 The Micro-Level Success: Agency-Led Value
+
+
+While the top-down OMB mandate was failing, individual agencies were adopting TBM for their own benefit—and succeeding.
+* U.S. Secret Service (USSS): The USSS was the winner of the 2022 TBM Council Public Sector Excellence Award.17
+* The Cause: The USSS did not adopt TBM for OMB compliance. They adopted TBM to solve their own problems. Their goal was to "create fiscal transparency," "formulate and defend their budgetary position," and "automate reporting requirements".17 TBM provided them with an accessible and "trusted financial baseline" to justify their budget and "target opportunities for optimization".17
+* U.S. Office of Personnel Management (OPM): OPM's "2023-2026 Information Technology Strategic Plan" is explicitly "structured on the Technology Business Management (TBM) value management framework".233
+* The Cause: OPM uses TBM as a strategic tool. A key objective in their plan is to "Use TBM-based cost, consumption, and performance data to guide IT investment decisions".233
+
+
+5.1.3 Analysis: The Great Contradiction and The "Compliance Trap"
+
+
+This dual narrative reveals the most important finding of this report.
+1. The federal government spends over $100 billion on IT.13
+2. OMB mandated TBM 8 years ago to create transparency.13
+3. The GAO, in August 2025, calls this top-down effort "stalled" due to OMB's lack of guidance.14
+4. Simultaneously, the USSS wins a national award in 2022 for using TBM to "defend their budgetary position" 17, and OPM builds its entire 2023-2026 IT strategy on TBM.233
+Conclusion: TBM fails when it is a top-down, centralized "compliance" exercise. It becomes just another report that agencies must file, and central leadership (like OMB) fails to provide the guidance to make it meaningful.13 TBM succeeds when it is an agency-level, CIO/CFO-sponsored strategic tool. The USSS used TBM to solve their budget problems, not OMB's transparency problem.17
+Any GaaS framework must avoid this "Compliance Trap." TBM's value is as a decentralized tool for strategic advocacy, not a centralized tool for cost control.
+
+
+5.2 Case Study 2: U.S. Social Security Administration (SSA) IT Modernization
+
+
+The SSA provides a textbook use case for why TBM is essential, as detailed in Part IV.
+* The Problem: The SSA, a COFOG 10 (Social Protection) service provider 188, is facing a technology crisis. Its core systems are "over 30 years old," "increasingly fragile and costlier to maintain".201 This is a direct threat to their mission.
+* The TBM Use Case: The SSA's IT Modernization Plan 201 is a TBM-driven business case. The agency's stated goal is to "derive the greatest value possible from these technology investments" and "return the agency to a healthy IT foundation".201
+* Mapping: TBM is the framework to justify the "IT modernization" budget 250 by:
+   1. Costing the "As-Is": Using TBM to show the rising, exorbitant costs of the "fragile" legacy mainframe systems.201
+   2. Mapping to Mission Risk: Linking these "fragile" systems to the high risk of failing to deliver pension payments.
+   3. Justifying the "To-Be": Articulating how investment in modern technologies (cloud, AI, analytics 201) will create a new IT service that reduces mission risk and lowers long-term operating costs.
+TBM is the framework that allows the SSA's CIO to change the conversation from "My $100M mainframe is a cost center" to "This $100M legacy platform creates a 40% risk of service failure for 50 million seniors. A $50M modernization investment 250 reduces that risk to 1% and lowers operating costs by 20%."
+
+
+5.3 Comparative National IT Financial Models (Beyond TBM)
+
+
+As identified in Part III, TBM is not the only model. It is a product of decentralized, federal systems (like the US) that need to discover costs. Centralized systems allocate costs.
+* UK (ITIL Model): The UK, which invented ITIL 236, builds its financial management into the "Service Strategy" and "Service Valuation" process.239 Costs are transparent because services are defined in a central catalog. The GDS "common components" model 7 is a natural extension of this, where the cost of a central "building block" is known and can be shared.
+* Germany (Failed Consolidation): The "IT-Konsolidierung" 18 proves the federal challenge. The 2024 audit report 18 notes the failure to build an "IT-Controlling Bund" (IT Controlling Body) after 8 years. This is the exact same problem the US GAO identified with its stalled 8-year TBM mandate.13 This reveals a pattern: IT financial transparency initiatives in federal systems (US, Germany) fail when they are consensus-driven 18 and lack strong central authority or clear agency-level value.
+* Japan (Structural TBM): Japan's Digital Agency 224 avoids this federal trap. It has been given structural power. It controls the two key levers: the platform ("Government Cloud" 10) and the budget ("establish a mechanism to record the budget collectively...[and] allocate it to each ministry" 225). This is the most powerful model, achieving transparency through direct financial control.
+________________
+
+
+Part VI: Blueprint for Your "Layer 3 Transparent Service Portfolio"
+
+
+This final section provides a direct, actionable blueprint for building the "Layer 3" GaaS framework, synthesizing all findings from this report.
+
+
+6.1 Recommendation 1: Adopt COFOG as the GSP Framework
+
+
+The "Layer 3 Service Portfolio" should be a Government Service Portfolio (GSP) built directly on the UN COFOG 10-division taxonomy.3
+* Action: Implement the portfolio as a multi-level catalog corresponding to COFOG Divisions (Level 1, e.g., "07 Health") and Groups (Level 2, e.g., "07.4 Public health services").
+* Rationale: This provides an immediate, comprehensive, and globally-recognized structure. It is non-proprietary and aligns public finance with IT finance.
+
+
+6.2 Recommendation 2: Adopt TBM for Financial Transparency
+
+
+The "Transparent" aspect of the portfolio should be powered by the Technology Business Management (TBM) framework.11
+* Action: Mandate that all IT assets and services within the GaaS framework are mapped using the standard TBM taxonomy (Cost Pools, IT Towers, IT Services).12
+* Rationale: TBM is the industry-standard "shared language" 230 for linking cost to value.
+
+
+6.3 Recommendation 3: Create the "Golden Thread" by Mapping TBM to COFOG
+
+
+The core of the framework is the explicit link between the financial, technical, and business layers.
+* Action: Implement the model detailed in Table 3 of this report.
+   * Map TBM Business Capabilities directly to COFOG Divisions/Groups (e.g., COFOG 10.2).
+   * Map TBM IT Services to the specific digital platforms that enable those COFOG functions (e.g., the "Pension Benefits Platform" 201).
+   * This creates a "bill of IT" for every government function, showing exactly how technology dollars are delivering public value.
+
+
+6.4 Recommendation 4 (The Critical Lesson): Avoid the "Compliance Trap"
+
+
+This is the most critical strategic recommendation.
+* The Finding: The U.S. Federal TBM mandate 13 and the German IT-Konsolidierung 18 provide a stark warning. Top-down, compliance-only TBM initiatives fail. They are "stalled" 14 and "paralyzed" 18 because they are perceived as a reporting burden with no clear guidance or value to the agencies themselves.
+* Action: The GaaS framework must position TBM as a tool of empowerment for agency leaders, not a tool of control for a central office.
+* How: Follow the U.S. Secret Service (USSS) 17 and OPM 233 "micro-success" model. The GaaS central body should provide TBM as a shared service, complete with a "TBM Playbook" 12 and an implementation support team. The goal is to help agency CIOs use TBM data to "defend their budgetary position" 17, "guide...investment decisions" 233, and make the business case for modernization.201
+* Success Metric: The metric for Layer 3 success is not "100% of agencies have submitted TBM reports." The metric is: "How many agencies used TBM data to successfully justify a modernization project?" and "How many agencies optimized 10%+ of their legacy spend into new GaaS platforms?"
+
+
+6.5 Final Synthesized Model: The "Layer 3" Definition
+
+
+Based on this analysis, the "Layer 3 Transparent Service Portfolio" is hereby defined as:
+* A. A Service Portfolio: A comprehensive catalog of all government business services, structured by the UN COFOG taxonomy.3
+* B. A Transparency Engine: A TBM-powered financial model 11 that maps all IT Cost Pools $\rightarrow$ IT Towers $\rightarrow$ IT Services $\rightarrow$ COFOG Business Capabilities.
+* C. A Governance Model: A "GaaS" philosophy that implements TBM as a decentralized, agency-empowering tool (emulating the USSS/OPM model 17) to drive modernization and value, while actively avoiding the centralized, compliance-based mandate that led to failure in the US and German federal systems.14
+Works cited
+1. accessed December 31, 1969, https://happy-technologies-llc.github.io/Government-as-a-Service/layer3-transparent-service-portfolio/layer3-overview.html
+2. accessed December 31, 1969, https://github.com/happy-technologies-llc/Government-as-a-Service
+3. Classification of the Functions of Government - UNSD, accessed November 14, 2025, https://unstats.un.org/unsd/classifications/cofog/revision
+4. Which is the Most Powerful Country in the World | Top 10 Most Powerful Countries in the World in 2025 - Forbes India, accessed November 14, 2025, https://www.forbesindia.com/article/explainers/top-10-powerful-countries-in-the-world/87201/1
+5. Top 10 Most Powerful Countries in The World (2025) | Check India's Rank, accessed November 14, 2025, https://www.jagranjosh.com/general-knowledge/list-of-the-most-powerful-countries-in-the-world-1732882582-1
+6. Digital Government: Building a 21st Century Platform to Better Serve the American People, accessed November 14, 2025, https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/digital-government/digital-government.html
+7. Transforming for a digital future: 2022 to 2025 roadmap for digital and data - updated September 2023 - GOV.UK, accessed November 14, 2025, https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data
+8. Overall Framework: Digital China Construction Overall Layout Plan | Public Institutions, accessed November 14, 2025, https://publicadministration.desa.un.org/good-practices-for-digital-government/compendium/overall-framework-digital-china-construction
+9. Download - Information Technology Department Government of NCT of Delhi, accessed November 14, 2025, https://it.delhi.gov.in/sites/default/files/generic_multiple_files/ekranti_1.pdf
+10. Policy｜Digital Agency, accessed November 14, 2025, https://www.digital.go.jp/en/policies
+11. TBM Implementing Technology Business Management - Policies & Priorities | CIO.GOV, accessed November 14, 2025, https://www.cio.gov/policies-and-priorities/tbm/
+12. 6.5 Technology Business Management (TBM) | CIO.GOV, accessed November 14, 2025, https://www.cio.gov/handbook/policies-initiatives/tbm/
+13. Technology Business Management: Critical Go or No Go Action Required on Federal Agency Adoption of IT Spending Framework - GAO, accessed November 14, 2025, https://www.gao.gov/products/gao-25-106488
+14. GAO-25-106488, TECHNOLOGY BUSINESS MANAGEMENT: Critical Go or No Go Action Required on Federal Agency Adoption of IT Spending Fr - Government Accountability Office, accessed November 14, 2025, https://www.gao.gov/assets/gao-25-106488.pdf
+15. accessed November 14, 2025, https://www.gao.gov/open-recs2-csv?processed=1&subject=Public%20health%20emergencies&topic=all&page=1
+16. GAO-25-106488, TECHNOLOGY BUSINESS MANAGEMENT: Critical Go or No Go Action Required on Federal Agency Adoption of IT Spending Framework, accessed November 14, 2025, https://files.gao.gov/reports/GAO-25-106488/index.html
+17. How the United States Secret Service Uses TBM to Drive Significant Time Savings & Establish a Common Language, accessed November 14, 2025, https://www.tbmcouncil.org/case-studies/how-the-united-states-secret-service-uses-tbm-to-drive-significant-time-savings-establish-a-common-language/
+18. IT-Konsolidierung Bund, Wirksamkeit der IT-Steuerung des Bundes - Bundesrechnungshof, accessed November 14, 2025, https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2024/it-konsolidierung-ii-volltext.pdf?__blob=publicationFile&v=2
+19. Assessing IT financial management maturity in government - Consultancy.com.au, accessed November 14, 2025, https://www.consultancy.com.au/news/2611/assessing-it-financial-management-maturity-in-government
+20. U.S. Public Health | KFF, accessed November 14, 2025, https://www.kff.org/other-health/health-policy-101-u-s-public-health/
+21. Glossary:Classification of the functions of government (COFOG) - Statistics Explained, accessed November 14, 2025, https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_the_functions_of_government_(COFOG)
+22. Classification of the Functions of Government - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Classification_of_the_Functions_of_Government
+23. Introduction to Classification of Functions of Government for Government Finance Statistics (GFS) - International Monetary Fund, accessed November 14, 2025, https://www.imf.org/en/capacity-development/training/icdtc/schedule/sa/2023/gfssa23-03
+24. Classification of the Functions of Government (COFOG): Government at a Glance 2025 | OECD, accessed November 14, 2025, https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/classification-of-the-functions-of-government-cofog_16aa2337.html
+25. Classification of the Functions of Government (COFOG) - OECD iLibrary, accessed November 14, 2025, https://www.oecd-ilibrary.org/governance/government-at-a-glance-2021_95603f6f-en
+26. Top 10 Most Powerful Countries in the World by Military Strength (2025) - SPM IAS Academy, accessed November 14, 2025, https://spmiasacademy.com/currentaffairs/top-10-powerful-countries-by-military-strength/
+27. 2025 Military Strength Ranking - Global Firepower, accessed November 14, 2025, https://www.globalfirepower.com/countries-listing.php
+28. INTERNAL SERVICES - Office of Budget and Debt Management, accessed November 14, 2025, https://bdm.saccounty.gov/FY201314BudgetInformation/Documents/F-Internal%20Services%20WEB.pdf
+29. CHAPTER 6: Policy and Governance - Stanford HAI, accessed November 14, 2025, https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter6_final.pdf
+30. Fund Balance with Treasury - Foreign Currency Transactions FAQs, accessed November 14, 2025, https://fiscal.treasury.gov/reports-statements/fbwt/foreign-currency-transactions.html
+31. Visit to Washington DC - Parliament UK, accessed November 14, 2025, https://publications.parliament.uk/pa/cm201719/cmselect/cmpubacc/1404/1404.pdf
+32. ASSESSMENT REPORT ON PUBLIC SERVICE DELIVERY SYSTEMS IN ASEAN MEMBER STATES, accessed November 14, 2025, https://asean.org/wp-content/uploads/2021/09/Assessment-Report-on-Public-Service-Delivery-Systems-in-ASEAN-Member-States_FIN-1.pdf
+33. China-2030-building-a-modern-harmonious-and-creative-society.txt, accessed November 14, 2025, https://documents1.worldbank.org/curated/en/781101468239669951/txt/China-2030-building-a-modern-harmonious-and-creative-society.txt
+34. THE FUTURE OF CHINA'S BOND MARKET - IMF eLibrary - International Monetary Fund, accessed November 14, 2025, https://www.elibrary.imf.org/downloadpdf/book/9781513582788/9781513582788.pdf
+35. THE FUTURE OF CHINA'S BOND MARKET - IMF eLibrary, accessed November 14, 2025, https://www.elibrary.imf.org/downloadpdf/display/book/9781484372142/9781484372142.pdf
+36. China 2030, accessed November 14, 2025, https://www.drc.gov.cn/tmpuploadfiles/china2030.pdf
+37. The Ombudsman- the developing role in the UK - UK Parliament, accessed November 14, 2025, https://researchbriefings.files.parliament.uk/documents/SN04832/SN04832.pdf
+38. No stone unturned in pursuit of growth - Digital Education Resource Archive (DERA), accessed November 14, 2025, https://dera.ioe.ac.uk/id/eprint/16031/7/12-1213-no-stone-unturned-in-pursuit-of-growth_Redacted.pdf
+39. World Bank Document, accessed November 14, 2025, https://documents1.worldbank.org/curated/en/825271467995796821/pdf/351070REV0ReformingthePEMSystem1WBKDI.pdf
+40. Restoring Public Finances - OECD, accessed November 14, 2025, https://one.oecd.org/document/GOV/PGC/SBO(2011)2/final/en/pdf
+41. Public Expenditure Statistical Analyses 2005 - GOV.UK, accessed November 14, 2025, https://assets.publishing.service.gov.uk/media/5a7cc16840f0b6629523b9e1/6521.pdf
+42. Internal Security in India: Violence, Order, and the State 0197660347, 9780197660348, accessed November 14, 2025, https://dokumen.pub/internal-security-in-india-violence-order-and-the-state-0197660347-9780197660348.html
+43. Imes Edu Guidelines in Apsweis From APSWEIS | PDF | Expense | Taxes - Scribd, accessed November 14, 2025, https://www.scribd.com/document/209118711/Imes-Edu-Guidelines-in-Apsweis-from-APSWEIS
+44. WTO Plurilateral Agreement on Government Procurement Market Access Opportunities & Challenges for India - CUTS CITEE, accessed November 14, 2025, https://cuts-citee.org/pdf/WTO_Plurilateral_Agreement_on_Government_Procurement_Market_Access_Opportunities_Challenges_for_India.pdf
+45. India | Encyclopedia.com, accessed November 14, 2025, https://www.encyclopedia.com/places/asia/indian-political-geography/india
+46. Overview of federal budgetary and financial data up to and including February 2025, accessed November 14, 2025, https://www.bundesfinanzministerium.de/Content/EN/Standardartikel/Press_Room/Publications/Monthly_Report/Key_Figures/2025/2025-03-federal-budget.html
+47. ifo Schnelldienst 7 2023, accessed November 14, 2025, https://www.ifo.de/DocDL/sd-2023-07-verteidigungsausgaben-haushaltspolitik.pdf
+48. Revenue allocation - D-EITI, accessed November 14, 2025, https://d-eiti.de/en/report/revenue-allocation/
+49. OPEN-ENDED FEDERAL MATCHING OF STATE SOCIV t SERVICE EXPENDITURE AUTHORIZED UNDER THE PUB- LIC ASSISTANCE TITLES OF THE SOCIAL SECURITY ACT - Joint Economic Committee, accessed November 14, 2025, https://www.jec.senate.gov/reports/92nd%20Congress/Open-Ended%20Federal%20Matching%20of%20State%20Social%20Service%20Expenditure%20Authorized%20Under%20the%20Public%20Assistance%20Titles%20of%20the%20Social%20Security%20Act%20(584).pdf
+50. The World's Most Militarized Economies by Three Metrics - Visual Capitalist, accessed November 14, 2025, https://www.visualcapitalist.com/worlds-most-militarized-economies-by-three-metrics/
+51. Defense Services | ICA Institute, accessed November 14, 2025, https://www.icainstitute.org/wp-content/uploads/2017/03/usa-defense-services-2017.pdf
+52. Guard Bureau Chief Promotes Partnerships at Defense Services Asia Exhibition, accessed November 14, 2025, https://www.nationalguard.mil/News/Article-View/Article/3772673/guard-bureau-chief-promotes-partnerships-at-defense-services-asia-exhibition/
+53. How to win defence contracts with the Department of Defense, accessed November 14, 2025, https://www.defenceiq.com/air-land-and-sea-defence-services/news/how-to-win-defence-contracts-with-the-dod
+54. HIDDEN COSTS: US PRIVATE MILITARY AND SECURITY COMPANIES AND THE RISKS OF CORRUPTION AND CONFLICT, accessed November 14, 2025, https://ti-defence.org/wp-content/uploads/2022/08/Hidden-Costs-US-Private-Military-and-Security-Companies-and-the-Risks-of-Corruption-and-Conflict-Web-PDF.pdf
+55. Rx PLA: The PLA Medical System's Role in China's Efforts to Fight COVID-19 - CNA Corporation, accessed November 14, 2025, https://www.cna.org/reports/2022/04/Rx-PLA-The-PLA-Medical-Systems-Role-in%20Chinas-Efforts-to-Fight-COVID-19.pdf
+56. Procurement Risk - Transparency International Defence & Security, accessed November 14, 2025, https://ti-defence.org/gdi/wp-content/uploads/sites/3/2021/11/China_GDI-2020-Assessment_FinalExt_14Nov21.xlsx
+57. Chinese military: on guard for peace - Ministry of National Defense, accessed November 14, 2025, http://eng.mod.gov.cn/xb/News_213114/TopStories/4869155.html
+58. china-s-defence-white-paper-an-analysis.pdf - Vivekananda International Foundation, accessed November 14, 2025, https://www.vifindia.org/sites/default/files/china-s-defence-white-paper-an-analysis.pdf
+59. Military Operations Other Than War in China's Foreign Policy - Stimson Center, accessed November 14, 2025, https://www.stimson.org/wp-content/uploads/2022/09/China-Military-Ops-Report.pdf
+60. Ministry of Defence (United Kingdom) - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Ministry_of_Defence_(United_Kingdom)
+61. Head Office and Corporate Services senior, as of March 2021 - GOV.UK, accessed November 14, 2025, https://www.gov.uk/csv-preview/610152718fa8f50432ab925f/HOCS_Mar_21_senior_data.csv
+62. accessed November 14, 2025, https://assets.publishing.service.gov.uk/media/5a82250840f0b6230269b135/HOCS_Sep_16_senior_data.csv
+63. Head of the Armed Forces - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Head_of_the_Armed_Forces
+64. The Future of the British Armed Forces | Information and discussion of the future British Armed Forces, along with reviews, accessed November 14, 2025, https://britisharmedforcesreview.wordpress.com/
+65. Minister of Defence | BMVg.de, accessed November 14, 2025, https://www.bmvg.de/en/organisation/minister-of-defence-boris-pistorius
+66. Federal Ministry of Defence - Bundesministerium der Verteidigung, accessed November 14, 2025, https://www.bmvg.de/en
+67. The Chief of Defence | BMVg.de, accessed November 14, 2025, https://www.bmvg.de/en/organisation/the-chief-of-defence
+68. Procurement Risk - Transparency International Defence & Security, accessed November 14, 2025, https://ti-defence.org/gdi/wp-content/uploads/sites/3/2021/11/Germany_GDI-2020-Assessment_FinalEXT_15Nov21.xlsx
+69. Ministry of Defence (India) - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Ministry_of_Defence_(India)
+70. India - Departments - AllGov, accessed November 14, 2025, http://www.allgov.com/india/departments/?detailsDepartmentID=619
+71. Indian Armed Forces - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Indian_Armed_Forces
+72. Press Note Details: Press Information Bureau - PIB, accessed November 14, 2025, https://www.pib.gov.in/PressNoteDetails.aspx?id=154490&NoteId=154490&ModuleId=3
+73. India's Military Modernization Efforts Under Prime Minister Modi - Stimson Center, accessed November 14, 2025, https://www.stimson.org/2024/indias-military-modernization-efforts-under-prime-minister-modi/
+74. Japan-Australia Defense Ministerial Meeting (Summary), accessed November 14, 2025, https://www.mod.go.jp/en/article/2025/09/6c967a111f13d01e3aa9a652466637ff60de18c2.html
+75. Japan Assessment - Transparency International Defence & Security, accessed November 14, 2025, https://ti-defence.org/gdi/wp-content/uploads/sites/3/2021/11/Japan_GDI-2020-Assessment_FinalEXT_14Nov21-1.xlsx
+76. Twelfth Japan–Australia 2+2 Foreign and Defence Ministerial Consultations, accessed November 14, 2025, https://www.mod.go.jp/en/article/2025/09/06dd21d32652f16eb3856a3a06d8715022ce327c.html
+77. Shadows of Support: Japan's Ties with Burma's Military Junta - Human Rights Foundation, accessed November 14, 2025, https://hrf.org/latest/shadows-of-support-japans-ties-with-burmas-military-junta/
+78. AMERICAN JUSTICE THROUGH IMMIGRANTS' EYES, accessed November 14, 2025, https://www.americanbar.org/content/dam/aba/publications/commission_on_immigration/american_justice_through_immigrants_eyes.pdf
+79. Position Paper on Emergency Preparedness in the State Courts, accessed November 14, 2025, https://www.tmcec.com/public/files/File/On%20the%20Docket/Disaster%20Materials/Position%20Paper.pdf
+80. Program and Budget Guide - State.gov, accessed November 14, 2025, https://2009-2017.state.gov/documents/organization/206770.pdf
+81. No. 17A - Supreme Court, accessed November 14, 2025, https://www.supremecourt.gov/docketpdf/17/17a1379/50401/20180618113717141_17a%20-%20sessions%20v%20chicago.pdf
+82. Human Rights Reports: Custom Report Excerpts - United States Department of State, accessed November 14, 2025, https://www.state.gov/report/custom/334353f45d
+83. The Sentinel State: Surveillance and the Survival of Dictatorship in China 0674257839, 9780674257832 - DOKUMEN.PUB, accessed November 14, 2025, https://dokumen.pub/the-sentinel-state-surveillance-and-the-survival-of-dictatorship-in-china-0674257839-9780674257832.html
+84. Law enforcement by country - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Law_enforcement_by_country
+85. CRIME AND POLICING BILL EXPLANATORY NOTES - Parliament UK, accessed November 14, 2025, https://publications.parliament.uk/pa/bills/cbill/59-01/0187/en/240187enlp.pdf
+86. force management statement 2022 - London - Met Police, accessed November 14, 2025, https://www.met.police.uk/SysSiteAssets/media/downloads/force-content/met/about-us/force-management-statement-2022.pdf
+87. Cutting crime: the case for justice reinvestment, accessed November 14, 2025, https://restorativejustice.org.uk/sites/default/files/resources/files/Cutting%20crime.pdf
+88. UK Justice Policy Review, accessed November 14, 2025, https://www.crimeandjustice.org.uk/sites/default/files/CCJS%20UKJPR%203.pdf
+89. An inspection of the police response to the public disorder in July and August 2024: Tranche 2 - Amazon AWS, accessed November 14, 2025, https://s3-eu-west-2.amazonaws.com/assets-hmicfrs.justiceinspectorates.gov.uk/uploads/inspection-of-police-response-to-public-disorder-2024-tranche-2.pdf
+90. The Police System - INTERNATIONAL JOURNAL OF LAW MANAGEMENT & HUMANITIES, accessed November 14, 2025, https://ijlmh.com/wp-content/uploads/The-Police-System.pdf
+91. Ramlila Maidan Incident, In Re | Supreme Court Of India | Judgment | Law - CaseMine, accessed November 14, 2025, https://www.casemine.com/judgement/in/5767b133e691cb22da6d67a9
+92. Ministry of Home Affairs [Police-Il Division] Military and Police Advisor Nations Peacekeeping X'orce in Cyprus (UNT'ICYP), accessed November 14, 2025, https://xn--i1b5bzbybhfo5c8b4bxh.xn--11b7cb3a6a.xn--h2brj9c/sites/default/files/UNFICYP_25092025.pdf
+93. The Role of Parliament in Police Governance - DCAF, accessed November 14, 2025, https://www.dcaf.ch/sites/default/files/publications/documents/The_Role_of_Parliament_in_Police_Governance.pdf
+94. If you have issues viewing or accessing this file contact us at NCJRS.gov. - Office of Justice Programs, accessed November 14, 2025, https://www.ojp.gov/pdffiles1/Digitization/34126NCJRS.pdf
+95. Transnational Organized Crime and the Convergence of Cyber-Enabled Fraud, Underground Banking and Technological Innovation in Southeast Asia: A Shifting Threat Landscape, accessed November 14, 2025, https://www.unodc.org/roseap/uploads/documents/Publications/2024/TOC_Convergence_Report_2024.pdf
+96. Unclassified DSTI/ICCP(97)14/FINAL - OECD, accessed November 14, 2025, https://one.oecd.org/document/DSTI/ICCP(97)14/FINAL/en/pdf
+97. RESOURCE MATERIAL SERIES No. 58 UNAFEI, accessed November 14, 2025, https://www.unafei.or.jp/publications/pdf/RS_No58/No58_00All.pdf
+98. Kontrolle der Polizei - CILIP, accessed November 14, 2025, https://archiv.cilip.de/Hefte/CILIP_099.pdf
+99. List of federal agencies in the United States - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/List_of_federal_agencies_in_the_United_States
+100. Decision No. 5 of the Free Trade Commission of the United States-Mexico- Canada Agreement (USMCA): U.S. Interagency Input on Co, accessed November 14, 2025, https://ustr.gov/sites/default/files/Combined%20U.S.%20FTC%20Decision%20No.%205%20Data%20Call%20-%205.21.2024.pdf
+101. BUREAU OF ECONOMIC ANALYSIS - American Statistical Association, accessed November 14, 2025, https://www.amstat.org/docs/default-source/amstat-documents/the-nation's-data-at-risk-supporting-materials/agency-profiles.pdf
+102. Department of Commerce Timeline | Cato Institute, accessed November 14, 2025, https://www.cato.org/downsizing-government-essay/department-commerce-timeline
+103. Development Opportunities> Full-fledged Industrial System - Invest in China-come, accessed November 14, 2025, https://fdi.mofcom.gov.cn/EN/come-newzonghe.html?parentId=164&name=Development%20Opportunities&comeID=2
+104. IBA Asia Pacific Regional Forum 2025 - International Bar Association, accessed November 14, 2025, https://www.ibanet.org/document?id=doing-business-in-asia-pacific-march-2025-china
+105. FOREIGN INVESTMENT GUIDE OF THE PEOPLE'S REPUBLIC OF CHINA, accessed November 14, 2025, https://english.www.gov.cn/AssetsZi/Foreign_Investment_Guide_of_the_People's_Republic_of_China_2024.pdf
+106. EVOLVING MADE IN CHINA 2025, accessed November 14, 2025, https://merics.org/sites/default/files/2020-04/MPOC_8_MadeinChina_2025_final_3.pdf
+107. List of government ministers of the United Kingdom - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/List_of_government_ministers_of_the_United_Kingdom
+108. Department for Business and Trade - Alert Sample - Parallel Parliament, accessed November 14, 2025, https://www.parallelparliament.co.uk/dept/DBT/alert-sample
+109. Find out how algorithmic tools are used in public organisations - GOV.UK, accessed November 14, 2025, https://www.gov.uk/algorithmic-transparency-records
+110. National Statistician's Independent Review of the Measurement of Public Services Productivity - UK Statistics Authority, accessed November 14, 2025, https://uksa.statisticsauthority.gov.uk/publication/national-statisticians-independent-review-of-the-measurement-of-public-services-productivity/pages/20/
+111. A Review of Public Policies to Assist German Coal Communities in Transition - Environmental Defense Fund, accessed November 14, 2025, https://www.edf.org/sites/default/files/documents/German%20Just%20Transition%20Case%20Study_0.pdf
+112. Experts | Clean Energy Wire, accessed November 14, 2025, https://www.cleanenergywire.org/experts
+113. Report of Expert Committee on Integration of Commodity Spot and Derivatives Markets - NITI Aayog, accessed November 14, 2025, https://www.niti.gov.in/sites/default/files/2023-02/Report_of_EC_on_Integration_of_Commodity_Spot_and_Derivatives_Market.pdf
+114. ANNUAL REPORT 2016-17 - Ministry of Commerce and Industry, accessed November 14, 2025, https://commerce.gov.in/wp-content/uploads/2020/02/MOC_636625074055561301_annual_report_16_17_eng.pdf
+115. TREATIES/AGREEMENTS SIGNED DURING VISITS BY PRIME MINISTER - Ministry of External Affairs, accessed November 14, 2025, https://mea.gov.in/Images/amb1/ru1375_22_09_20_02.pdf
+116. International agreements - Ver más - See More | Base de datos FAOLEX | Organización de las Naciones Unidas para la Alimentación y la Agricultura, accessed November 14, 2025, https://www.fao.org/faolex/country-profiles/general-profile/see-more/es/?iso3=CHN&countryname=China&area=International%20agreements&link=aHR0cHM6Ly9mYW9sZXguZmFvLm9yZy9jZ2ktYmluL3htbC5leGU%2FZGF0YWJhc2U9ZmFvbGV4JmFtcDtzZWFyY2hfdHlwZT1xdWVyeSZhbXA7dGFibGU9YWxsJmFtcDtxdWVyeT1DQzpDSE4gQU5EIFQ6QUxMIEFORCBSRVBFQUxFRDpOIEFORCBTVVBFUlM6TiBOT1QgUk86WSBBTkQgVEVSUklUOk4gQU5EIFo6QSBOT1QgWjpQJmFtcDtzb3J0X25hbWU9QHNwcmZJQSZhbXA7bGFuZz14bWxmJmFtcDtmb3JtYXRfbmFtZT1AWFNIT1JUJmFtcDtwYWdlX2hlYWRlcj1FWE1MSCZhbXA7cGFnZV9mb290ZXI9RVhNTEY%3D
+117. Resources – Keidanren USA, accessed November 14, 2025, https://keidanren.us/resources/
+118. JAPANESE INDUSTRY AND POLICY NEWS October 2018 - EU-Japan Centre, accessed November 14, 2025, https://www.eu-japan.eu/sites/default/files/publications/docs/japanese_industry_and_policy_news_october_2018.pdf
+119. US-Japan Regulatory Reform and Competition Policy Initiative, accessed November 14, 2025, https://www.mofa.go.jp/region/n-america/us/report0706.pdf
+120. Innovation as the Driver of Change: Japan's Cutting-Edge Solutions for Global Water and Sanitation Challenges - IDB Publications, accessed November 14, 2025, https://publications.iadb.org/publications/english/document/technical-note-no-idb-tn-02976.pdf
+121. Comparative Study - on Economic Ministries/Agencies of the Governments of the ROK, Japan and China - Trilateral Cooperation Secretariat, accessed November 14, 2025, https://www.tcs-asia.org/data/etcData/PUB_1569559764.pdf
+122. News from TRAC: Environmental Prosecutions from Investigations by EPA and Interior Department Continue to Decline, accessed November 14, 2025, https://tracreports.org/whatsnew/email.210824.html
+123. 12/15/1995: U.S. EPA CITES DEPARTMENT OF INTERIOR FOR WASTE VIOLATIONS, accessed November 14, 2025, https://www.epa.gov/archive/epapages/newsroom_archive/newsreleases/2c546edcd98f6dbb852570d8005e11bd.html
+124. Your Guide to the U.S. Environmental Protection Agency, accessed November 14, 2025, https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100M93W.TXT
+125. U.S. Actions to Address Plastic Pollution - United States Department of State, accessed November 14, 2025, https://2021-2025.state.gov/u-s-actions-to-address-plastic-pollution/
+126. Protecting the Environment Despite a Dysfunctional National Government, accessed November 14, 2025, https://sps.columbia.edu/news/protecting-environment-despite-dysfunctional-national-government
+127. China - Environmental Technology - International Trade Administration, accessed November 14, 2025, https://www.trade.gov/country-commercial-guides/china-environmental-technology
+128. Ministry of Ecology and Environment (MEE) - SGS Digicomply, accessed November 14, 2025, https://www.digicomply.com/food-regulatory-bodies-standards-and-authorities/ministry-of-ecology-and-environment-mee
+129. The Belt and Road Ecological and Environmental Cooperation Plan, accessed November 14, 2025, https://english.mee.gov.cn/Resources/Policies/policies/Frameworkp1/201706/t20170628_416869.shtml
+130. Environmental management strategy in response to COVID-19 in China: Based on text mining of government open information - PubMed Central, accessed November 14, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC7837070/
+131. Ministry of Ecology and Environment, People's Republic of China | Issuing Authority, accessed November 14, 2025, https://www.chemradar.com/lawinfo/authority/34
+132. Waste Management Plan for England - Defra - Citizen Space, accessed November 14, 2025, https://consult.defra.gov.uk/waste-and-recycling/waste-management-plan-for-england/supporting_documents/Waste%20Management%20Plan%20for%20England.pdf
+133. Environmental Permitting Regulations - Waste Sites - Details - Defra data services platform, accessed November 14, 2025, https://environment.data.gov.uk/defra/6156c761-d465-11e4-9764-f0def148f590
+134. Environment Agency - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Environment_Agency
+135. Review of activities regulated by the Environment Agency, 2022 - GOV.UK, accessed November 14, 2025, https://www.gov.uk/government/publications/review-of-activities-regulated-by-the-environment-agency-2022/review-of-activities-regulated-by-the-environment-agency-2022
+136. How can pollution control, waste management and resource use objectives be achieved?, accessed November 14, 2025, https://post.parliament.uk/how-can-pollution-control-waste-management-and-resource-use-objectives-be-achieved/
+137. Data on the Environment - Environmental monitor 2024 - Umweltbundesamt, accessed November 14, 2025, https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/data-on-the-environment-environmental-monitor-2024_0.pdf
+138. A Guide to Environmental Administration in Germany - Umweltbundesamt, accessed November 14, 2025, https://www.umweltbundesamt.de/sites/default/files/medien/376/publikationen/190722_uba_lf_environadmin_21x21_bf.pdf
+139. Germany, Garbage, and the Green Dot: Challenging the Throwaway Society - epa nepis - U.S. Environmental Protection Agency, accessed November 14, 2025, https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=300039PO.TXT
+140. Preparing the foundations for updating the Waste Prevention Programme based on an analy - Umweltbundesamt, accessed November 14, 2025, https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2020_11_09_texte_204_2020_updating_the_waste_prevention_programme.pdf
+141. Central Pollution Control Board - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Central_Pollution_Control_Board
+142. Environmental Compliance for Companies in India: Key Legislation and ESG Guidelines, accessed November 14, 2025, https://www.india-briefing.com/news/environmental-compliance-for-companies-in-india-key-legislation-and-esg-guidelines-32012.html/
+143. Head Office - CPCB | Central Pollution Control Board, accessed November 14, 2025, https://cpcb.nic.in/head-office/
+144. CPCB - Environment Health & Safety Services, accessed November 14, 2025, https://ehsservices.co.in/cpcb-2/
+145. Report on Classification of Sectors into Red, Orange, Green, White and Blue Categories (A tool for progressive environmental management) -2025 - CPCB, accessed November 14, 2025, https://cpcb.nic.in/openpdffile.php?id=TGF0ZXN0RmlsZS9fMTczNzYxMzk2OV9tZWRpYXBob3RvMTEzODMucGRm
+146. Japan | Climate & Clean Air Coalition, accessed November 14, 2025, https://www.ccacoalition.org/partners/japan
+147. Ministry of the Environment, accessed November 14, 2025, https://www.env.go.jp/en/chemi/pops/Appendix/07-MOE-Introduction/MOE.pdf
+148. Waste management in Japan - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Waste_management_in_Japan
+149. Sustainable Waste Management in Japan: Challenges, Achievements, and Future Prospects: A Review - MDPI, accessed November 14, 2025, https://www.mdpi.com/2071-1050/16/17/7347
+150. History and Current State of Waste Management in Japan, accessed November 14, 2025, https://www.env.go.jp/content/900453392.pdf
+151. PREPARING FOR THE NEXT PANDEMIC IN THE ERA OF ANTIMICROBIAL RESISTANCE - HHS.gov, accessed November 14, 2025, https://www.hhs.gov/sites/default/files/draft-paccarb-pandemic-preparedness-report.pdf
+152. MEETING AMERICA'S PUBLIC HEALTH CHALLENGE - Commonwealth Fund, accessed November 14, 2025, https://www.commonwealthfund.org/sites/default/files/2022-06/TCF-002%20National%20Public%20Heath%20System%20Report-r4-final.pdf
+153. Public Health COVID-19 Impact Assessment: Lessons Learned and Compelling Needs, accessed November 14, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8406505/
+154. Positioning America's Public Health System for the Next Pandemic - Bipartisan Policy Center, accessed November 14, 2025, https://bipartisanpolicy.org/download/?file=/wp-content/uploads/2021/06/Public-Health-Report_RV2.pdf
+155. The Government's Response to the Health and Social Care - Committees - UK Parliament, accessed November 14, 2025, https://committees.parliament.uk/publications/30468/documents/175840/default/
+156. Public health annual report 2021: rising to the challenges of COVID-19, accessed November 14, 2025, https://www.local.gov.uk/publications/public-health-annual-report-2021-rising-challenges-covid-19
+157. The government's response to the Health and Social Care Committee and Science and Technology Committee joint report: Coronavirus: lessons learned to date - GOV.UK, accessed November 14, 2025, https://www.gov.uk/government/publications/coronavirus-lessons-learned-to-date-report-government-response/the-governments-response-to-the-health-and-social-care-committee-and-science-and-technology-committee-joint-report-coronavirus-lessons-learned-to-d
+158. 'A system that is struggling': understanding health protection resilience in England during the COVID-19 pandemic through the experiences of local health protection responders - PubMed Central, accessed November 14, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10854171/
+159. Module 1 report: The resilience and preparedness of the United Kingdom, accessed November 14, 2025, https://covid19.public-inquiry.uk/reports/module-1-report-the-resilience-and-preparedness-of-the-united-kingdom/
+160. Environmental and Social System Assessment (ESSA) - Ministry of Health and Family Welfare, accessed November 14, 2025, https://mohfw.gov.in/sites/default/files/ESSA%20Report_0.pdf
+161. Disclosable-Restructuring-Paper-India-COVID-19-Emergency-Response-and-Health-Systems-Preparedness-Project-P173836.txt - World Bank Documents & Reports, accessed November 14, 2025, https://documents1.worldbank.org/curated/en/366531615896676453/txt/Disclosable-Restructuring-Paper-India-COVID-19-Emergency-Response-and-Health-Systems-Preparedness-Project-P173836.txt
+162. Private Health Sector in India-Ready and Willing, Yet Underutilized in the Covid-19 Pandemic: A Cross-Sectional Study - PubMed Central, accessed November 14, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC7643808/
+163. transforming india's public health systems for pandemic preparedness technical asssessment - World Bank Document, accessed November 14, 2025, https://documents1.worldbank.org/curated/en/099145106042242190/pdf/P175676001543d000b7c709870c0c3375b.pdf
+164. FUTURE PANDEMIC PREPAREDNESS AND EMERGENCY RESPONSE - NITI Aayog, accessed November 14, 2025, https://www.niti.gov.in/sites/default/files/2024-09/Report-of-the-Exper-Group--Future-Pandemic-preparedness-and-emergency-response_0.pdf
+165. Sustainability and Resilience in Japan's Health System, accessed November 14, 2025, https://hgpi.xsrv.jp/wp-content/uploads/Report_PHSSR_Japan_2022_ENG.pdf
+166. Number of public health nurses and COVID-19 incidence rate by variant type: an ecological study of 47 prefectures in Japan - ResearchGate, accessed November 14, 2025, https://www.researchgate.net/publication/360338643_Number_of_public_health_nurses_and_COVID-19_incidence_rate_by_variant_type_an_ecological_study_of_47_prefectures_in_Japan
+167. Sustainability and Resilience in Japan's Health System - World Economic Forum: Publications, accessed November 14, 2025, https://www3.weforum.org/docs/WEF_PHSSR_Japan_final_2022.pdf
+168. English Text (442.96 KB) - World Bank Open Knowledge Repository, accessed November 14, 2025, https://openknowledge.worldbank.org/bitstreams/37f2711d-cafc-4397-854b-b408ed52b795/download
+169. The State of Equal Opportunity in American K-12 Education - FREOPP, accessed November 14, 2025, https://freopp.org/whitepapers/the-state-of-equal-opportunity-in-american-k-12-education/
+170. Elementary and Secondary Education Expenditures | Urban Institute, accessed November 14, 2025, https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/elementary-and-secondary-education-expenditures
+171. Choice and Federalism: Defining the Federal Role in Education - Hoover Institution, accessed November 14, 2025, https://www.hoover.org/research/choice-and-federalism-defining-federal-role-education
+172. Title I, Part A Handbook - Kentucky Department of Education, accessed November 14, 2025, https://www.education.ky.gov/federal/progs/tia/Documents/Title%20I%20Part%20A%20Handbook.pdf
+173. New America Public Comment on the Secretary of Education's Supplemental Priorities and Definitions on Evidence-Based Literacy, Education Choice, and Returning Education to the States, accessed November 14, 2025, https://www.newamerica.org/education-policy/public-comments/public-comment-on-the-secretary-of-educations-proposed-supplemental-priorities-and-definitions-on-evidence-based-literacy-education-choice-and-returning-education-to-the-states/
+174. A network policy analysis of England's National Tutoring Programme: COVID-19 and the embedding of the private sector in state, accessed November 14, 2025, https://epaa.asu.edu/index.php/epaa/article/download/8985/3570/43750
+175. Impact evaluation of private sector participation in education - Documents & Reports - World Bank, accessed November 14, 2025, https://documents.worldbank.org/curated/en/325281468161085236/pdf/665860WP00PUBL0ct0evaluation0report.pdf
+176. Adult Learning in England: a review - Institute for Employment Studies, accessed November 14, 2025, https://www.employment-studies.co.uk/system/files/resources/files/369.pdf
+177. Full article: A multiple case study evaluating how school sport partnerships can achieve impact within a competitive, external provider PE and school sport market - Taylor & Francis Online, accessed November 14, 2025, https://www.tandfonline.com/doi/full/10.1080/19406940.2025.2510914
+178. Seventh Report: The Role of Private Sector Organisations in Public Education (HC 118) - Parliament UK, accessed November 14, 2025, https://publications.parliament.uk/pa/cm200001/cmselect/cmeduemp/206/20629.htm
+179. National Education Policy Framework (2020-2030) | Extended Summary, accessed November 14, 2025, https://nec.gov.lk/wp-content/uploads/2022/10/NATIONAL-EDUCATION-POLICY-FRAMEWORK-2020-2030_Extended-Summary.pdf
+180. Liberalisation of higher education services under the GATS regime : implications for a developing country, accessed November 14, 2025, https://journals.co.za/doi/pdf/10.10520/EJC24691
+181. National Education Policy Framework (2020-2030) | Full Text, accessed November 14, 2025, https://nec.gov.lk/wp-content/uploads/2022/10/NATIONAL-EDUCATION-POLICY-FRAMEWORK-2020-2030_Full-Text.pdf
+182. Discourses of Globalisation and Higher Education Reforms: Emerging Paradigms (Globalisation, Comparative Education and Policy Research, 27) 9783030831356, 9783030831363, 3030831353 - DOKUMEN.PUB, accessed November 14, 2025, https://dokumen.pub/discourses-of-globalisation-and-higher-education-reforms-emerging-paradigms-globalisation-comparative-education-and-policy-research-27-9783030831356-9783030831363-3030831353.html
+183. High school - New World Encyclopedia, accessed November 14, 2025, https://www.newworldencyclopedia.org/entry/High_school
+184. Transforming Educational Leadership - MDPI, accessed November 14, 2025, https://mdpi-res.com/bookfiles/book/11658/Transforming_Educational_Leadership.pdf?v=1761019273
+185. BUILDING SOCIAL PROTECTION FLOORS FOR ALL, accessed November 14, 2025, https://www.social-protection.org/gimi/RessourcePDF.action?id=51737
+186. Global research on governance and social protection - the United Nations, accessed November 14, 2025, https://www.un.org/development/desa/dspd/wp-content/uploads/sites/22/2021/08/Global-overview_SP-Governance_June-2021.pdf
+187. Social Protection Report - World Employment Confederation, accessed November 14, 2025, https://wecglobal.org/uploads/2022/11/ILO-World-Social-Protection-Report-20-22.pdf
+188. World Social Protection Report 2024–26 - International Labour Organization, accessed November 14, 2025, https://www.ilo.org/sites/default/files/2024-09/WSPR_2024_EN_WEB_1.pdf
+189. Minimum Income Policies in EU Member States - European Parliament, accessed November 14, 2025, https://www.europarl.europa.eu/RegData/etudes/STUD/2017/595365/IPOL_STU%282017%29595365_EN.pdf
+190. Growing the Productivity of Government Services - LSE Research Online, accessed November 14, 2025, https://eprints.lse.ac.uk/46380/1/Dunleavy_growing_the_productivity_of_government_services_published.pdf
+191. EAPN Assessment and Proposals for Country-Specific Recommendations 2015, accessed November 14, 2025, https://www.eapn.eu/wp-content/uploads/EAPN%202015%20CSR%20Country%20Fiches_FINAL.pdf
+192. Social protection for people with disabilities in Europe: An analysis of policies in 35 countries - CNOS-FAP, accessed November 14, 2025, https://www.cnos-fap.it/sites/default/files/newsletter/%5Bsite-date-yyyy%5D/%5Bsite-date-month%5D/ke-04-22-274-en-n.pdf
+193. INFORMAL WORKERS & SOCIAL PROTECTION IN TAMIL NADU - RIEH, accessed November 14, 2025, https://www.rieh.org/offres/doc_inline_src/815/Study+on+Informal+Workers+26+Social+Protection+28129.pdf
+194. The role of microinsurance for social protection in India, accessed November 14, 2025, https://d-nb.info/1097460541/34
+195. Global Challenges search | Knowledge sharing platform, accessed November 14, 2025, https://iskm.issa.int/global_challenges?page=3
+196. Search | Knowledge sharing platform, accessed November 14, 2025, https://iskm.issa.int/?page=3
+197. The 16th ASEAN and Japan High Level Officials Meeting on Caring Societies, accessed November 14, 2025, https://www.mhlw.go.jp/content/000472070.pdf
+198. 52012-001: Enhancing ADB's Support for Social Protection to Achieve the Sustainable Development Goals, accessed November 14, 2025, https://www.adb.org/sites/default/files/project-documents/52012/52012-001-tacr-en_5.pdf
+199. JICA Thematic Guideline, accessed November 14, 2025, https://www.jica.go.jp/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_02.pdf
+200. Study - ASEAN+3 Macroeconomic Research Office, accessed November 14, 2025, https://amro-asia.org/wp-content/uploads/2025/04/COMPILATION-Fiscal-Management-of-SP-2-April-2025.pdf
+201. IT Modernization Plan: | SSA - Social Security, accessed November 14, 2025, https://www.ssa.gov/open/materials/IT-Modernization-Plan.pdf
+202. Digital Government Strategy - United States Department of State, accessed November 14, 2025, https://www.state.gov/digital-government-strategy
+203. Digital Government Strategy Milestones | U.S. Department of the Treasury, accessed November 14, 2025, https://home.treasury.gov/data/digital-government-strategy-milestones
+204. Digital governance at GSA, accessed November 14, 2025, https://digital.gov/2023/02/23/digital-governance-at-gsa
+205. Digital strategies - GSA, accessed November 14, 2025, https://www.gsa.gov/policy-regulations/policy/information-technology-policy/digital-strategies
+206. A blueprint for modern digital government – January 2025 - GOV.UK, accessed November 14, 2025, https://assets.publishing.service.gov.uk/media/678f6665f4ff8740d978864c/a-blueprint-for-modern-digital-government-web-optimised.pdf
+207. Shaping the new digital centre of government for success - GDS blog, accessed November 14, 2025, https://gds.blog.gov.uk/2025/02/07/shaping-the-new-digital-centre-of-government-for-success/
+208. Government Digital Service - GOV.UK, accessed November 14, 2025, https://www.gov.uk/government/organisations/government-digital-service
+209. Digital strategy – Government Digital Service - GDS blog, accessed November 14, 2025, https://gds.blog.gov.uk/category/digital-strategy/
+210. Digital Government Construction and Common Prosperity in China: Effect and Transmission Channel - MDPI, accessed November 14, 2025, https://www.mdpi.com/2071-1050/17/20/9047
+211. Full article: Digital government and firm innovation: evidence from textual analysis of local government purchases in China - Taylor & Francis Online, accessed November 14, 2025, https://www.tandfonline.com/doi/full/10.1080/13504851.2025.2530151?src=
+212. Does digital government promote collaborative innovation? Evidence from the e-government pilot policy in China | PLOS One - Research journals, accessed November 14, 2025, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334131
+213. Digital India - Wikipedia, accessed November 14, 2025, https://en.wikipedia.org/wiki/Digital_India
+214. Digital India - STIP Compass - OECD, accessed November 14, 2025, https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2025%2Fdata%2FpolicyInitiatives%2F99998006
+215. Digital India: Revolutionising the Tech Landscape - Invest India, accessed November 14, 2025, https://www.investindia.gov.in/blogs/digital-india-revolutionising-tech-landscape
+216. Our Pillars - Digital India | Leading the transformation in India for ease of living and digital economy | MeitY, Government of India, accessed November 14, 2025, https://www.digitalindia.gov.in/our-pillars/
+217. Approach and Key Components of e-Kranti : National e-Governance Plan 2.0 - PIB, accessed November 14, 2025, https://www.pib.gov.in/newsite/printrelease.aspx?relid=117690
+218. E-Kranti - Objectives, Importance, Schemes - AKAL Information Systems Ltd, accessed November 14, 2025, https://www.akalinfo.com/blog/e-kranti/
+219. June 11, 2025 Publication of "Digital Infrastructure Development Plan for 2030" - 総務省, accessed November 14, 2025, https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2025/6/11_2.html
+220. Vision for a Digital Garden City Nation, accessed November 14, 2025, https://www.digital.go.jp/en/policies/digital_garden_city_nation
+221. Vision for a Digital Garden City Nation: Achieving Rural-Urban Digital Integration and Transformation | The Government of Japan, accessed November 14, 2025, https://www.japan.go.jp/kizuna/2022/01/vision_for_a_digital_garden_city_nation.html
+222. JETRO Invest Japan Report 2022 Chapter3. Recent Government Policies Section5. Vision for a Digital Garden City Nation, accessed November 14, 2025, https://www.jetro.go.jp/en/invest/investment_environment/ijre/report2022/ch3/sec5.html
+223. Accelerating digital transformation to revitalize local economy and improve lives in Japan, accessed November 14, 2025, https://aws.amazon.com/blogs/publicsector/accelerating-digital-transformation-revitalize-local-economy-improve-lives-japan/
+224. A Nation's Drive Towards a Data-first Digital Society Future | Japan Insight, accessed November 14, 2025, https://www.jetro.go.jp/en/invest/insights/japan-insight/nation-drive-datafirst-digital-society-future.html
+225. Control and management of national information systems｜Digital Agency, accessed November 14, 2025, https://www.digital.go.jp/en/policies/development_management
+226. IT-Konsolidierung Bund: zentrales Handlungsfeld des ITZBund, accessed November 14, 2025, https://www.itzbund.de/DE/digitalemission/itkonsolidierungbund/itkonsolidierungbund.html
+227. BMI - IT-Konsolidierung Bund - Bundesministerium des Innern, accessed November 14, 2025, https://www.bmi.bund.de/DE/themen/it-und-digitalpolitik/it-des-bundes/it-konsolidierung/it-konsolidierung-node.html
+228. Federal Office for Information Security - The Federal IT Consolidation - BSI, accessed November 14, 2025, https://www.bsi.bund.de/EN/Themen/Oeffentliche-Verwaltung/Moderner-Staat/IT-Konsolidierung-Bund/it-konsolidierung-bund.html
+229. Meeting IT Priorities with TBM How IT Cost Transparency Helps You Meet Your IT Goals, accessed November 14, 2025, https://www.cio.gov/assets/resources/MIPT-draft-5.0-Final-2020_08.pdf
+230. What Is Technology Business Management? - IBM, accessed November 14, 2025, https://www.ibm.com/think/topics/technology-business-management
+231. TBM Council: Home, accessed November 14, 2025, https://www.tbmcouncil.org/
+232. Improving Outcomes Through Federal IT Spending Transparency - Performance.gov, accessed November 14, 2025, https://trumpadministration.archives.performance.gov/CAP/tbm/
+233. Information Technology Strategic Plan: Strategic Years 2023-2026 - OPM, accessed November 14, 2025, https://www.opm.gov/about-us/reports-publications/2023-2026-information-technology-strategic-plan.pdf
+234. IT Financial Management: The Business of IT, accessed November 14, 2025, https://www.callcenterweekawards.com/media/6792/2363.pdf
+235. A business case for IT financial management: what, why and how - EY, accessed November 14, 2025, https://www.ey.com/en_no/insights/consulting/a-business-case-for-it-financial-management
+236. Comparing ITIL v3 and ITIL 4: What Changed? - New Horizons, accessed November 14, 2025, https://www.newhorizons.com/resources/blog/comparing-itil-v3-and-itil-4-what-changed
+237. Understanding ITIL Framework | Benefits and Certifications - USU, accessed November 14, 2025, https://www.usu.com/en/it-service-management/what-is-itil
+238. Portfolio management: ITIL 4 Practice Guide - Axelos, accessed November 14, 2025, https://www.axelos.com/resource-hub/practice/portfolio-management-itil-4-practice-guide
+239. ITIL Version 3 Service Strategy, accessed November 14, 2025, https://www.kornev-online.net/ITIL/OGC%20-%20ITIL%20v3%20-%20Service%20Strategy.pdf
+240. Templates for Calculating IT Services Costs Information Systems and Computer Engineering - Scholar, accessed November 14, 2025, https://scholar.tecnico.ulisboa.pt/api/records/bJda9rc8gzWPC1BQ7GJsbeZyrHKBUFZ8b84g/file/d3a3d6748e8e61315bca7f9c8dd30a7f2348ebcd1ac8d86a6128b33a71c074cf.pdf
+241. IBM Apptio - Modern IT Financial Management Tool, accessed November 14, 2025, https://www.apptio.com/products/ibm-apptio/
+242. The IT Service Definition Journey | PDF - Slideshare, accessed November 14, 2025, https://www.slideshare.net/slideshow/the-it-service-definition-journey/78021003
+243. Why is IT Cost Optimization so important? - Wavestone, accessed November 14, 2025, https://www.wavestone.com/en/insight/cost-optimization/
+244. Management and Oversight of Federal Information Technology - Obama White House Archives, accessed November 14, 2025, https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-14.pdf
+245. 2.1 Federal Information Technology Acquisition Reform Act (2014) | CIO.GOV, accessed November 14, 2025, https://www.cio.gov/handbook/it-laws/fitara-2014/
+246. State of Federal Information Technology - Assets for CIO.gov, accessed November 14, 2025, https://assets.cio.gov/assets/files/resources/CIO-Council-State-of-Federal-IT-Report-January-2017-1.pdf
+247. IT Data Transparency - GSA, accessed November 14, 2025, https://www.gsa.gov/policy-regulations/policy/information-technology-policy/it-data-transparency
+248. Technology Business Management (TBM) Overview, accessed November 14, 2025, https://www.nist.gov/document/doc2017financialmanagementconference-tbmpdf
+249. Technology Business Management could play a role in future FITARA Scorecards, accessed November 14, 2025, https://fedscoop.com/fitara-scorecard-tbm/
+250. Limitation on Administrative Expenses FY 2026 Congressional Justification 59 CONTENTS APPROPRIATION LANGUAGE/BACKGROUND ........ - Social Security, accessed November 14, 2025, https://www.ssa.gov/budget/assets/materials/2026/2026LAE.pdf
+251. GAO – MeriTalk, accessed November 14, 2025, https://www.meritalk.com/tag/gao/
+252. U.S. GAO - Information Technology, accessed November 14, 2025, https://www.gao.gov/topics/information-technology
+253. GAO to OMB: TBM Needs a Go/No-Go Decision Now - Fed Contract Pros, accessed November 14, 2025, https://www.fedcontractpros.com/blog/gao-to-omb-tbm-needs-a-gono-go-decision-now
+254. Technology business management: critical go or no go action required on federal agency adoption of IT spending framework : report to congressional requesters in SearchWorks catalog, accessed November 14, 2025, https://searchworks.stanford.edu/view/in00000811008
+255. TBM Council Awards, accessed November 14, 2025, https://www.tbmcouncil.org/engage/awards/
