@@ -26,6 +26,39 @@ The GSVS solves this problem. Inspired by ITIL v4's Service Value System, it pro
 
 The GSVS consists of five interconnected components. Each one draws on assets from the 5-Layer Architecture to create an integrated system of value co-creation.
 
+**GSVS Flow Visualization:**
+
+```mermaid
+graph TB
+    Start([Public Mandate/Need]) --> GP[Guiding Principles<br/>Layer 0 Manifesto]
+    GP --> Govern[Governance<br/>Layer 0 + Layer 3 TBM]
+    Govern --> SVC[Service Value Chain]
+
+    subgraph "Service Value Chain (All Layers)"
+        SVC --> Plan[Plan<br/>Layer 0 Policy]
+        Plan --> Design[Design/Architect<br/>Layer 1 Blueprints]
+        Design --> Build[Build/Acquire<br/>Layer 2 Agile]
+        Build --> Deliver[Deliver & Support<br/>Layer 2 ITIL]
+        Deliver --> Improve[Improve<br/>Layer 3 TBM Data]
+        Improve --> Plan
+    end
+
+    Deliver --> Practice[Practice Library<br/>Layer 1, 2, 4 Assets]
+    Practice --> Continual[Continual Improvement<br/>Layer 4 Feedback]
+    Continual --> GP
+
+    Deliver --> Citizen([Valuable Citizen Services])
+
+    style GP fill:#334155,stroke:#1e293b,stroke-width:3px,color:#fff
+    style Govern fill:#334155,stroke:#1e293b,stroke-width:3px,color:#fff
+    style Plan fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Design fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style Build fill:#facc15,stroke:#334155,stroke-width:2px
+    style Deliver fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style Improve fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Citizen fill:#f43f5e,stroke:#334155,stroke-width:3px,color:#fff
+```
+
 ---
 
 ### 1. Guiding Principles: The "Why"

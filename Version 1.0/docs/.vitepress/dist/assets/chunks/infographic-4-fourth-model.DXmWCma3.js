@@ -1,1 +1,0 @@
-const i="/Government-as-a-Service/images/infographics/infographic-1-legacy-vs-digital.png",a="/Government-as-a-Service/images/infographics/infographic-2-world-success-map.png",e="/Government-as-a-Service/images/infographics/infographic-3-implementation-timeline.png",s="/Government-as-a-Service/images/infographics/infographic-4-fourth-model.png";export{i as _,a,e as b,s as c};

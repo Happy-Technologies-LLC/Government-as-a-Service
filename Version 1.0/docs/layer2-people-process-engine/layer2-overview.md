@@ -25,6 +25,37 @@ Unlike traditional IT implementations that over-invest in technology (70-80%), t
 - Gartner meta-analysis: Organizations investing <20% in people show 2.8-3.4x higher failure rates
 - Estonia, Singapore, UAE, Denmark: All successful digital governments maintain 35-40% investment in both people and process dimensions
 
+**Investment Balance Visualization:**
+
+```mermaid
+pie title 40-40-20 PPT Investment Balance
+    "People (40%)" : 40
+    "Process (40%)" : 40
+    "Technology (20%)" : 20
+```
+
+**ROI Comparison:**
+
+```mermaid
+graph LR
+    subgraph "Tech-First Approach (70-80% Technology)"
+        TF1["0.6:1 ROI<br/>Low Success Rate"]
+        TF2["1.4:1 ROI<br/>Moderate Success"]
+        TF1 -.Limited Impact.-> TF2
+    end
+
+    subgraph "PPT-Balanced Approach (40-40-20)"
+        PPT1["2.1:1 ROI<br/>Good Success Rate"]
+        PPT2["6.3:1 ROI<br/>High Success Rate"]
+        PPT1 ==Strong Impact==> PPT2
+    end
+
+    style TF1 fill:#f43f5e,stroke:#334155,stroke-width:2px,color:#fff
+    style TF2 fill:#f43f5e,stroke:#334155,stroke-width:2px,color:#fff
+    style PPT1 fill:#14b8a6,stroke:#334155,stroke-width:3px,color:#fff
+    style PPT2 fill:#14b8a6,stroke:#334155,stroke-width:3px,color:#fff
+```
+
 ---
 
 ## Layer 2 Architecture

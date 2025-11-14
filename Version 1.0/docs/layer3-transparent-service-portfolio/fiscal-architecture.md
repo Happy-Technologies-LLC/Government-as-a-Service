@@ -27,6 +27,18 @@ The Government Service Model (GSM) defines five layers of digital infrastructure
 
 ### 1.2 Layer-by-Layer Allocation
 
+**Budget Distribution Visualization:**
+
+```mermaid
+pie title Budget Allocation by GSM Layer (Medium-sized Government)
+    "Layer 0: Legal/Policy Foundation (5-8%)" : 7
+    "Layer 1: Shared Technology Core (35-45%)" : 40
+    "Layer 2: People & Process Engine (20-25%)" : 22
+    "Layer 3: Transparent Service Portfolio (10-15%)" : 12
+    "Layer 4: Unified Citizen Experience (5-8%)" : 7
+    "Reserved: Contingency & Innovation (10-15%)" : 12
+```
+
 #### Governance Layer: 5-8% of Total Budget
 
 **Purpose:** Strategic direction, oversight, change management, and organizational transformation.

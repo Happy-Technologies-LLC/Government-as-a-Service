@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic 7: Why GSM is Different</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .infographic {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1920px;
+            padding: 60px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+        }
+        
+        .comparison-table thead {
+            background: #334155;
+            color: white;
+        }
+        
+        .comparison-table th {
+            padding: 24px;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .comparison-table th:first-child {
+            border-top-left-radius: 12px;
+        }
+        
+        .comparison-table th:last-child {
+            border-top-right-radius: 12px;
+            background: #14b8a6;
+        }
+        
+        .comparison-table tbody tr {
+            background: white;
+        }
+        
+        .comparison-table tbody tr:nth-child(even) {
+            background: #f8fafc;
+        }
+        
+        .comparison-table td {
+            padding: 20px 24px;
+            font-size: 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .comparison-table td:first-child {
+            font-weight: 600;
+            color: #334155;
+            width: 180px;
+        }
+        
+        .comparison-table td:nth-child(2) {
+            color: #64748b;
+        }
+        
+        .comparison-table td:last-child {
+            color: #1e293b;
+            background: rgba(20, 184, 166, 0.05);
+            border-left: 3px solid #14b8a6;
+            font-weight: 500;
+        }
+        
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .key-message {
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+            border-left: 6px solid #14b8a6;
+            padding: 32px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        
+        .key-message-text {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #334155;
+        }
+        
+        .key-message-text strong {
+            color: #1e293b;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        <h1>Infographic 7: Why GSM is Different</h1>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Corporate ITSM/ITIL</th>
+                    <th>Government Service Management (GSM)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Focus</td>
+                    <td>Customer satisfaction, profit</td>
+                    <td>Citizen outcomes & public value</td>
+                </tr>
+                <tr>
+                    <td>Acconability</td>
+                    <td>Efficiency & cost reduction</td>
+                    <td>Equity, inclusion, transparency</td>
+                </tr>
+                <tr>
+                    <td>Scope</td>
+                    <td>Business outcomes</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Scope</td>
+                    <td>Single enteprse</td>
+                    <td>Democratic accountability</td>
+                </tr>
+                <tr>
+                    <td>Staktelders</td>
+                    <td>Customers, shaasholers</td>
+                    <td>Citizens, civil society, legelslators</td>
+                </tr>
+                <tr>
+                    <td>Success Metrics</td>
+                    <td>ROI, customer satisfaction</td>
+                    <td>Public value, equity, trust</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="key-message">
+            <div class="key-message-text">
+                <strong>Citizens have rights, not just preferences.</strong>
+                Government services tire a level of democratic accouhability, equity, and transparency
+                that corporate ITSM doesn't address.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

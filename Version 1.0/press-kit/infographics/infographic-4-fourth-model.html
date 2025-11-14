@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic 4: The Fourth Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .infographic {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1920px;
+            padding: 60px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .venn-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0;
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            min-height: 700px;
+        }
+        
+        .circle {
+            border-radius: 50%;
+            padding: 50px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            position: relative;
+            margin: 20px;
+        }
+        
+        .circle.estonia {
+            background: rgba(14, 165, 233, 0.2);
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+        .circle.singapore {
+            background: rgba(244, 63, 94, 0.2);
+            grid-column: 2;
+            grid-row: 1;
+        }
+        
+        .circle.uae {
+            background: rgba(20, 184, 166, 0.2);
+            grid-column: 1;
+            grid-row: 2;
+        }
+        
+        .circle.denmark {
+            background: rgba(250, 204, 21, 0.2);
+            grid-column: 2;
+            grid-row: 2;
+        }
+        
+        .country-flag {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .country-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 20px;
+        }
+        
+        .attribute {
+            font-size: 15px;
+            color: #475569;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        
+        .center-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #334155;
+            color: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+            max-width: 400px;
+            text-align: center;
+            z-index: 10;
+        }
+        
+        .center-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: white;
+        }
+        
+        .center-text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        <h1>Infographic 4: The Fourth Model</h1>
+        
+        <div class="venn-container">
+            <!-- Estonia -->
+            <div class="circle estonia">
+                <div class="country-flag">🇪🇪</div>
+                <div class="country-name">ESTONIA</div>
+                <div class="attribute">• Revolutionary boldness</div>
+                <div class="attribute">• Mandatory digital ID</div>
+                <div class="attribute">• Radical transparency</div>
+            </div>
+            
+            <!-- Singapore -->
+            <div class="circle singapore">
+                <div class="country-flag">🇸🇬</div>
+                <div class="country-name">SINGAPORE</div>
+                <div class="attribute">Technocratic excellence</div>
+                <div class="attribute">• Mobile-first design</div>
+                <div class="attribute">• Measurable ROI focus</div>
+            </div>
+            
+            <!-- UAE -->
+            <div class="circle uae">
+                <div class="country-flag">🇦🇪</div>
+                <div class="country-name">UAE</div>
+                <div class="attribute">Nation-branding</div>
+                <div class="attribute">• Luxury service quality</div>
+                <div class="attribute">Rapid transformation</div>
+            </div>
+            
+            <!-- Denmark -->
+            <div class="circle denmark">
+                <div class="country-flag">🇩🇰</div>
+                <div class="country-name">DNK DENMARK</div>
+                <div class="attribute">Trust-based inclusion</div>
+                <div class="attribute">• Co-design with citizens</div>
+                <div class="attribute">Universal digital literacy</div>
+            </div>
+            
+            <!-- Center Box -->
+            <div class="center-box">
+                <div class="center-title">YOUR FOURTH MODEL</div>
+                <div class="center-text">
+                    The synthesis of best practices. Combining transparency, mobile-first, co-vice service quality, boldess, and inclusion.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic 3: 36-Month Implementation Timeline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .infographic {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1920px;
+            padding: 60px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .timeline {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(to right, #cbd5e1 33%, #14b8a6 33%, #14b8a6 66%, #334155 66%);
+            z-index: 0;
+        }
+        
+        .phase {
+            background: white;
+            padding: 40px 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .phase.phase-1 {
+            background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+        }
+        
+        .phase.phase-2 {
+            background: linear-gradient(135deg, #5eead4 0%, #14b8a6 100%);
+        }
+        
+        .phase.phase-3 {
+            background: linear-gradient(135deg, #475569 0%, #334155 100%);
+            color: white;
+        }
+        
+        .phase-header {
+            margin-bottom: 32px;
+        }
+        
+        .phase-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .phase.phase-1 .phase-title {
+            color: #1e293b;
+        }
+        
+        .phase.phase-2 .phase-title {
+            color: #1e293b;
+        }
+        
+        .phase.phase-3 .phase-title {
+            color: white;
+        }
+        
+        .phase-subtitle {
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .phase.phase-1 .phase-subtitle {
+            color: #0ea5e9;
+        }
+        
+        .phase.phase-2 .phase-subtitle {
+            color: #1e293b;
+        }
+        
+        .phase.phase-3 .phase-subtitle {
+            color: #facc15;
+        }
+        
+        .deliverable {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .deliverable-icon {
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .deliverable-text {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .phase.phase-1 .deliverable-text {
+            color: #475569;
+        }
+        
+        .phase.phase-2 .deliverable-text {
+            color: #1e293b;
+        }
+        
+        .phase.phase-3 .deliverable-text {
+            color: #e2e8f0;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 16px;
+        }
+        
+        .phase.phase-1 .section-title {
+            color: #1e293b;
+        }
+        
+        .phase.phase-2 .section-title {
+            color: #1e293b;
+        }
+        
+        .phase.phase-3 .section-title {
+            color: white;
+        }
+        
+        .outcome {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .phase.phase-3 .outcome {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .outcome-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .outcome-item:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        <h1>Infographic 3: 36-Month Implementation Timeline</h1>
+        
+        <div class="timeline">
+            <!-- Phase 1 -->
+            <div class="phase phase-1">
+                <div class="phase-header">
+                    <div class="phase-title">PHASE 1: FOUNDATION</div>
+                    <div class="phase-subtitle">MONTHS 0-18</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="file-check" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Digital Identity System</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="network" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">National API Gateway</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="database" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Core Data Registries</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="layout-dashboard" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Government Portal</div>
+                </div>
+                
+                <div class="section-title">Deliverables:</div>
+                <div class="outcome">
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#0ea5e9" size="18"></i>
+                        80% digital ID adoption
+                    </div>
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#0ea5e9" size="18"></i>
+                        50+ APIS live
+                    </div>
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#0ea5e9" size="18"></i>
+                        3 flagship services
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 2 -->
+            <div class="phase phase-2">
+                <div class="phase-header">
+                    <div class="phase-title">PHASE 2: SCALING</div>
+                    <div class="phase-subtitle">MONTHS 18-36</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="heart-pulse" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Life-Event Services</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="building-2" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Private Sector Integration</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="check-square" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Integration</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="folder-open" color="#1e293b" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Open Data Portal</div>
+                </div>
+                
+                <div class="section-title">Deliverables:</div>
+                <div class="outcome">
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#1e293b" size="18"></i>
+                        85% digital completion
+                    </div>
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#1e293b" size="18"></i>
+                        $100M+ economic value
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 3 -->
+            <div class="phase phase-3">
+                <div class="phase-header">
+                    <div class="phase-title">PHASE 3: INTELLIGENCE</div>
+                    <div class="phase-subtitle">MONTHS 36+</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="brain" color="white" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Predictive AI Services</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="activity" color="white" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Policy Simulation</div>
+                </div>
+                
+                <div class="deliverable">
+                    <div class="deliverable-icon">
+                        <i data-lucide="zap" color="white" size="20"></i>
+                    </div>
+                    <div class="deliverable-text">Autonomous Operations</div>
+                </div>
+                
+                <div class="section-title">Deliverables:</div>
+                <div class="outcome">
+                    <div class="outcome-item">
+                        <i data-lucide="check-circle" color="#facc15" size="18"></i>
+                        85% digital completion
+                    </div>
+                    <div class="outcome-item">
+                        <i data-lucide="trophy" color="#facc15" size="18"></i>
+                        Top-10 global ranking
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

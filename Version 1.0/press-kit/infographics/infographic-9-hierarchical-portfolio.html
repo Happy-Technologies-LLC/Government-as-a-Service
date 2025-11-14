@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hieroraical Service Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .infographic {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1920px;
+            padding: 60px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .main-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+        }
+        
+        .portfolio-breakdown {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .breakdown-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 32px;
+        }
+        
+        .level {
+            background: white;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border-left: 5px solid;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+        
+        .level.l1 {
+            border-left-color: #334155;
+            background: linear-gradient(135deg, #334155 0%, #475569 100%);
+            color: white;
+        }
+        
+        .level.l2 {
+            border-left-color: #0ea5e9;
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(14, 165, 233, 0.05) 100%);
+        }
+        
+        .level.l3 {
+            border-left-color: #14b8a6;
+            background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(20, 184, 166, 0.05) 100%);
+        }
+        
+        .level.l4 {
+            border-left-color: #475569;
+            background: linear-gradient(135deg, rgba(71, 85, 105, 0.1) 0%, rgba(71, 85, 105, 0.05) 100%);
+        }
+        
+        .level-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .level-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .level.l1 .level-icon {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .level.l2 .level-icon {
+            background: rgba(14, 165, 233, 0.2);
+        }
+        
+        .level.l3 .level-icon {
+            background: rgba(20, 184, 166, 0.2);
+        }
+        
+        .level.l4 .level-icon {
+            background: rgba(71, 85, 105, 0.2);
+        }
+        
+        .level-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #64748b;
+        }
+        
+        .level.l1 .level-label {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .level-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .level.l1 .level-title {
+            color: white;
+        }
+        
+        .level.l2 .level-title {
+            color: #1e293b;
+        }
+        
+        .level.l3 .level-title {
+            color: #1e293b;
+        }
+        
+        .level.l4 .level-title {
+            color: #1e293b;
+        }
+        
+        .level-items {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        
+        .level.l1 .level-items {
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .level-items li {
+            color: #475569;
+            margin-bottom: 6px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .level.l1 .level-items li {
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .level-items li::before {
+            content: '▪';
+            position: absolute;
+            left: 0;
+        }
+        
+        .why-matters {
+            background: #f8fafc;
+            padding: 32px;
+            border-radius: 12px;
+        }
+        
+        .why-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 24px;
+        }
+        
+        .benefit {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .benefit-icon {
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .benefit-text {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #475569;
+        }
+        
+        .benefit-text strong {
+            color: #1e293b;
+            font-weight: 600;
+        }
+        
+        .domain-costs {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            margin-top: 24px;
+            border: 2px solid #e2e8f0;
+        }
+        
+        .domain-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #334155;
+            margin-bottom: 16px;
+        }
+        
+        .domain-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .domain-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .domain-name {
+            color: #475569;
+        }
+        
+        .domain-cost {
+            color: #1e293b;
+            font-weight: 600;
+        }
+        
+        .ppt-bar {
+            display: flex;
+            height: 50px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 24px;
+        }
+        
+        .ppt-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        .ppt-segment.people {
+            background: #facc15;
+            color: #1e293b;
+            width: 40%;
+        }
+        
+        .ppt-segment.process {
+            background: #0ea5e9;
+            width: 40%;
+        }
+        
+        .ppt-segment.tech {
+            background: #475569;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        <h1>Hieroraical Service Portfolio</h1>
+        
+        <div class="main-container">
+            <div class="portfolio-breakdown">
+                <div class="breakdown-title">Service Portfolio Breakdown</div>
+                
+                <div class="level l1">
+                    <div class="level-header">
+                        <div class="level-icon">
+                            <i data-lucide="briefcase-business" color="white" size="24"></i>
+                        </div>
+                        <div>
+                            <div class="level-label">L1</div>
+                        </div>
+                    </div>
+                    <div class="level-title">L1: BUSINESS SERVICE:<br>Healthcare Insurance $45M</div>
+                </div>
+                
+                <div class="level l2">
+                    <div class="level-header">
+                        <div class="level-icon">
+                            <i data-lucide="server" color="#0ea5e9" size="24"></i>
+                        </div>
+                        <div>
+                            <div class="level-label">L2</div>
+                        </div>
+                    </div>
+                    <div class="level-title">L2: TECHNICAL SERVICES:<br>Eligibility,(Claims ($0M), Provider $10M)</div>
+                </div>
+                
+                <div class="level l3">
+                    <div class="level-header">
+                        <div class="level-icon">
+                            <i data-lucide="layout-grid" color="#14b8a6" size="24"></i>
+                        </div>
+                        <div>
+                            <div class="level-label">L3</div>
+                        </div>
+                    </div>
+                    <div class="level-title">L3: APPLICATIONS:<br>Portal (3M, API (2M, Directory, Docs $11M</div>
+                </div>
+                
+                <div class="level l4">
+                    <div class="level-header">
+                        <div class="level-icon">
+                            <i data-lucide="server-cog" color="#475569" size="24"></i>
+                        </div>
+                        <div>
+                            <div class="level-label">L4</div>
+                        </div>
+                    </div>
+                    <div class="level-title">L4: INFRISTRUCTURE:<br>EC2 (3.5), RDS), CDN (1M) (S3 (0.5M)</div>
+                </div>
+                
+                <div class="ppt-bar">
+                    <div class="ppt-segment people">40% PEOPLE</div>
+                    <div class="ppt-segment process">40% PROCESS</div>
+                    <div class="ppt-segment tech">20% TECH</div>
+                </div>
+            </div>
+            
+            <div class="why-matters">
+                <div class="why-title">Why This Matters:</div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i data-lucide="check-circle" color="#14b8a6" size="20"></i>
+                    </div>
+                    <div class="benefit-text">
+                        <strong>Cost Visibility</strong>
+                    </div>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i data-lucide="check-circle" color="#14b8a6" size="20"></i>
+                    </div>
+                    <div class="benefit-text">
+                        <strong>Cost Visibility</strong>
+                    </div>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i data-lucide="check-circle" color="#14b8a6" size="20"></i>
+                    </div>
+                    <div class="benefit-text">
+                        <strong>Impact Analysis</strong>
+                    </div>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i data-lucide="check-circle" color="#14b8a6" size="20"></i>
+                    </div>
+                    <div class="benefit-text">
+                        <strong>Isolated Governance</strong>
+                    </div>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-text">
+                        <strong>PPT Balance</strong>
+                    </div>
+                </div>
+                
+                <div class="domain-costs">
+                    <div class="domain-title">Domain Costs:</div>
+                    <div class="domain-item">
+                        <span class="domain-name">Healthcare:</span>
+                        <span class="domain-cost">$120M</span>
+                    </div>
+                    <div class="domain-item">
+                        <span class="domain-name">Education:</span>
+                        <span class="domain-cost">$80M</span>
+                    </div>
+                    <div class="domain-item">
+                        <span class="domain-name">Healthcare:</span>
+                        <span class="domain-cost">$80M</span>
+                    </div>
+                    <div class="domain-item">
+                        <span class="domain-name">Justice</span>
+                        <span class="domain-cost">$60M</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

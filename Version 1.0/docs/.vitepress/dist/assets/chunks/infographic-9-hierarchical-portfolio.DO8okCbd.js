@@ -1,1 +1,0 @@
-const i="/Government-as-a-Service/images/infographics/infographic-7-gsm-vs-itsm.png",a="/Government-as-a-Service/images/infographics/infographic-6-gsm-framework.png",s="/Government-as-a-Service/images/infographics/infographic-9-hierarchical-portfolio.png";export{i as _,a,s as b};

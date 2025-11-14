@@ -169,42 +169,53 @@ For greenfield governments with 5-50M population:
 
 **Core Components:**
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    CITIZEN-FACING LAYER                         │
-├─────────────────────────────────────────────────────────────────┤
-│  Mobile App (iOS/Android)  │  Web Portal  │  Biometric Kiosks  │
-│  - FIDO2 biometrics        │  - PKI certs │  - Fingerprint     │
-│  - QR code authentication  │  - Smart card│  - Facial recog    │
-│  - Push notifications      │  - OTP       │  - Iris scan       │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    IDENTITY PROVIDER LAYER                      │
-├─────────────────────────────────────────────────────────────────┤
-│  Authentication Service  │  Authorization Service  │  SSO       │
-│  - Multi-factor auth     │  - Role-based access    │  - SAML    │
-│  - Biometric matching    │  - Attribute-based      │  - OAuth   │
-│  - Device fingerprinting │  - Policy enforcement   │  - OpenID  │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    IDENTITY REGISTRY LAYER                      │
-├─────────────────────────────────────────────────────────────────┤
-│  Population Registry  │  Credential Store  │  Audit Log         │
-│  - Biographical data  │  - PKI certificates│  - All access      │
-│  - Demographic info   │  - Biometric temps │  - Blockchain log  │
-│  - Life events        │  - Device tokens   │  - Citizen portal  │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    INTEGRATION LAYER (API Gateway)              │
-├─────────────────────────────────────────────────────────────────┤
-│  Government Services  │  Private Sector Apps  │  Third-Party   │
-│  - Tax portal         │  - Banking apps       │  - Federated   │
-│  - Healthcare system  │  - Telecom            │  - International│
-│  - Benefits platform  │  - E-commerce         │  - Regional    │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "Citizen-Facing Layer"
+        Mobile["Mobile App<br/>(iOS/Android)<br/>- FIDO2 biometrics<br/>- QR authentication<br/>- Push notifications"]
+        Web["Web Portal<br/>- PKI certificates<br/>- Smart card<br/>- OTP"]
+        Kiosk["Biometric Kiosks<br/>- Fingerprint<br/>- Facial recognition<br/>- Iris scan"]
+    end
+
+    subgraph "Identity Provider Layer"
+        Auth["Authentication Service<br/>- Multi-factor auth<br/>- Biometric matching<br/>- Device fingerprinting"]
+        Authz["Authorization Service<br/>- Role-based access<br/>- Attribute-based<br/>- Policy enforcement"]
+        SSO["Single Sign-On<br/>- SAML<br/>- OAuth 2.0<br/>- OpenID Connect"]
+    end
+
+    subgraph "Identity Registry Layer"
+        PopReg["Population Registry<br/>- Biographical data<br/>- Demographics<br/>- Life events"]
+        CredStore["Credential Store<br/>- PKI certificates<br/>- Biometric templates<br/>- Device tokens"]
+        AuditLog["Audit Log<br/>- All access events<br/>- Blockchain log<br/>- Citizen portal"]
+    end
+
+    subgraph "Integration Layer (API Gateway)"
+        GovServices["Government Services<br/>- Tax portal<br/>- Healthcare<br/>- Benefits"]
+        PrivateSector["Private Sector Apps<br/>- Banking<br/>- Telecom<br/>- E-commerce"]
+        ThirdParty["Third-Party<br/>- Federated<br/>- International<br/>- Regional"]
+    end
+
+    Mobile --> Auth
+    Web --> Auth
+    Kiosk --> Auth
+
+    Auth --> PopReg
+    Authz --> CredStore
+    SSO --> AuditLog
+
+    PopReg --> GovServices
+    CredStore --> PrivateSector
+    AuditLog --> ThirdParty
+
+    style Mobile fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Web fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Kiosk fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Auth fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style Authz fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style SSO fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style PopReg fill:#facc15,stroke:#334155,stroke-width:2px
+    style CredStore fill:#facc15,stroke:#334155,stroke-width:2px
+    style AuditLog fill:#facc15,stroke:#334155,stroke-width:2px
 ```
 
 **Key Technical Decisions:**
@@ -334,37 +345,68 @@ An API gateway is the **nervous system** of digital government, enabling:
 
 **Core Components:**
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    API CONSUMERS                                │
-├─────────────────────────────────────────────────────────────────┤
-│  Government Portals  │  Mobile Apps  │  Private Sector Apps    │
-│  - Tax portal        │  - Citizen app│  - Banks, telcos        │
-│  - Health portal     │  - Business   │  - E-commerce           │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    API GATEWAY LAYER                            │
-├─────────────────────────────────────────────────────────────────┤
-│  Request Routing  │  Authentication  │  Rate Limiting  │  Cache │
-│  Load Balancing   │  Authorization   │  Throttling     │  Transform │
-│  Protocol Trans   │  OAuth/API Keys  │  Quota Mgmt     │  Analytics │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    API CATALOG (Service Registry)               │
-├─────────────────────────────────────────────────────────────────┤
-│  200+ APIs indexed  │  OpenAPI Specs  │  SLA Commitments       │
-│  Version control    │  Test sandbox   │  Usage analytics       │
-└─────────────────────────────────────────────────────────────────┘
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    DATA SOURCE LAYER                            │
-├─────────────────────────────────────────────────────────────────┤
-│  Population Registry  │  Business Registry  │  Land Registry   │
-│  Tax System           │  Health Records     │  Education DB    │
-│  Benefits System      │  Vehicle Registry   │  Courts DB       │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "API Consumers"
+        Portal["Government Portals<br/>- Tax portal<br/>- Health portal"]
+        Mobile["Mobile Apps<br/>- Citizen app<br/>- Business app"]
+        Private["Private Sector Apps<br/>- Banks, telcos<br/>- E-commerce"]
+    end
+
+    subgraph "API Gateway Layer"
+        Route["Routing & Load Balancing<br/>- Request routing<br/>- Protocol translation"]
+        Auth["Authentication & Authorization<br/>- OAuth/API Keys<br/>- JWT validation"]
+        Rate["Rate Limiting & Throttling<br/>- Quota management<br/>- Traffic shaping"]
+        Cache["Caching & Transform<br/>- Response caching<br/>- Analytics"]
+    end
+
+    subgraph "API Catalog (Service Registry)"
+        Catalog["200+ APIs Indexed<br/>- OpenAPI specifications<br/>- Version control"]
+        SLA["SLA & Testing<br/>- SLA commitments<br/>- Test sandbox"]
+        Analytics["Usage Analytics<br/>- Performance metrics<br/>- Consumer tracking"]
+    end
+
+    subgraph "Data Source Layer"
+        PopReg["Population Registry"]
+        BizReg["Business Registry"]
+        LandReg["Land Registry"]
+        TaxSys["Tax System"]
+        Health["Health Records"]
+        Edu["Education DB"]
+        Benefits["Benefits System"]
+        Vehicle["Vehicle Registry"]
+        Courts["Courts DB"]
+    end
+
+    Portal --> Route
+    Mobile --> Route
+    Private --> Route
+
+    Route --> Auth
+    Auth --> Rate
+    Rate --> Cache
+
+    Cache --> Catalog
+    Catalog --> SLA
+    SLA --> Analytics
+
+    Analytics --> PopReg
+    Analytics --> BizReg
+    Analytics --> LandReg
+    Analytics --> TaxSys
+    Analytics --> Health
+    Analytics --> Edu
+    Analytics --> Benefits
+    Analytics --> Vehicle
+    Analytics --> Courts
+
+    style Route fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Auth fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style Rate fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style Cache fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style Catalog fill:#facc15,stroke:#334155,stroke-width:2px
+    style SLA fill:#facc15,stroke:#334155,stroke-width:2px
+    style Analytics fill:#facc15,stroke:#334155,stroke-width:2px
 ```
 
 **API Gateway Technology Options:**
@@ -855,42 +897,90 @@ Scenario: Citizen applies for housing loan subsidy
 
 **Defense-in-Depth Layers:**
 
-```
-Layer 1: PERIMETER DEFENSE
-├─ Web Application Firewall (WAF)
-├─ DDoS Protection (CloudFlare, AWS Shield)
-├─ Bot Management
-└─ Rate Limiting
+```mermaid
+graph TB
+    Threat([External Threats]) --> L1
 
-Layer 2: NETWORK SECURITY
-├─ Virtual Private Cloud (VPC)
-├─ Network Segmentation (Subnets, Security Groups)
-├─ Intrusion Detection/Prevention (IDS/IPS)
-└─ Network Access Control Lists (NACLs)
+    subgraph "Layer 1: Perimeter Defense"
+        L1A[Web Application Firewall]
+        L1B[DDoS Protection]
+        L1C[Bot Management]
+        L1D[Rate Limiting]
+    end
 
-Layer 3: IDENTITY & ACCESS
-├─ Multi-Factor Authentication (MFA)
-├─ Identity & Access Management (IAM)
-├─ Privileged Access Management (PAM)
-└─ Single Sign-On (SSO)
+    L1A & L1B & L1C & L1D --> L2
 
-Layer 4: APPLICATION SECURITY
-├─ API Gateway Authentication
-├─ OAuth 2.0 / OpenID Connect
-├─ Input Validation & Sanitization
-└─ Security Headers (HSTS, CSP, X-Frame-Options)
+    subgraph "Layer 2: Network Security"
+        L2A[Virtual Private Cloud]
+        L2B[Network Segmentation]
+        L2C[IDS/IPS]
+        L2D[Network ACLs]
+    end
 
-Layer 5: DATA PROTECTION
-├─ Encryption at Rest (AES-256)
-├─ Encryption in Transit (TLS 1.3)
-├─ Tokenization (sensitive data)
-└─ Data Loss Prevention (DLP)
+    L2A & L2B & L2C & L2D --> L3
 
-Layer 6: MONITORING & RESPONSE
-├─ Security Information & Event Management (SIEM)
-├─ Intrusion Detection (IDS)
-├─ Threat Intelligence Feeds
-└─ Incident Response Automation
+    subgraph "Layer 3: Identity & Access"
+        L3A[Multi-Factor Authentication]
+        L3B[Identity & Access Mgmt]
+        L3C[Privileged Access Mgmt]
+        L3D[Single Sign-On]
+    end
+
+    L3A & L3B & L3C & L3D --> L4
+
+    subgraph "Layer 4: Application Security"
+        L4A[API Gateway Auth]
+        L4B[OAuth 2.0 / OIDC]
+        L4C[Input Validation]
+        L4D[Security Headers]
+    end
+
+    L4A & L4B & L4C & L4D --> L5
+
+    subgraph "Layer 5: Data Protection"
+        L5A[Encryption at Rest]
+        L5B[Encryption in Transit]
+        L5C[Tokenization]
+        L5D[Data Loss Prevention]
+    end
+
+    L5A & L5B & L5C & L5D --> L6
+
+    subgraph "Layer 6: Monitoring & Response"
+        L6A[SIEM]
+        L6B[Intrusion Detection]
+        L6C[Threat Intelligence]
+        L6D[Incident Response]
+    end
+
+    L6A & L6B & L6C & L6D --> Protected[(Protected Assets<br/>Citizen Data<br/>Government Systems)]
+
+    style Threat fill:#f43f5e,stroke:#334155,stroke-width:3px,color:#fff
+    style L1A fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L1B fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L1C fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L1D fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L2A fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L2B fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L2C fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L2D fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L3A fill:#facc15,stroke:#334155,stroke-width:2px
+    style L3B fill:#facc15,stroke:#334155,stroke-width:2px
+    style L3C fill:#facc15,stroke:#334155,stroke-width:2px
+    style L3D fill:#facc15,stroke:#334155,stroke-width:2px
+    style L4A fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L4B fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L4C fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L4D fill:#0ea5e9,stroke:#334155,stroke-width:2px,color:#fff
+    style L5A fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L5B fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L5C fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L5D fill:#14b8a6,stroke:#334155,stroke-width:2px,color:#fff
+    style L6A fill:#facc15,stroke:#334155,stroke-width:2px
+    style L6B fill:#facc15,stroke:#334155,stroke-width:2px
+    style L6C fill:#facc15,stroke:#334155,stroke-width:2px
+    style L6D fill:#facc15,stroke:#334155,stroke-width:2px
+    style Protected fill:#334155,stroke:#1e293b,stroke-width:3px,color:#fff
 ```
 
 ---
