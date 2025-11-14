@@ -970,6 +970,137 @@ Assess your government's service management maturity:
 
 ---
 
+## Chapter 2B: COFOG for Global Benchmarkability
+
+### 2B.1 Why Service Portfolios Need a Global Standard
+
+**The Problem:**
+
+Most governments build custom service taxonomies:
+- "National Service Catalog" with 120 services in proprietary categories
+- "Citizen Journey Framework" with 15 life events unique to one country
+- "Business Capabilities Model" specific to one government's structure
+
+**Why This Fails:**
+1. **Cannot benchmark internationally**: "Healthcare IT: $5B" is meaningless without standard definition
+2. **Incomplete coverage**: Custom models miss government functions that don't fit the framework
+3. **Not budget-aligned**: Finance uses different taxonomy than IT, preventing cost transparency
+4. **Unmaintainable**: Changes with each administration or reorganization
+5. **Reinvents the wheel**: The global standard already exists
+
+### 2B.2 The UN COFOG Standard
+
+**COFOG (Classification of the Functions of Government)** is the international standard for classifying government expenditure data by its purpose.
+
+**Credentials:**
+- Developed by: OECD
+- Published by: UN Statistical Division
+- Used by: UN, OECD, IMF, Eurostat, World Bank
+- Adoption: 170+ countries reporting government spending using COFOG
+
+**Structure:**
+- **10 Primary Divisions** (Level 1): Complete government function coverage
+- **70+ Groups** (Level 2): Detailed service categorization
+- **Globally Standardized**: Same categories across all countries
+- **Budget-Aligned**: Already used by finance ministries for expenditure reporting
+
+**The 10 COFOG Divisions:**
+
+1. **01 General Public Services** - Executive, legislative, fiscal, foreign affairs
+2. **02 Defence** - Military defence, civil defence
+3. **03 Public Order and Safety** - Police, fire, courts, prisons
+4. **04 Economic Affairs** - Commerce, labor, agriculture, transport, energy
+5. **05 Environmental Protection** - Waste, pollution, biodiversity
+6. **06 Housing and Community** - Housing development, water, street lighting
+7. **07 Health** - Medical products, outpatient, hospitals, public health
+8. **08 Recreation, Culture & Religion** - Sports, cultural services, broadcasting
+9. **09 Education** - Pre-primary through tertiary education
+10. **10 Social Protection** - Sickness, disability, old age, family, unemployment
+
+### 2B.3 COFOG + TBM = Global Service Portfolio Management
+
+**The Integration:**
+
+COFOG provides the service taxonomy, TBM provides the cost allocation methodology:
+
+```
+COFOG Division 07: Health ← What government does
+↓
+COFOG Group 07.2: Outpatient Services ← The specific service
+↓
+IT Service: Appointment Booking Platform ← How IT enables it
+↓
+IT Tower: Applications + Compute + Data ← Technology stack
+↓
+Cost Pools: SaaS ($200K) + Cloud ($120K) + Labor ($530K) ← Where money goes
+= Total: $850K/year for 2.5M appointments = $0.34/appointment
+```
+
+**The Value: International Benchmarking**
+
+Using COFOG enables direct cost comparisons:
+
+| Country | COFOG 07.2 Cost/Appointment | Notes |
+|---------|---------------------------|-------|
+| **UK NHS** | $0.32 | Benchmark leader |
+| **Singapore** | $0.38 | SingHealth model |
+| **Germany** | $0.42 | Federal system |
+| **Your Government** | $0.46 | **+44% vs benchmark** |
+
+**The Insight:** You're 44% over the global benchmark. If you close half this gap, you save $350M over 10 years on outpatient services alone.
+
+### 2B.4 Real-World COFOG Adoption
+
+**Singapore:**
+- Publishes COFOG-aligned cost data for all major digital services
+- Myinfo platform: Published $50M investment, $385M annual value, 7.7:1 ROI
+- Result: 85% public trust in digital government (vs. 45% regional average)
+
+**Queensland, Australia:**
+- Implemented COFOG-TBM framework for $8B IT portfolio
+- Identified $920M in duplicate spending across COFOG divisions
+- Consolidated redundant services within each COFOG category
+- Result: 40 data centers → 8, 150 apps eliminated
+
+**Japan Digital Agency:**
+- COFOG structure embedded in Government Cloud platform
+- All ministry budgets flow through Digital Agency with COFOG tagging
+- Result: Complete cost visibility by COFOG division from day one
+
+### 2B.5 Implementation Quick Start
+
+**Step 1: Adopt COFOG as Official Taxonomy (Month 1)**
+- Executive decision to make COFOG the national standard
+- Map existing services to COFOG divisions and groups
+- Publish official COFOG service catalog
+
+**Step 2: Tag All IT Assets (Months 2-6)**
+- Label infrastructure, applications, contracts with COFOG codes
+- Implement COFOG tagging in CMDB and asset management systems
+- Train finance and IT teams on classification
+
+**Step 3: Allocate Costs Using TBM (Months 6-18)**
+- Map general ledger to TBM cost pools
+- Build IT towers and services
+- Allocate 100% of IT spending to COFOG services
+
+**Step 4: Publish Transparency (Months 18-24)**
+- Public dashboard showing cost per COFOG service
+- Source international benchmark data (OECD, UN, Eurostat)
+- Quarterly reports to legislature with benchmarks
+
+**The Result:**
+
+After 24 months, you can answer:
+- "What does our government cost per COFOG division?"
+- "How do our costs compare to UK, Singapore, Germany?"
+- "Where are our top 20 efficiency opportunities?"
+- "Which services should we optimize first?"
+
+**For the complete technical framework, see the [COFOG-TBM Integration Guide](./cofog-tbm-integration-guide.md).**
+
+---
+
 ## Chapter 3: What is Government as a Service?
 
 ### 3.1 The Five Essential Attributes of GaaS

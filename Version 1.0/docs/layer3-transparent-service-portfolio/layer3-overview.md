@@ -79,35 +79,61 @@ Layer 3 sits between the **Shared Technology Core (Layer 1)** and the **Unified 
 
 #### **1. Service Catalog Management**
 
-Every government function is catalogued as a measurable service:
+Every government function is catalogued as a measurable service using the **UN Classification of the Functions of Government (COFOG)** as the master taxonomy.
 
-**Service Hierarchy:**
+**Why COFOG?**
+- **Global Standard**: UN/OECD-endorsed taxonomy used by 170+ countries
+- **Complete Coverage**: 10 divisions covering all government functions
+- **International Benchmarking**: Compare costs with peer governments globally
+- **Financial Bridge**: Links public finance budgets to IT cost allocation
+
+**COFOG-Structured Service Hierarchy:**
 ```
-Service Portfolio
-├── Healthcare Services ($120M/year)
-│   ├── Appointment Booking (2.5M transactions)
-│   ├── Prescription Management (500K transactions)
-│   ├── Medical Records Access (200K transactions)
-│   ├── Emergency Response (50K incidents)
-│   └── Provider Directory (10M queries)
+Service Portfolio (COFOG-Aligned)
+
+├── COFOG 07: Health ($120M/year)
+│   ├── 07.2 Outpatient Services
+│   │   ├── Appointment Booking (2.5M transactions, $1.14M, $0.46/appt)
+│   │   ├── Prescription Management (500K transactions, $850K)
+│   │   └── Provider Directory (10M queries, $320K)
+│   ├── 07.3 Hospital Services
+│   │   ├── Medical Records Access (200K transactions, $1.2M)
+│   │   └── Emergency Response (50K incidents, $4.8M)
+│   └── 07.4 Public Health Services
+│       └── Disease Surveillance Platform ($2.5M)
 │
-├── Education Services ($80M/year)
-│   ├── Student Enrollment (1M transactions)
-│   ├── Grade Management (10M records)
-│   ├── Teacher Certification (50K transactions)
-│   └── Financial Aid Processing (200K applications)
+├── COFOG 09: Education ($80M/year)
+│   ├── 09.1 Pre-primary and Primary Education
+│   │   └── Student Enrollment (1M transactions, $1.8M)
+│   ├── 09.2 Secondary Education
+│   │   ├── Grade Management (10M records, $3.2M)
+│   │   └── Teacher Certification (50K transactions, $900K)
+│   └── 09.6 Subsidiary Services to Education
+│       └── Financial Aid Processing (200K applications, $2.1M)
 │
-├── Business Services ($40M/year)
-│   ├── Business Registration (80K transactions)
-│   ├── Tax Filing (500K submissions)
-│   ├── Permit Applications (150K transactions)
-│   └── Compliance Reporting (300K reports)
+├── COFOG 04: Economic Affairs ($40M/year)
+│   ├── 04.1 General Economic, Commercial and Labour Affairs
+│   │   ├── Business Registration (80K transactions, $5M, $62.50/reg)
+│   │   └── Tax Filing (500K submissions, $12M)
+│   └── 04.5 Transport
+│       └── Permit Applications (150K transactions, $4.5M)
 │
-└── Citizen Identity Services ($25M/year)
-    ├── Identity Verification (50M authentications)
-    ├── Credential Management (5M updates)
-    └── Privacy Controls (2M consent actions)
+└── COFOG 01: General Public Services ($25M/year)
+    └── 01.3 General Services (Digital Identity)
+        ├── Identity Verification (50M authentications, $15M, $0.30/auth)
+        ├── Credential Management (5M updates, $8M)
+        └── Privacy Controls (2M consent actions, $2M)
 ```
+
+**International Benchmarking Enabled:**
+
+Using COFOG allows direct cost comparisons:
+- **Your COFOG 07.2** (Outpatient Services): $0.46 per appointment
+- **UK NHS COFOG 07.2**: $0.32 per appointment (benchmark leader)
+- **Singapore COFOG 07.2**: $0.38 per appointment
+- **Your Gap**: 44% over global benchmark → efficiency opportunity
+
+*See the [COFOG-TBM Integration Guide](./cofog-tbm-integration-guide.md) for complete taxonomy and implementation details.*
 
 **Catalog Attributes:**
 - **Service Description**: What the service does, who uses it, when it's needed
@@ -376,18 +402,25 @@ When executed well, Layer 3 transforms government from a **reactive bureaucracy*
 
 ## Navigating Layer 3: The Complete Portfolio Management Suite
 
-1. **[Strategic Guide to Service Portfolio Management](./portfolio-management-strategic-guide.md)** (formerly Executive Playbook)
+1. **[COFOG-TBM Integration Guide](./cofog-tbm-integration-guide.md)** ⭐ NEW
+   - **Complete technical framework** for global service portfolio management
+   - UN COFOG taxonomy (10 divisions, 70+ groups)
+   - TBM "Golden Thread" cost allocation methodology
+   - International benchmarking framework
+   - Implementation roadmap and case studies
+
+2. **[Strategic Guide to Service Portfolio Management](./portfolio-management-strategic-guide.md)** (formerly Executive Playbook)
    - The strategic case for portfolio management
    - People-Process-Technology balance (40-40-20)
    - ROI frameworks and evidence from leading nations
 
-2. **[Fiscal Architecture: TBM-Enabled Budgeting](./fiscal-architecture.md)**
+3. **[Fiscal Architecture: TBM-Enabled Budgeting](./fiscal-architecture.md)**
    - Service-based budget allocation
    - Build vs. buy decision frameworks
    - Public-private partnership (PPP) models
    - Phased investment timelines and ROI methodology
 
-3. **[Greenfield Portfolio Implementation](./greenfield-implementation-guide.md)**
+4. **[Greenfield Portfolio Implementation](./greenfield-implementation-guide.md)**
    - Building portfolio management from first principles
    - Optimal organizational structures
    - Technology selection without legacy constraints

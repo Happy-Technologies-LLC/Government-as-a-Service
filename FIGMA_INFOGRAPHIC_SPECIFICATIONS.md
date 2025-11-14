@@ -3,7 +3,7 @@
 **Date:** November 14, 2025
 **Purpose:** Comprehensive design specifications for all GaaS infographics
 **Tool:** Figma (recommended for complex layouts, sizing control, export flexibility)
-**Total Count:** 16 infographics (9 existing + 7 new)
+**Total Count:** 18 infographics (9 existing + 9 new)
 
 ---
 
@@ -2038,6 +2038,272 @@ Position arrows at 45°, 135°, 225°, 315° angles:
 
 ---
 
+### #17: COFOG-TBM "Golden Thread" Mapping
+
+**Purpose:** Visualize the complete cost allocation flow from COFOG divisions to IT cost pools
+**Size:** 1600x1200px (16:12 ratio, landscape)
+**Complexity:** High (multi-level flow diagram)
+**Export:** PNG (web), PDF (print), SVG (documentation)
+
+**Layout:**
+```
+┌──────────────────────────────────────────────────────────────┐
+│  [HEADER]                                                    │
+│  Title: "The COFOG-TBM Golden Thread"                      │
+│  Subtitle: "Linking Public Value to IT Costs"              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  [LEFT COLUMN]              [FLOW]      [RIGHT COLUMN]      │
+│  ┌─────────────────┐          →        ┌───────────────┐   │
+│  │ COFOG DIVISION  │          →        │  COST POOLS   │   │
+│  │ 10: Social      │          →        │               │   │
+│  │  Protection     │          →        │ • Hardware    │   │
+│  └─────────────────┘          →        │ • Software    │   │
+│          ↓                    →        │ • Labor       │   │
+│  ┌─────────────────┐          →        │ • Facilities  │   │
+│  │ COFOG GROUP     │          →        └───────────────┘   │
+│  │ 10.2: Old Age   │          →                ↑          │
+│  │  (Pensions)     │          →                │          │
+│  └─────────────────┘          →        ┌───────────────┐   │
+│          ↓                    →        │  IT TOWERS    │   │
+│  ┌─────────────────┐          →        │               │   │
+│  │ BUSINESS SERVICE│          →        │ • Mainframe   │   │
+│  │ Pension Payment │          →        │ • Legacy Apps │   │
+│  └─────────────────┘          →        │ • Data Center │   │
+│          ↓                    →        └───────────────┘   │
+│  ┌─────────────────┐          →                ↑          │
+│  │  IT SERVICE     │──────────────────────────┘           │
+│  │ Pension Calc    │                                       │
+│  │  Platform       │          [COST BREAKDOWN]            │
+│  └─────────────────┘          $100M total annual          │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**Content:**
+
+**Header Section (120px height):**
+- Title: "The COFOG-TBM Golden Thread" (Inter Bold 48px, Slate 800)
+- Subtitle: "How IT Costs Link to Public Value" (Inter Regular 20px, Slate 600)
+- Background: White with subtle Slate 50 bottom border
+
+**Level 1: COFOG Division (Slate 700, 180px height, 350px width):**
+- Card with border radius 12px
+- Icon: Shield/protection icon (64x64px, Slate 500)
+- Label: "COFOG DIVISION" (Inter SemiBold 16px, Slate 500)
+- Name: "10: Social Protection" (Inter Bold 32px, Slate 800)
+- Purpose: "Government's mandate" (Inter Regular 14px, Slate 600)
+- Background: White with Slate 200 border (2px)
+
+**Level 2: COFOG Group (Sky Blue 500, 160px height, 350px width):**
+- Card below Level 1, connected by downward arrow
+- Icon: Document/service icon (48x48px, Sky Blue 600)
+- Label: "COFOG GROUP" (Inter SemiBold 14px, Sky Blue 600)
+- Name: "10.2: Old Age Pensions" (Inter Bold 24px, Slate 800)
+- Purpose: "Public-facing service" (Inter Regular 14px, Slate 600)
+- Background: Sky Blue 50 with Sky Blue 300 border (2px)
+
+**Level 3: Business Service (Teal 500, 140px height, 350px width):**
+- Card below Level 2, connected by downward arrow
+- Icon: Service/process icon (48x48px, Teal 600)
+- Label: "BUSINESS SERVICE" (Inter SemiBold 14px, Teal 600)
+- Name: "Pension Benefit Payments" (Inter Bold 20px, Slate 800)
+- Metrics: "50M recipients" (Inter Regular 14px, Slate 600)
+- Background: Teal 50 with Teal 300 border (2px)
+
+**Level 4: IT Service (Amber 400, 140px height, 350px width):**
+- Card below Level 3, connected by downward arrow
+- Icon: Server/platform icon (48x48px, Amber 600)
+- Label: "IT SERVICE" (Inter SemiBold 14px, Amber 600)
+- Name: "Pension Calculation & Payment Platform" (Inter Bold 20px, Slate 800)
+- Note: "30+ years old, fragile" (Inter Regular 14px, Rose 500)
+- Background: Amber 50 with Amber 300 border (2px)
+
+**Right Column: Cost Breakdown (Cascading boxes)**
+
+**IT Towers (Teal 500, 300px width, stacked boxes):**
+- Title: "IT TOWERS" (Inter Bold 16px, Teal 600)
+- Three boxes with cost allocation:
+  1. "Mainframe" - $40M (40%, Teal 400 background)
+  2. "Legacy Applications" - $30M (30%, Teal 300 background)
+  3. "On-Premise Data Center" - $30M (30%, Teal 200 background)
+
+**Cost Pools (Rose 500, 300px width, stacked boxes below towers):**
+- Title: "COST POOLS" (Inter Bold 16px, Rose 600)
+- Four boxes with line items:
+  1. "Hardware Maintenance" - $25M (Rose 400)
+  2. "Legacy Software Licenses" - $15M (Rose 300)
+  3. "COBOL Developers" - $30M (Rose 200)
+  4. "Facilities & Power" - $30M (Rose 100)
+
+**Center: The "Golden Thread" Flow (Connecting arrows):**
+- Thick curved arrows (4px width, Slate 400)
+- Flow from left (COFOG) to right (Cost Pools)
+- Labels on arrows: "enables ↓", "requires ↓", "costs →"
+- Dotted lines showing traceability from bottom-right to top-left
+
+**Bottom Call out Box (Slate 100 background, 100px height):**
+- Title: "The Value Conversation" (Inter Bold 20px, Slate 800)
+- Text: "Our $100M spend (Cost Pools) supports fragile infrastructure (IT Towers) running our pension platform (IT Service), which delivers benefits to 50M seniors (COFOG 10.2). Modernization reduces risk and cuts costs by 25%." (Inter Regular 16px, Slate 700)
+
+**Annotations (callout boxes with dotted lines):**
+1. Top-left: "What government does" → COFOG Division
+2. Mid-left: "What service we deliver" → COFOG Group
+3. Mid-center: "How IT enables it" → IT Service
+4. Top-right: "Where money goes" → Cost Pools
+
+---
+
+### #18: International COFOG Service Portfolio Benchmarking
+
+**Purpose:** Show how COFOG enables global cost comparisons and identifies efficiency opportunities
+**Size:** 1600x1000px (16:10 ratio, landscape presentation)
+**Complexity:** Medium (data visualization + comparison table)
+**Export:** PNG (web), PDF (print)
+
+**Layout:**
+```
+┌──────────────────────────────────────────────────────────────┐
+│  [HEADER]                                                    │
+│  Title: "Global Service Portfolio Benchmarking"            │
+│  Subtitle: "COFOG enables international cost comparisons"   │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  [LEFT PANEL: COFOG 07.2 Comparison]                       │
+│                                                              │
+│   Country        Cost/Appointment    Gap                    │
+│   ┌────────────┬─────────────────┬───────┐                 │
+│   │ UK NHS     │ $32  ████░░░░░░ │  -     │ ← Benchmark   │
+│   │ Singapore  │ $38  █████░░░░░ │ +19%   │                │
+│   │ Germany    │ $42  ██████░░░░ │ +31%   │                │
+│   │ Your Gov   │ $46  ███████░░░ │ +44%   │ ← Opportunity │
+│   └────────────┴─────────────────┴───────┘                 │
+│                                                              │
+│  [RIGHT PANEL: Efficiency Opportunity]                     │
+│                                                              │
+│   Opportunity: $325M over 10 years                          │
+│   if you close 50% of gap to benchmark                      │
+│                                                              │
+│  [BOTTOM: COFOG Division Breakdown]                        │
+│                                                              │
+│   10 COFOG Divisions with your cost vs. peer average       │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**Content:**
+
+**Header Section (100px height):**
+- Title: "Global Service Portfolio Benchmarking" (Inter Bold 48px, Slate 800)
+- Subtitle: "COFOG enables international cost comparisons" (Inter Regular 18px, Slate 600)
+- Icon: Globe/world icon (64x64px, Sky Blue 500, top-right corner)
+
+**Left Panel: COFOG 07.2 Detailed Comparison (700px width, 600px height):**
+
+**Service Header (Sky Blue 500 background, 80px height):**
+- Label: "COFOG 07.2: OUTPATIENT SERVICES" (Inter Bold 24px, white)
+- Metric: "Cost per Appointment" (Inter SemiBold 16px, white)
+- Icon: Healthcare/stethoscope icon (48x48px, white)
+
+**Country Comparison Bars:**
+
+Four horizontal bars showing cost per appointment:
+
+1. **UK NHS (Benchmark Leader)**
+   - Bar color: Teal 500
+   - Length: 320px (representing $32)
+   - Cost: "$32" (Inter Bold 32px, Slate 800, right-aligned)
+   - Label: "UK NHS" (Inter SemiBold 20px, Slate 700)
+   - Badge: "🏆 BENCHMARK" (Inter Bold 14px, Teal 600, on Teal 100 background pill)
+   - Details: "67M population, National Health Service model" (Inter Regular 14px, Slate 600)
+
+2. **Singapore**
+   - Bar color: Teal 400
+   - Length: 380px (representing $38)
+   - Cost: "$38" (Inter Bold 28px, Slate 800)
+   - Gap indicator: "+19% vs benchmark" (Inter SemiBold 16px, Amber 600)
+   - Details: "5.7M population, SingHealth integrated model" (Inter Regular 14px, Slate 600)
+
+3. **Germany**
+   - Bar color: Teal 300
+   - Length: 420px (representing $42)
+   - Cost: "$42" (Inter Bold 28px, Slate 800)
+   - Gap indicator: "+31% vs benchmark" (Inter SemiBold 16px, Amber 600)
+   - Details: "83M population, Federal health insurance system" (Inter Regular 14px, Slate 600)
+
+4. **Your Government (Highlighted)**
+   - Bar color: Rose 500
+   - Length: 460px (representing $46)
+   - Cost: "$46" (Inter Bold 32px, white on Rose 500 background)
+   - Gap indicator: "+44% vs benchmark" (Inter Bold 18px, Rose 600)
+   - Badge: "⚠️ EFFICIENCY OPPORTUNITY" (Inter Bold 14px, white on Rose 600 background pill)
+   - Details: "10M population" (Inter Regular 14px, Slate 600)
+
+**Right Panel: Efficiency Opportunity Calculation (800px width):**
+
+**Opportunity Card (Sky Blue 50 background, 200px height, border-radius 12px):**
+- Icon: Target/bullseye icon (64x64px, Sky Blue 500)
+- Title: "Efficiency Opportunity" (Inter Bold 28px, Slate 800)
+- Calculation:
+  - Current cost: "$46/appointment × 2.5M appointments = $115M/year"
+  - Benchmark cost: "$32/appointment × 2.5M appointments = $80M/year"
+  - Gap: "$35M/year opportunity" (Inter Bold 24px, Rose 500)
+  - 10-year projection: "$350M total" (Inter Bold 32px, Sky Blue 600)
+- Recommendation: "Closing 50% of gap saves $175M over 10 years" (Inter SemiBold 18px, Slate 700, on Amber 100 background callout box)
+
+**Action Items (3 cards below, 220px width each):**
+
+1. **Analyze Drivers**
+   - Icon: Magnifying glass (32x32px, Slate 500)
+   - Text: "Deep-dive cost allocation: Why 44% over benchmark?"
+   - Action: "TBM analysis →" (Inter SemiBold 14px, Sky Blue 600)
+
+2. **Benchmark Operations**
+   - Icon: Chart/compare icon (32x32px, Slate 500)
+   - Text: "Study UK NHS and Singapore models for best practices"
+   - Action: "Research →" (Inter SemiBold 14px, Sky Blue 600)
+
+3. **Improvement Program**
+   - Icon: Rocket/launch icon (32x32px, Slate 500)
+   - Text: "Launch optimization initiative targeting 20% reduction"
+   - Action: "Plan →" (Inter SemiBold 14px, Sky Blue 600)
+
+**Bottom Panel: All 10 COFOG Divisions Comparison (1400px width, 250px height):**
+
+**Title:** "Your Full COFOG Portfolio vs. Global Benchmarks" (Inter Bold 24px, Slate 800)
+
+**Compact comparison chart for all 10 COFOG divisions:**
+
+Table format (6 columns × 10 rows):
+| Division | Your Cost | Peer Avg | Gap | Status |
+|----------|-----------|----------|-----|--------|
+| 01 General Services | $25M | $22M | +14% | 🟡 Monitor |
+| 02 Defence | $180M | $175M | +3% | ✅ On Target |
+| 03 Public Safety | $95M | $88M | +8% | ✅ Acceptable |
+| 04 Economic Affairs | $40M | $35M | +14% | 🟡 Monitor |
+| 05 Environment | $15M | $14M | +7% | ✅ Acceptable |
+| 06 Housing | $22M | $20M | +10% | ✅ Acceptable |
+| 07 Health | $850M | $650M | **+31%** | 🔴 **Opportunity** |
+| 08 Recreation/Culture | $12M | $11M | +9% | ✅ Acceptable |
+| 09 Education | $320M | $280M | +14% | 🟡 Monitor |
+| 10 Social Protection | $450M | $420M | +7% | ✅ Acceptable |
+
+**Visual indicators:**
+- Green ✅ : <10% over benchmark (acceptable variance)
+- Yellow 🟡 : 10-20% over benchmark (monitor)
+- Red 🔴 : >20% over benchmark (efficiency opportunity)
+
+**Footer callout:**
+- "COFOG 07 (Health) represents largest efficiency opportunity: $200M gap vs. benchmarks"
+- "Priority: Launch health IT optimization program"
+
+**Data Source Footer (Slate 500, 60px height):**
+- "Data sources: OECD Government at a Glance, UN National Accounts, Eurostat GFS"
+- "Benchmarks: Average of OECD high-income countries with population 5-100M"
+- "Currency: USD 2025, PPP-adjusted"
+
+---
+
 ## Quality Checklist
 
 Before finalizing each infographic:
@@ -2090,6 +2356,7 @@ Before finalizing each infographic:
 **End of Specifications**
 
 *Last updated: November 14, 2025*
-*Version: 1.0*
-*Total Infographics: 16 (9 redesigns + 7 new)*
-*Total Pages: ~50*
+*Version: 1.1*
+*Total Infographics: 18 (9 redesigns + 9 new)*
+*Total Pages: ~55*
+*Recent additions: #17 (COFOG-TBM Golden Thread), #18 (International Benchmarking)*

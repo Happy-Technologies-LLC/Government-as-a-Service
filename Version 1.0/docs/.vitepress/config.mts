@@ -184,6 +184,7 @@ export default withMermaid(
         collapsed: true,
         items: [
           { text: 'Overview', link: '/layer3-transparent-service-portfolio/layer3-overview' },
+          { text: 'COFOG-TBM Integration Guide', link: '/layer3-transparent-service-portfolio/cofog-tbm-integration-guide' },
           { text: 'Portfolio Management Strategic Guide', link: '/layer3-transparent-service-portfolio/portfolio-management-strategic-guide' },
           { text: 'Greenfield Implementation Guide', link: '/layer3-transparent-service-portfolio/greenfield-implementation-guide' },
           { text: 'Fiscal Architecture (TBM)', link: '/layer3-transparent-service-portfolio/fiscal-architecture' }
