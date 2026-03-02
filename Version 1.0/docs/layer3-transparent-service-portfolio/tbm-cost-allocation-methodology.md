@@ -496,6 +496,10 @@ Map IT Service costs to the COFOG groups they serve. This uses the Service-to-CO
 
 ## 3.2 The Three-Tier Cost Classification
 
+::: info Terminology Note
+The "Tier 1/2/3" labels in this section refer to **TBM cost allocation categories** (Direct, Shared, Overhead) — standard TBM Council terminology. They are unrelated to the GaaS framework's architectural layers (Layer 0-4).
+:::
+
 Before applying allocation methods, classify all costs into three tiers based on allocability:
 
 ```

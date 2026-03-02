@@ -133,7 +133,7 @@ No. All content is free and open-source forever.
 We offer free country assessments and can connect you with experienced practitioners. For hands-on consulting, we can refer you to qualified partners.
 
 **How do we get certified as GaaS practitioners?**
-The certification program is documented in [Layer 4 Community Hub](/layer4-unified-citizen-experience/certification-program). Program launch is planned for 2026.
+The certification program is documented in [Layer 4 Community Hub](/layer4-unified-citizen-experience/certification-program). Program launch is planned for Q3 2026.
 
 **Can we contribute case studies from our implementation?**
 Absolutely! We welcome real-world examples. See [GitHub contribution guide](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/blob/main/CONTRIBUTING.md).
