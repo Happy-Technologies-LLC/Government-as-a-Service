@@ -1,8 +1,8 @@
 # Government as a Service - Open Source Commitment
 
-**Version:** 1.0
-**Date:** October 2025
-**License:** CC BY 4.0
+**Version:** 1.1
+**Date:** March 2026
+**License:** CC BY-SA 4.0
 
 ---
 
@@ -275,6 +275,6 @@ We align with the international movement for government digital sovereignty:
 
 ---
 
-*This document is licensed under CC BY 4.0. You are free to share and adapt for your government open-source initiatives.*
+*This document is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You are free to share and adapt for your government open-source initiatives — derivatives must remain open under the same license.*
 
-**Last Updated:** October 2025 | Version 1.0
+**Last Updated:** March 2026 | Version 1.1

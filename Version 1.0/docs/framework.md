@@ -425,18 +425,23 @@ The GaaS framework has evolved from a **tier-based "library"** (disconnected col
 
 ## License & Attribution
 
-This framework is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+This framework is released under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
 
 You are free to:
 - ✅ Share — copy and redistribute in any medium or format
 - ✅ Adapt — remix, transform, and build upon the material
-- ✅ Commercial — use for commercial purposes
+- ✅ Commercial use — consulting services, government implementations, academic research
 
 Under the following terms:
-- **Attribution** — You must give appropriate credit and link to license
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **ShareAlike** — If you remix, transform, or build upon this material, you must distribute your contributions under the same CC BY-SA 4.0 license
+
+> This means anyone — including commercial consultancies — can use and build upon this framework freely. However, **no one may publish a proprietary closed derivative** of this framework and claim it as their own IP. All derivatives must remain open under the same license.
+
+[View full license →](https://creativecommons.org/licenses/by-sa/4.0/) | [Source attribution registry →](/sources)
 
 **Suggested Citation:**
-> Government as a Service Community (2025). *Government as a Service: The Global Operating Model for Digital Government Transformation*. Retrieved from https://gaas.global
+> Government as a Service Community (2025). *Government as a Service: The Global Operating Model for Digital Government Transformation*. CC BY-SA 4.0. Retrieved from https://gaas.global
 
 ---
 

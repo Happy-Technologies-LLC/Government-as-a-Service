@@ -50,7 +50,8 @@ export default withMermaid(
           { text: 'The Manifesto', link: '/layer0-legal-policy-foundation/gaas-manifesto' },
           { text: 'GaaS Service Value System', link: '/gaas-service-value-system' },
           { text: 'International Alignment', link: '/international-alignment' },
-          { text: 'Reference Implementations (Planned)', link: '/reference-implementations' }
+          { text: 'Reference Implementations (Planned)', link: '/reference-implementations' },
+          { text: 'Source Attribution Registry', link: '/sources' }
         ]
       },
       {
@@ -226,7 +227,7 @@ export default withMermaid(
     ],
 
     footer: {
-      message: 'Released under the CC BY 4.0 License.',
+      message: 'Released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 License</a>. Free to use — derivatives must remain open.',
       copyright: 'Copyright © 2025-2026 Government as a Service Community'
     },
 
