@@ -31,7 +31,10 @@ This playbook follows the People-Process-Technology (PPT) framework with balance
 - 15% - Vendor price increases (after pilot, they have you locked in)
 - 10% - Incident response during migration (attackers love chaos)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What was your actual vs. budgeted cost for Zero Trust migration? Common pain points?
+:::  tip Share Your Experience
+What was your actual vs. budgeted cost for Zero Trust migration? Common pain points?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 This balanced approach ensures that technology investments are supported by skilled security personnel and robust security processes - both critical for effective Zero Trust implementation.
 
@@ -87,7 +90,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - Set decommission date 18+ months out (not 3 months)
 - Measure actual usage before turning anything off (not theoretical)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** How long did your VPN/ZTNA parallel run last? What forced you to keep VPN longer than planned?
+:::  tip Share Your Experience
+How long did your VPN/ZTNA parallel run last? What forced you to keep VPN longer than planned?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -108,7 +114,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - Require open standards (SAML, OIDC, SCIM) - avoid proprietary protocols
 - Multi-vendor strategy (spread risk, negotiate better pricing)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which "integrated platform" failed to live up to promises? What gaps appeared after purchase?
+:::  tip Share Your Experience
+Which "integrated platform" failed to live up to promises? What gaps appeared after purchase?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -130,7 +139,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - **Months 7-12: Enforcement mode with careful rollout** (warn first, then block)
 - Start with low-risk apps (if policy wrong, impact is small)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What critical system did you accidentally block? How long was the outage?
+:::  tip Share Your Experience
+What critical system did you accidentally block? How long was the outage?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -153,7 +165,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - Budget for app rewrites (vendors will quote $50K, reality is $100-200K per complex app)
 - Set realistic timelines (legacy app migration adds 12-18 months to overall timeline)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What percentage of your apps required rewrites/wrappers? Which legacy system is still your biggest security headache?
+:::  tip Share Your Experience
+What percentage of your apps required rewrites/wrappers? Which legacy system is still your biggest security headache?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -174,7 +189,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - **Feedback loops:** Monthly surveys "What's frustrating about new security?" - fix pain points
 - **Incentives:** Public recognition for teams with 100% compliance
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which VIP demanded (and got) a security exception? How did you handle executive pushback?
+:::  tip Share Your Experience
+Which VIP demanded (and got) a security exception? How did you handle executive pushback?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -195,7 +213,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - **Staffing buffer:** Hire 30% extra SOC capacity for first year (turnover + learning curve)
 - **Managed SOC consideration:** If hiring is hard, outsource Tier 1 monitoring
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What was your peak alert volume? How many analysts quit in Year 1?
+:::  tip Share Your Experience
+What was your peak alert volume? How many analysts quit in Year 1?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -216,7 +237,10 @@ This playbook provides a comprehensive roadmap for migrating government IT infra
 - **Business unit liaisons:** Embed security architects with major units (finance, HR, operations)
 - **Success metrics:** Not just security metrics (incident reduction) but business metrics (user satisfaction, productivity)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which business unit was blindsided by Zero Trust changes? How did you rebuild trust?
+:::  tip Share Your Experience
+Which business unit was blindsided by Zero Trust changes? How did you rebuild trust?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1298,7 +1322,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Timeline impact:** +12-24 months
 - **Budget impact:** +50-100%
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What legacy system nearly derailed your Zero Trust migration? How did you handle it?
+:::  tip Share Your Experience
+What legacy system nearly derailed your Zero Trust migration? How did you handle it?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Score: ____ (1-3)**
 
@@ -1328,7 +1355,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Timeline impact:** +6-12 months OR project failure
 - **Budget impact:** +30-50% for extended change management
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What executive behavior killed (or saved) your Zero Trust program?
+:::  tip Share Your Experience
+What executive behavior killed (or saved) your Zero Trust program?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Score: ____ (1-3)**
 
@@ -1356,7 +1386,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Timeline impact:** +6-18 months (continuous knowledge loss)
 - **Budget impact:** +40-60% (contractor premium + knowledge transfer overhead)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What skills gap hurt you most? How did you fill it (training vs. hiring vs. contractors)?
+:::  tip Share Your Experience
+What skills gap hurt you most? How did you fill it (training vs. hiring vs. contractors)?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Score: ____ (1-3)**
 
@@ -1381,7 +1414,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Timeline impact:** +6-12 months (network mapping and microsegmentation design)
 - **Budget impact:** +30-50%
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What undocumented network dependency broke when you enabled microsegmentation?
+:::  tip Share Your Experience
+What undocumented network dependency broke when you enabled microsegmentation?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Score: ____ (1-3)**
 
@@ -1405,7 +1441,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Timeline impact:** +12-18 months
 - **Budget impact:** +20-40% (compliance audits, documentation, approval process)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which regulator didn't understand Zero Trust? How did you educate them?
+:::  tip Share Your Experience
+Which regulator didn't understand Zero Trust? How did you educate them?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Score: ____ (1-3)**
 
@@ -1419,7 +1458,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **8-11 (Medium Risk):** Plan for 24-30 months. Budget +30-50%. This is most common scenario.
 - **12-15 (High Risk):** Plan for 30-48 months. Budget +50-100%. Consider whether Zero Trust is right approach now, or if you need to modernize apps first.
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What was your risk score vs. actual outcome? What would you change?
+:::  tip Share Your Experience
+What was your risk score vs. actual outcome? What would you change?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1457,7 +1499,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 
 **When to choose:** Large org (>10,000 users), mature security team, need cutting-edge capabilities
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Did you regret single-vendor or multi-vendor? What would you do differently?
+:::  tip Share Your Experience
+Did you regret single-vendor or multi-vendor? What would you do differently?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Decision: ________________**
 
@@ -1493,7 +1538,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 
 **When to choose:** High-security environments, data sovereignty requirements, airgapped networks
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Cloud vs. hybrid - what drove your decision? Any regrets?
+:::  tip Share Your Experience
+Cloud vs. hybrid - what drove your decision? Any regrets?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Decision: ________________**
 
@@ -1519,7 +1567,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 | **Integration** | Excellent (Microsoft), good (others) | Excellent (SaaS), good (on-prem) | Excellent (federation) |
 | **Support** | Variable (Microsoft) | Excellent | Excellent |
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which IdP caused unexpected pain? What hidden costs emerged?
+:::  tip Share Your Experience
+Which IdP caused unexpected pain? What hidden costs emerged?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Decision: ________________**
 
@@ -1563,7 +1614,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 
 **When to choose:** Quick win, limited budget, heterogeneous environment
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which microsegmentation approach failed? What complexity did you underestimate?
+:::  tip Share Your Experience
+Which microsegmentation approach failed? What complexity did you underestimate?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Decision: ________________**
 
@@ -1587,7 +1641,10 @@ Zero Trust isn't a product you buy or a project you complete - it's a fundamenta
 - **Per-User (Sentinel):** Predictable cost, but may limit log collection
 - **Flat Fee (QRadar):** Predictable, but may overpay for small deployments
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What was your SIEM surprise cost? How did licensing model burn you?
+:::  tip Share Your Experience
+What was your SIEM surprise cost? How did licensing model burn you?
+[Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Decision: ________________**
 

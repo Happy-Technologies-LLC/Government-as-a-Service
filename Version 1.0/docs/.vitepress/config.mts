@@ -49,6 +49,7 @@ export default withMermaid(
           { text: 'Framework Overview', link: '/framework' },
           { text: 'The Manifesto', link: '/layer0-legal-policy-foundation/gaas-manifesto' },
           { text: 'GaaS Service Value System', link: '/gaas-service-value-system' },
+          { text: 'International Alignment', link: '/international-alignment' },
           { text: 'Reference Implementations (Planned)', link: '/reference-implementations' }
         ]
       },
@@ -80,7 +81,9 @@ export default withMermaid(
           { text: 'Start Here (Choose Your Path)', link: '/getting-started' },
           { text: 'Framework Overview', link: '/framework' },
           { text: 'The Manifesto', link: '/layer0-legal-policy-foundation/gaas-manifesto' },
-          { text: 'GaaS Service Value System', link: '/gaas-service-value-system' }
+          { text: 'GaaS Service Value System', link: '/gaas-service-value-system' },
+          { text: 'International Alignment', link: '/international-alignment' },
+          { text: 'Federal Implementation Guide', link: '/getting-started/federal-implementation-guide' }
         ]
       },
       {
@@ -120,6 +123,7 @@ export default withMermaid(
               { text: 'Digital Service Standard', link: '/layer0-legal-policy-foundation/digital-service-standard' },
               { text: 'Technology Selection', link: '/layer0-legal-policy-foundation/technology-selection-framework' },
               { text: 'Risk Management', link: '/layer0-legal-policy-foundation/risk-management-framework' },
+              { text: 'Political Risk Management', link: '/layer0-legal-policy-foundation/political-risk-management' },
               { text: 'Performance Dashboard', link: '/layer0-legal-policy-foundation/performance-dashboard-specification' }
             ]
           }
@@ -176,7 +180,8 @@ export default withMermaid(
               { text: 'Process: GSM Implementation', link: '/layer2-people-process-engine/processes/process-gsm-implementation' },
               { text: 'Process: Service Portfolio & Cost', link: '/layer2-people-process-engine/processes/process-service-portfolio-cost' }
             ]
-          }
+          },
+          { text: 'Government ITSM Adaptations', link: '/layer2-people-process-engine/government-itsm-adaptations' }
         ]
       },
       {
@@ -187,7 +192,8 @@ export default withMermaid(
           { text: 'COFOG-TBM Integration Guide', link: '/layer3-transparent-service-portfolio/cofog-tbm-integration-guide' },
           { text: 'Portfolio Management Strategic Guide', link: '/layer3-transparent-service-portfolio/portfolio-management-strategic-guide' },
           { text: 'Greenfield Implementation Guide', link: '/layer3-transparent-service-portfolio/greenfield-implementation-guide' },
-          { text: 'Fiscal Architecture (TBM)', link: '/layer3-transparent-service-portfolio/fiscal-architecture' }
+          { text: 'Fiscal Architecture (TBM)', link: '/layer3-transparent-service-portfolio/fiscal-architecture' },
+          { text: 'TBM Cost Allocation Methodology', link: '/layer3-transparent-service-portfolio/tbm-cost-allocation-methodology' }
         ]
       },
       {
@@ -221,7 +227,7 @@ export default withMermaid(
 
     footer: {
       message: 'Released under the CC BY 4.0 License.',
-      copyright: 'Copyright © 2025 Government as a Service Community'
+      copyright: 'Copyright © 2025-2026 Government as a Service Community'
     },
 
     search: {

@@ -29,12 +29,12 @@ This directory contains the comprehensive technical design for **GaaS Platform**
 | **02** | **[Data Model & CMDB](./02-data-model-cmdb.md)** | Database schema, entity relationships, CMDB design | ✅ Complete |
 | **03** | **[Service Portfolio Management](./03-service-portfolio-management.md)** | 5-level hierarchy, TBM cost allocation, PPT tracking | ✅ Complete |
 | **04** | **[Complete GSM & Public Transparency](./04-complete-gsm-public-transparency.md)** | All 28 GSM practices, citizen-facing dashboards | ✅ Complete |
-| **05** | **[Multi-Tenancy & Domain Isolation](./05-multi-tenancy-isolation.md)** | Domain isolation, shared services, cost allocation | 🚧 Planned |
-| **06** | **[Integration Framework & APIs](./06-integration-apis.md)** | API design, authentication, integration patterns | 🚧 Planned |
+| **05** | **[Multi-Tenancy & Domain Isolation](./05-multi-tenancy-isolation.md)** | Domain isolation, shared services, cost allocation | ✅ Complete |
+| **06** | **[Integration Framework & APIs](./06-integration-apis.md)** | API design, authentication, integration patterns | ✅ Complete |
 | **07** | **[Technology Stack & Components](./07-technology-stack.md)** | Technology selection, development environment, deployment | ✅ Complete |
 | **08** | **[Implementation Roadmap](./08-implementation-roadmap.md)** | 24-month build plan, phases, milestones, metrics | ✅ Complete |
-| **09** | **[Security & Compliance](./09-security-compliance.md)** | Zero-trust architecture, GDPR, audit logging | 🚧 Planned |
-| **10** | **[Testing & Quality Assurance](./10-testing-qa.md)** | Test strategy, CI/CD, quality gates | 🚧 Planned |
+| **09** | **[Security & Compliance](./09-security-compliance.md)** | Zero-trust architecture, GDPR, audit logging | ✅ Complete |
+| **10** | **[Testing & Quality Assurance](./10-testing-qa.md)** | Test strategy, CI/CD, quality gates | ✅ Complete |
 
 ---
 

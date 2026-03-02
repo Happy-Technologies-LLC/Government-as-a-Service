@@ -186,6 +186,6 @@ This framework is released under **Creative Commons Attribution 4.0 (CC BY 4.0)*
 
 **Want updates?** Join our mailing list for framework updates and community news
 
-**GitHub:** Star us on [GitHub](https://github.com/yourusername/gaas-framework) to follow development
+**GitHub:** Star us on [GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service) to follow development
 
 </div>

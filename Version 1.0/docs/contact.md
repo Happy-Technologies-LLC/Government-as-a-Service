@@ -59,9 +59,9 @@ This is an open framework that welcomes contributions from the global community.
 - Share research and evaluation findings
 - Contribute code samples and reference implementations
 
-**GitHub:** [github.com/yourusername/gaas-framework](https://github.com/yourusername/gaas-framework)
+**GitHub:** [github.com/Happy-Technologies-LLC/Government-as-a-Service](https://github.com/Happy-Technologies-LLC/Government-as-a-Service)
 
-**Contribution Guide:** [View on GitHub](https://github.com/yourusername/gaas-framework/blob/main/CONTRIBUTING.md)
+**Contribution Guide:** [View on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -83,7 +83,7 @@ For press inquiries, interviews, or media kits:
 
 **Media Contact:** [info@gaas.global](mailto:info@gaas.global)
 
-**Press Kit:** [Download press kit](#) (includes press release, fact sheet, high-res images)
+**Press Kit:** [Download press kit](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/tree/main/Version%201.0/press-kit) (includes press release, fact sheet, high-res images)
 
 ---
 
@@ -103,9 +103,9 @@ We collaborate with:
 
 Follow us for framework updates, success stories, and community news:
 
-- **GitHub:** [github.com/yourusername/gaas-framework](https://github.com/yourusername/gaas-framework)
-- **LinkedIn:** [Company Page](#)
-- **Twitter:** [@gaas_framework](#)
+- **GitHub:** [github.com/Happy-Technologies-LLC/Government-as-a-Service](https://github.com/Happy-Technologies-LLC/Government-as-a-Service)
+- **LinkedIn:** [Happy Technologies LLC](https://www.linkedin.com/company/happy-technologies-llc)
+- **Twitter/X:** [@gaas_framework](https://x.com/gaas_framework)
 
 ---
 
@@ -136,12 +136,12 @@ We offer free country assessments and can connect you with experienced practitio
 The certification program is documented in [Layer 4 Community Hub](/layer4-unified-citizen-experience/certification-program). Program launch is planned for 2026.
 
 **Can we contribute case studies from our implementation?**
-Absolutely! We welcome real-world examples. See [GitHub contribution guide](https://github.com/yourusername/gaas-framework/blob/main/CONTRIBUTING.md).
+Absolutely! We welcome real-world examples. See [GitHub contribution guide](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/blob/main/CONTRIBUTING.md).
 
 **Is the framework endorsed by international organizations?**
 The framework is community-developed and open-source. We are working toward recognition by ISO, ITU, World Bank, and OECD over the next 5 years.
 
-**More Questions?** [View Full FAQ](#) or email us.
+**More Questions?** Email us at [info@gaas.global](mailto:info@gaas.global).
 
 ---
 

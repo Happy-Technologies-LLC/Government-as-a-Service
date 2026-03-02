@@ -54,7 +54,7 @@ Government as a Service (GaaS) is an open framework developed through analysis o
 
 **Email:** info@gaas.global
 **Website:** https://gaas.global
-**GitHub:** https://github.com/yourusername/gaas-framework
+**GitHub:** https://github.com/Happy-Technologies-LLC/Government-as-a-Service
 
 **For media inquiries, interviews, or review copies:**
 [Your Name]

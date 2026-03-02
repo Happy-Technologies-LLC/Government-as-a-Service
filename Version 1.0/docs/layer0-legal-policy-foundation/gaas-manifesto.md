@@ -27,7 +27,7 @@ GaaS is not a technology platform. It's a **different approach to the relationsh
 
 Several factors make this moment particularly interesting:
 
-**Technological Maturity**: The building blocks exist today—cloud computing, mobile ubiquity, AI, digital identity, secure APIs. What took Estonia 20 years to build can now be deployed in 18-36 months (though reaching Estonia's current maturity level still takes a decade or more).
+**Technological Maturity**: The building blocks exist today — cloud computing, mobile ubiquity, AI, digital identity, secure APIs. What took Estonia 20 years to build can now achieve *initial deployment* in 18-36 months, though reaching Estonia's current maturity level still takes a decade or more of sustained investment. This timeline assumes favorable conditions: stable government, adequate funding, and available talent.
 
 **Proven Models**: Estonia transformed into a digital nation (99% of government services online). Singapore's Singpass delivers $385M annually in economic value (2023 estimate, includes indirect benefits) with 97% adoption. The UAE integrated digital government into nation-branding. Denmark achieved 90%+ digital service usage through trust-based design. We've seen what works.
 
@@ -126,7 +126,9 @@ Digital services benchmarked against luxury private sector brands. **Results**: 
 
 None succeeded through incremental reform. Most share: Top-level political commitment, first-principles design, mobile-first architecture, mandatory or incentivized adoption, relentless measurement. But each took 10-20 years to reach current maturity—initial launches are just the beginning.
 
-⚠️ **PRACTITIONER INPUT NEEDED:** This section needs validation from CTOs who've led national digital transformation programs through multiple election cycles and budget crises.
+::: tip Community Validation
+This analysis draws from published case studies of national digital transformation programs. We actively seek practitioner input from CTOs who have led programs through multiple election cycles. [Contribute your experience on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -152,11 +154,13 @@ The success stories are real, but they hide years of setbacks, false starts, and
 
 The difference between success and failure often comes down to: honest risk assessment, contingency budgets (add 40-50% to estimates), political insulation of technical teams, and the humility to learn from mistakes quickly.
 
-⚠️ **PRACTITIONER INPUT NEEDED:** This section needs validation from program managers who've survived political transitions, budget crises, and major security incidents.
+::: tip Community Validation
+These challenges are documented from published post-mortems and government audit reports. We welcome additional real-world experiences from program managers. [Share your lessons learned](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
-## V. The Path: From Vision to Reality in 36 Months
+## V. The Path: From Vision to First Services in 18-36 Months
 
 ![36-Month Implementation Timeline](/images/infographics/infographic-3-implementation-timeline.png)
 
@@ -202,13 +206,19 @@ The difference between success and failure often comes down to: honest risk asse
 - **40% Process**: Service management, process redesign, governance, service design, continual improvement
 - **20% Technology**: Platform infrastructure, security, integration, tools, analytics
 
-**Why This Allocation**: Evidence from multiple implementations shows balanced PPT approaches achieve roughly 85% ROI vs. 22% for technology-only initiatives (methodology varies by study, but directional finding holds). The common failure pattern is over-investing in technology (50-70% of budget) while neglecting people and processes.
+**Why This Allocation**: The 40-40-20 principle is a design heuristic informed by directional evidence across multiple domains. McKinsey research consistently finds that organizations focusing on "health" (people, culture, process) alongside performance achieve 2-3x better transformation outcomes. The OECD Digital Government Index shows that top-performing countries invest significantly more in human capital and institutional capacity than lower-ranked peers. Prosci's research on change management suggests 15-20% of project budgets should go to change management alone — just one component of the "People" dimension. The common failure pattern is over-investing in technology (50-70% of budget) while neglecting people and processes, a finding supported by multiple post-mortem analyses of government IT failures.
 
-**Service Portfolio Governance**: Hierarchical service portfolios enable tracking PPT investments by service domain—decomposing healthcare services from business level down through technical services, applications, and infrastructure to complete cost allocation. This enables isolated governance, full transparency, and accurate ROI measurement by service area.
+::: warning Note on Investment Ratios
+The 40-40-20 ratio should be adapted to context. Early-stage implementations with significant infrastructure gaps may require higher technology investment initially (e.g., 30-30-40), shifting toward 40-40-20 as platforms mature. The ratio is a target operating state, not a rigid mandate for every phase.
+:::
 
-**Expected ROI**: 8:1 to 15:1 typical in mature implementations; up to 473:1 for specific best-case use cases like optimized e-procurement⁵ (this is an outlier, not the norm).
+**Service Portfolio Governance**: Hierarchical service portfolios enable tracking PPT investments by service domain — decomposing healthcare services from business level down through technical services, applications, and infrastructure to complete cost allocation. This enables isolated governance, full transparency, and accurate ROI measurement by service area.
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Investment and ROI estimates need validation from CFOs and program managers who've tracked actual costs vs. benefits across full implementation lifecycle.
+**Expected ROI**: Government digital transformation ROI varies significantly by context. Conservative estimates based on direct cost savings (staff reduction, paper elimination, facility consolidation) typically show 3:1 to 8:1 returns over 10 years. Broader public value calculations that include citizen time savings and economic enablement show higher ratios, but these use different methodologies and should be evaluated separately from government budget impact.
+
+::: tip Contribute Evidence
+We actively collect implementation data on actual costs vs. benefits from GaaS-implementing governments. CFOs and program managers who can share audited financial outcomes strengthen the evidence base for all practitioners. [Submit data](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 

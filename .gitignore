@@ -38,4 +38,10 @@ logs/
 temp/
 tmp/
 
+# AI/Agent tooling
 CLAUDE.md
+.claude/
+.claude-flow/
+.agent-instructions/
+.project-internal/
+.swarm/

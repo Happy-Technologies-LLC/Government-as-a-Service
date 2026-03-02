@@ -32,7 +32,9 @@ This playbook follows the People-Process-Technology (PPT) framework with predomi
 - 10% - Partnership overhead (managing 100+ community partners isn't free)
 - 10% - Unexpected accessibility issues (legacy PDFs, scanned documents, third-party widgets)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What did you underestimate most - training delivery costs, support staffing, or partnership overhead?
+::: tip Share Your Experience
+What did you underestimate most - training delivery costs, support staffing, or partnership overhead? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 This allocation reflects that digital inclusion is fundamentally about people - those who need support, those who provide it, and the community partnerships that enable it. Technology is the smallest component because the challenge is not technological but human and organizational.
 
@@ -87,7 +89,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
 - **Data-light design** - pages <50KB, images compressed, no auto-play videos
 - **Test with actual users** - give smartphones to 20 seniors, watch them try to use your app (humbling experience)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What percentage of your target users could actually download and use your mobile app? How many gave up?
+::: tip Share Your Experience
+What percentage of your target users could actually download and use your mobile app? How many gave up? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -109,7 +113,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
 - **Usability testing, not just compliance** - can a blind user complete the task independently? (not just "is there alt text")
 - **Accessible procurement** - vendors must prove WCAG 2.1 AA compliance (not self-certification, third-party audit)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What third-party component broke your accessibility? How much did retrofit cost vs. building accessible from start?
+::: tip Share Your Experience
+What third-party component broke your accessibility? How much did retrofit cost vs. building accessible from start? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -130,7 +136,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
 - **Download-and-go** - let users download forms/info while on WiFi, complete offline, upload later
 - **Rural broadband investment** - lobby for infrastructure funding (this is government's job)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What percentage of your citizens lack reliable internet? How long until that drops below 10%?
+::: tip Share Your Experience
+What percentage of your citizens lack reliable internet? How long until that drops below 10%? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -156,7 +164,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
   - Level 3: "Advanced Services" (file taxes, manage health records)
 - **Peer learning** - digital champions from community (more trusted than government trainers)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What dropout rate did your training have? Which audience segment struggled most?
+::: tip Share Your Experience
+What dropout rate did your training have? Which audience segment struggled most? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -178,7 +188,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
 - **Metric honesty** - track "can use digital independently" not "has used digital once" (with help)
 - **Political cover** - announce "digital-first, not digital-only" (multi-channel is permanent)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What digital adoption % did you reach before closing service centers? Any political backlash?
+::: tip Share Your Experience
+What digital adoption % did you reach before closing service centers? Any political backlash? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -206,7 +218,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
   - Official website badge/seal (clear visual identifier)
   - Report scam mechanism (easy way to verify "Did you send me this email?")
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What trust barrier was hardest to overcome? Which community needed most reassurance?
+::: tip Share Your Experience
+What trust barrier was hardest to overcome? Which community needed most reassurance? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -227,7 +241,9 @@ This playbook provides comprehensive guidance for ensuring no citizen is left be
 - **Legislative protection** - enshrine multi-channel access in law (can't be cut by budget pressure)
 - **Cross-party support** - make digital inclusion non-partisan (so survives government changes)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Did your digital inclusion program survive budget cuts? What happened when funding ended?
+::: tip Share Your Experience
+Did your digital inclusion program survive budget cuts? What happened when funding ended? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1160,7 +1176,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 - Digital-only services without legal exemption process
 - In-person channel has >30-min average wait time (de facto exclusion)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What service had worst equity score? How long to fix?
+::: tip Share Your Experience
+What service had worst equity score? How long to fix? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 **Your Average Equity Score: ___ / 10**
 
@@ -1196,7 +1214,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 - **Low income, Parity <0.6:** Device subsidy program, free digital hubs
 - **People with disabilities, Parity <0.7:** Accessibility audit + remediation
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which demographic had worst parity ratio? What intervention worked?
+::: tip Share Your Experience
+Which demographic had worst parity ratio? What intervention worked? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1224,7 +1244,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 - Wait time >20 min → Add staff or open new service point
 - Satisfaction <3.5 → Quality improvement (staff training, process redesign)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** When did your support channels hit breaking point? How did you scale?
+::: tip Share Your Experience
+When did your support channels hit breaking point? How did you scale? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1251,7 +1273,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 - **Low post-training usage (<60%):** Training not addressing real barriers → check device access, connectivity, trust issues
 - **Behind goal (<50%):** Reach problem → expand partnerships, add training locations, increase marketing
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What was your training completion rate? What % actually used digital services after training?
+::: tip Share Your Experience
+What was your training completion rate? What % actually used digital services after training? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1281,7 +1305,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 3. **MEDIUM (Fix within 6 months):** Minor violations or non-critical services
 4. **LOW (Fix when possible):** Minor violations + non-critical services
 
-⚠️ **PRACTITIONER INPUT NEEDED:** How many critical violations did your audit find? How long to remediate?
+::: tip Share Your Experience
+How many critical violations did your audit find? How long to remediate? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1315,7 +1341,9 @@ Digital inclusion isn't a feel-good initiative - it's a legal, moral, and practi
 2. **Keyboard navigation** - May require re-architecture if JavaScript-heavy ($5K-50K per service)
 3. **PDF tagging** - Expensive if 1,000s of PDFs ($50-500 per doc × 1,000s = $50K-500K)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** Which accessibility fix cost 10x more than expected? What third-party widget broke accessibility?
+::: tip Share Your Experience
+Which accessibility fix cost 10x more than expected? What third-party widget broke accessibility? [Contribute on GitHub](https://github.com/Happy-Technologies-LLC/Government-as-a-Service/discussions).
+:::
 
 ---
 
@@ -1385,4 +1413,5 @@ The countries that got this right (Denmark, UK, Estonia) committed for a decade,
 - [ ] Budget adequate for next 12 months (no surprise cuts)
 - [ ] Partnerships active (100+ community organizations engaged)
 
-⚠️ **PRACTITIONER INPUT NEEDED:** What checklist item saved you from disaster? What did you wish you'd checked before launch?
+::: tip Share Your Experience
+What checklist item saved you from disaster? What did you wish you'd checked before launch?
